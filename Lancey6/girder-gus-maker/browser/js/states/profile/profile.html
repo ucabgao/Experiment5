@@ -1,0 +1,61 @@
+<div>
+    <h3>{{ user.name }}</h3>
+    <h5>{{ user.email }}</h5>
+    <h4 id="created-levels">Levels You've Created</h4>
+        <div class="levels-list">
+            <div class="row" ng-repeat="levelRow in createdLevels">
+                <level-thumbnail ng-repeat="level in levelRow" level="level" edit="true"></level-thumbnail>
+            </div>
+        </div>
+        <nav ng-show="pages.createdLevels.length > 1">
+          <ul class="pagination">
+            <li ng-class="{disabled: currentPage.createdLevels === 1}">
+                <a ng-click="loadCreatedPages(currentPage.createdLevels-1)">« Prev</a>
+            </li>
+            <li ng-repeat="page in pages.createdLevels" ng-class="{active: page === currentPage.createdLevels}">
+                <a ng-class="{disabled: page === currentPage.createdLevels}" ng-click="loadCreatedPages(page)">{{ page }}</a>
+            </li>
+            <li ng-class="{disabled: currentPage.createdLevels === pages.createdLevels.length}">
+              <a ng-click="loadCreatedPages(currentPage.createdLevels+1)">Next »</a>
+            </li>
+          </ul>
+        </nav>
+    <h4 id="following-levels">Levels By Creators You're Following</h4>
+        <div class="levels-list">
+            <div class="row" ng-repeat="levelRow in followingLevels">
+                <level-thumbnail ng-repeat="level in levelRow" level="level" show-creator="true"></level-thumbnail>
+            </div>
+        </div>
+        <nav ng-show="pages.followingLevels.length > 1">
+          <ul class="pagination">
+            <li ng-class="{disabled: currentPage.followingLevels === 1}">
+                <a ng-click="loadFollowingPages(currentPage.followingLevels-1)">« Prev</a>
+            </li>
+            <li ng-repeat="page in pages.followingLevels" ng-class="{active: page === currentPage.followingLevels}">
+                <a ng-class="{disabled: page === currentPage.followingLevels}" ng-click="loadFollowingPages(page)">{{ page }}</a>
+            </li>
+            <li ng-class="{disabled: currentPage.followingLevels === pages.followingLevels.length}">
+              <a ng-click="loadFollowingPages(currentPage.followingLevels+1)">Next »</a>
+            </li>
+          </ul>
+        </nav>
+    <h4 id="liked-levels">Levels You've Starred</h4>
+        <div class="levels-list">
+            <div class="row" ng-repeat="levelRow in likedLevels">
+                <level-thumbnail ng-repeat="level in levelRow" level="level" show-creator="true"></level-thumbnail>
+            </div>
+        </div>
+        <nav ng-show="pages.likedLevels.length > 1">
+          <ul class="pagination">
+            <li ng-class="{disabled: currentPage.likedLevels === 1}">
+                <a ng-click="loadLikedPages(currentPage.likedLevels-1)">« Prev</a>
+            </li>
+            <li ng-repeat="page in pages.likedLevels" ng-class="{active: page === currentPage.likedLevels}">
+                <a ng-class="{disabled: page === currentPage.likedLevels}" ng-click="loadLikedPages(page)">{{ page }}</a>
+            </li>
+            <li ng-class="{disabled: currentPage.likedLevels === pages.likedLevels.length}">
+              <a ng-click="loadLikedPages(currentPage.likedLevels+1)">Next »</a>
+            </li>
+          </ul>
+        </nav>
+</div>

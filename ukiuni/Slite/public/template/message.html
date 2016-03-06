@@ -1,0 +1,61 @@
+<div style="height: 100%; margin-top: -70px; padding-top: 70px">
+	<div class="col-xs-12" ng-show="channel">
+		<div class="row" style="height: 100%;">
+			<div id="accuntArea" class="col-sm-3 col-xs-12" style="height: 100%">
+				<div class="row" style="height: 60px">
+					<div class="col-xs-12" style="padding-left: 20px">
+						<h2 id="channelName" ng-bind="channel.name"></h2>
+					</div>
+					<div class="col-xs-12" style="padding-left: 20px">
+						<a ng-href="{{'/group/'+channel.Group.accessKey}}"><div id="groupName" ng-bind="channel.Group.name" style="font-size: 12px"></div></a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-xs-1" ng-repeat="account in channel.Group.Accounts track by account.id">
+						<div class="row messageAccountArea" ng-class="{'messageAccountAreaNow' : account.now}">
+							<div class="col-sm-3 col-xs-12">
+								<img class="accountIcon img-circle" style="height: 20px" ng-src="{{account.iconUrl}}" />
+							</div>
+							<div class="accountName col-sm-9 hidden-xs" style="display: table; height: 20px;">
+								<div style="vertical-align: middle; display: table-cell;">
+									<div ng-bind="account.name"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="messageArea" class="col-sm-9 col-xs-12" style="height: 100%;">
+				<div id="messageScrollPane" class="row" style="height: 100%; width: 100%; overflow: scroll; padding-bottom: 80px;">
+					<div class="col-xs-12">
+						<div id="messageScrollInner" class="row">
+							<div class="col-xs-12 messageRow" ng-repeat="message in channel.messages track by message.id" ng-class-odd="'repeatOdd'">
+								<div class="row">
+									<div class="col-xs-1">
+										<img class="accountIcon img-circle" style="height: 20px" ng-src="{{message.owner.iconUrl}}" />
+									</div>
+									<div class="col-sm-1 col-xs-2 ellipsis" title="{{message.owner.name}}" alt="{{message.owner.name}}" style="padding: 0; margin: 0;" ng-bind="message.owner.name"></div>
+									<div class="col-sm-10 col-xs-9 messageBody" marked="message.body"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row" style="width: 100%; height: 75px; margin-top: -80px; background-color: white">
+					<div class="hidden-sm col-xs-1"></div>
+					<div class="col-sm-12 col-xs-10" style="margin: 0; padding: 0;">
+						<textarea id="messageInput" class="form-control" rows="3" style="width: 80%; float: left; resize: none;" ng-keydown="handleKeydown($event)" ng-model="text"></textarea>
+						<div style="width: 18%; float: left; margin-left: 2%">
+							<div class="checkbox">
+								<label> <input type="checkbox" ng-model="sendWithEnter"> <span class="ellipsis" ng-bind="messages.sendWithEnter"></span>
+								</label>
+							</div>
+							<button type="submit" class="btn btn-default" ng-disabled="'' == text" ng-click="sendMessage()" ng-bind="messages.send"></button>
+						</div>
+						<br style="clear: both;" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

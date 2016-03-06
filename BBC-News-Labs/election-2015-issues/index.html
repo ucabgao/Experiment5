@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <title>BBC News Labs - Election 2015 Issues</title>
+    <link rel="stylesheet" href="bower_components/bbcnewslabs-bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css"/>
+    <link rel="stylesheet" href="bower_components/bootstrap-select/dist/css/bootstrap-select.min.css"/>
+    <link rel="stylesheet" href="css/application.css"/>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-flot/jquery.flot.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-flot/jquery.flot.time.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-flot/jquery.flot.pie.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-flot/jquery.flot.categories.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+  </head>
+  <body>
+    <div class="navbar-fixed-top">
+      <div class="navbar navbar-default no-margin" style="border: 0">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".header-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="http://bbcnewslabs.co.uk"><img src="img/bbc-logo.png" class="pull-left" style="height: 70%; margin-right: 10px;"/> News Labs</a>
+          </div>
+          <div class="collapse navbar-collapse header-collapse">
+            <p class="navbar-btn navbar-right"><a href="http://twitter.com/BBC_News_Labs" target="_blank" class="btn btn-primary navbar-link"><i class="fa fa-lg fa-twitter"></i> Follow News Labs</a></p>
+          </div>
+        </div>
+        <div class="jumbotron page-heading" style="margin-bottom: 0px;">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-9">
+                <h1><span class="text-muted">ELECTION <strong>2015</strong></span> <strong>The issues </strong></h1>
+                <p class="hidden-sm hidden-xs text-muted">Media coverage of issues in the run up to the UK General Election</p>
+              </div>
+              <div class="col-md-3">
+                <div style="height: 70px; padding-top: 10px;">
+                  <select name="source" class="form-control input-lg">
+                    <option value="all">Cross media coverage<option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container" style="padding-top: 160px;">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="visible-xs"><br/><br/></div>
+          <div class="visible-sm"><br/><br/></div>
+          <p class="lead text-muted text-center">A visual comparison of mentions of parties and issues in articles</p>
+        </div>
+      </div>
+      <!--
+      <div class="row">
+        <div class="col-md-2 col-md-offset-2">
+          <label>Your gender</label>
+          <div class="btn-group btn-group-justified">
+            <div id="male" class="btn btn-lg btn-default"><i class="fa fa-lg fa-fw fa-male"></i></div>
+            <div id="female" class="btn btn-lg btn-default"><i class="fa fa-lg fa-fw fa-female"></i></div>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <label>Your age</label>
+          <input name="age" class="form-control input-lg" placeholder="e.g. 24"/>
+        </div>
+        <div class="col-md-2">
+          <label>Your postcode</label>
+          <input name="postcode" class="form-control input-lg" placeholder="e.g. W1A"/>
+        </div>
+        <div class="col-md-3">
+          <label>View coverage from</label>
+          <select name="source" class="form-control input-lg">
+            <option value="all">Across the media<option>
+          </select>
+        </div>
+      </div>
+      <br/>
+      -->
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-center"><i class="fa fa-fw fa-line-chart"></i> Parties in the media</h2>
+          <br/>
+          <div id="parties-loading" class="loading">
+            <h3 class="text-center"><i class="fa fa-fw fa-refresh fa-spin"></i> Updating...</h3>
+          </div>
+          <div class="row">
+            <div id="parties" class="col-md-6">
+              <div class="graph" style="height: 300px;"></div>
+              <br/>
+            </div>
+            <div id="parties-pie" class="col-md-3">
+              <div class="graph lead" style="height: 300px;">
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="hidden-sm hidden-xs" style="height: 80px;">&nbsp;</div>
+              <div id="parties-legend" class="lead legend"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-center"><i class="fa fa-fw fa-bar-chart"></i> Issues in the media</h2>
+            <br/>
+            <div id="issues-timeseries-loading" class="loading">
+              <h3 class="text-center"><i class="fa fa-fw fa-refresh fa-spin"></i> Updating...</h3>
+            </div>
+            <div id="issues-totals" class="graph" style="height: 200px;"></div>
+            <br/>
+            <div id="issues-timeseries"></div>
+            <br/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="lead text-center text-muted" style="margin-top: 20px;">
+            Created by Iain Collins &amp; Sylvia Tippman
+            <br/>
+            Using data from the BBC News Labs Juicer
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+p 
+  - if (user)
+    div(class='user_data') 
+      div(id='score', class='score') #{score} 
+      div(id='signin',class='signin')
+        a(href='/user/#{user}') #{user}
+        input(type="hidden", value="#{userId}", id="userId")
+      div(id='logout')
+        a(href='/logout') Logout
+  - else
+    div(class='user_data')
+      div(id='signin', class='signin') 
+        a(id='twitter', href='/twitter') 
+          img(src='/images/sign-in-with-twitter-l.png', alt='Sign in with twitter')
+        img(id='browserid', src='/images/sign_in_green.png', alt='Sign in with BrowserID')

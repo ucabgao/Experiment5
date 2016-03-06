@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="jquery.js"></script>
+    <script src="highstock.src.js"></script>
+    <script src="../flags-grouping.js"></script>
+
+    <script src="data.js"></script>
+    <script src="options.js"></script>
+
+    <script>
+        $(function() {
+            var series = [{
+                name : 'MSFT',
+                id : "msft",
+                data : window.msPrices,
+                color: '#f7a35c'
+            },{
+                type : "flags",
+                data : window.msFlags,
+                color : '#f7a35c'
+            },{
+                name : 'Apple',
+                id : "apple",
+                data : window.applePrices,
+                color : '#8085e9'
+            },{
+                type : "flags",
+                data : window.appleFlags,
+                color : '#8085e9'
+            }];
+            $('#container').highcharts('StockChart', $.extend(true, {}, window.options, {
+                series : series,
+                tooltip : {
+                    followPointer : false,
+                    positioner: function (w, h, point) {
+                        var minAllowedBottom = this.chart.xAxis[0].height - 20;
+                        var position;
+
+                        if (this.chart.flagTooltip) {
+                            var xOffset = 20;
+                            var yOffset = 10;
+
+                            position = {
+                                x : point.plotX - w / 2,
+                                y: point.plotY - h + yOffset
+                            };
+                            if (position.x < 0) {
+                                position.x = 0;
+                            }
+                            if (position.x > this.chart.chartWidth - w - xOffset) {
+                                position.x = this.chart.chartWidth - w - xOffset;
+                            }
+                        } else {
+                            position = this.getPosition(w, h, point);
+                        }
+                        var toolTipBottom = position.y + h;
+
+                        if (toolTipBottom > minAllowedBottom) {
+                            position.y -= toolTipBottom - minAllowedBottom;
+                        }
+
+                        return position;
+                    }
+                }
+
+            }));
+        });
+    </script>
+</head>
+
+<body>
+
+<div id="container" style="height: 500px; min-width: 500px"></div>
+</body>
+
+</html>

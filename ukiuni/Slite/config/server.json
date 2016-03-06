@@ -1,0 +1,59 @@
+{
+	"development":{
+		"hostURL":"http://localhost:3030",
+		"app":{
+		"name":"Slite"
+		},
+		"admin":{
+			"mail":"no_replay@ukiuni.com"
+		}
+	},
+	"test":{
+		"hostURL":"http://192.168.11.11:3030",
+		"app":{
+			"name":"Slite"
+		},
+		"admin":{
+			"mail":"no_replay@ukiuni.com"
+		},
+		"smtp":{
+			"transport" : "nodemailer-smtp-transport",
+			"host" : "localhost",
+			"port" : 25,
+			"auth" : {
+				"user" : "no_replay",
+				"pass" : "password"
+			},
+    		"tls":{
+        		"rejectUnauthorized": false
+    		}
+		}
+	},
+	"production": {
+		"hostURL":"https://slite.ukiuni.com",
+		"app":{
+			"name":"Slite"
+		},
+		"admin":{
+			"mail":"no_replay@ukiuni.com"
+		},
+		"smtp":{
+			"transport" : "nodemailer-smtp-transport",
+			"host" : "localhost",
+			"port" : 25,
+			"auth" : {
+				"user" : "no_replay",
+				"pass" : "password"
+			},
+    		"tls":{
+        		"rejectUnauthorized": false
+    		}
+		},
+		"s3":{
+			"bucket":"slite",
+			"region":"ap-northeast-1"
+		},
+		"dropbox":{
+		}
+	}
+}

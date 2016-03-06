@@ -1,0 +1,59 @@
+//
+   Created by kc on 25.06.15.
+
+.row
+  .col-md-12
+    .panel.panel-default
+      .panel-heading
+        h3.panel-title.network-title
+          a(href='#networks' ng-click='closeSurvey()') ZigBee Networks &nbsp;
+          span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+          | &nbsp;PAN {{currentNetwork.panId}} on Channel {{currentNetwork.channel}}
+          span.network-title-controls(ng-click='toggleMeasurement()')
+            i.fa.fa-pause(ng-show='!pause')
+            i.fa.fa-play(ng-show='pause')
+      .panel-body
+        .row.no-print
+          .col-xs-12.col-sm-12.col-md-12
+            span.rssi-info
+              span.rssi-color-tag &nbsp;&#9679;
+              | RSSI: {{getLatestMeasurementEntry().rssi}} dB
+            span.lqi-info
+              span.lqi-color-tag &nbsp;&#9679;
+              | LQI: {{getLatestMeasurementEntry().lqi}}
+
+        .row
+          .col-md-12.chart-area
+            #chart-survey
+        .row.no-print
+          .col-md-12.survey-network-info
+            p Network ID: {{currentNetwork.extendedPanId}}, Joining is {{getLatestMeasurementEntry().permitJoin === 'yes' ? 'permitted' : 'not allowed'}}
+        .row.no-print
+          form.form
+            .col-md-10
+              .form-group
+                input.form-control#infoText(type='text' autocomplete='true' placeholder='Add your log info here' ng-model='currentLocation' ng-disabled='pause')
+            .col-md-2
+              button.btn.btn-default(type='submit' ng-click='addLog()' ng-disabled='pause') Add log entry
+        .row
+          .col-md-12
+            div(ng-show='log.length')
+              table.table.table-striped
+                thead
+                  th
+                    span(ng-click="sortLog('ts', !reverse)") ts
+                    //span.glyphicon.glyphicon-chevron-up(ng-click="sortLog('ts', false)")
+                    //span.glyphicon.glyphicon-chevron-down(ng-click="sortLog('ts', true)")
+                  th
+                    span(ng-click="sortLog('info', !reverse)") Info
+                  th
+                    span(ng-click="sortLog('lqi', !reverse)") LQI
+                  th
+                    span(ng-click="sortLog('rssi', !reverse)") RSSI
+                tbody
+                  tr(data-ng-repeat='n in log | orderBy:predicate:reverse')
+                    td {{n.ts | date:'dd.MM.yyyy HH:mm:ss'}}
+                    td {{n.info}}
+                    td {{n.lqi}}
+                    td {{n.rssi}}
+include survey-navigation

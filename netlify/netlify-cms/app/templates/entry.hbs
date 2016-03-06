@@ -1,0 +1,45 @@
+<div class="cms cms-content cms-entry-editor">
+  {{#cms-entry-form action="save"}}
+    {{#each widgets as |widget|}}
+      {{#unless widget.hidden}}
+        <div class="cms cms-widget">
+          <div class="cms cms-control">
+            <label class="cms cms-label cms-text">{{widget.label}}</label>
+            {{cms-widget widget=widget type="control"}}
+          </div>
+        </div>
+      {{/unless}}
+    {{/each}}
+  {{/cms-entry-form}}
+  {{cms-preview-pane entry=entry collection=collection widgets=widgets}}
+</div>
+<div class="cms cms-navbar-bottom cms-text">
+  <div class="cms cms-loading-indicator {{if saving 'cms-loading'}}">
+    <div class="cms cms-loading-indicator-inner"></div>
+  </div>
+  <div class="cms cms-left-menu">
+    {{#if error}}
+      <span class="cms-message">{{error}}</span>
+    {{else}}
+      {{#if isInvalid}}
+        <span class="cms-message">Can't save until all fields have been filled out correctly.</span>
+      {{/if}}
+    {{/if}}
+  </div>
+  <div class="cms cms-right-menu">
+    <ul class="cms cms-inline-list">
+      <li class="cms cms-li">
+        <a class="cms-link cms-save-btn" href="#" {{action "save"}}>
+          <i class="cms cms-icon cms-icon-update"></i>
+          {{if saving 'Saving...' 'Save'}}
+        </a>
+      </li>
+      <li class="cms cms-li">
+        <a class="cms-link cms-settings-btn" href="#" {{action "toggleSidebar"}}>
+          <i class="cms cms-icon cms-icon-gear"></i>
+          Settings
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

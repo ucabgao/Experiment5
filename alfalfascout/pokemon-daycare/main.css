@@ -1,0 +1,125 @@
+body {
+    background-color: #65954e;
+    font-family: "San Francisco", "Helvetica Neue", Helvetica,
+        Arial, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    color: #6a4940;
+}
+
+#container {
+    width: 600px;
+    padding: 20px 40px 40px;
+    margin: 0px auto;
+    background: rgba(210,243,205,0.8);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1, h2, h3, a {
+    color: #482821;
+}
+
+h3:target {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 4pt;
+}
+
+a.helper {
+    font-size: 10pt;
+}
+
+.parent h3 {
+    margin-top: 5pt;
+}
+
+.section {
+    padding: 20px 19px;
+    background-color: #d2f3cd;
+    border-width: 0px 0px 2px;
+    border-style: solid;
+    border-color: #bae49a;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px -1px #65954e;
+}
+
+.section p, .section label, .section span {
+    margin: 8pt 2pt;
+}
+
+.parent {
+    clear: both;
+    margin: auto 0px;
+}
+
+.iv-box, .cbox {
+    position: absolute;
+    left: -9999px;
+}
+
+label::before {
+    content: '';
+}
+
+.section .lbox, .cbox + label::before, .section select,
+.section button, .section input[type=text] {
+    display: inline-block;
+    height: 24px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-width: 2px;
+    border-color: #65954e;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.section .lbox, .cbox + label::before {
+    height: 18px;
+    width: 18px;
+}
+
+.section select, .section input[type=text] {
+    line-height: 1.2em;
+    font-size: 0.9em;
+    width: auto;
+    margin: 0 auto;
+    color: #6a4940;
+}
+
+.section button {
+    height: 1.8em;
+    line-height: 1.3em;
+    font-size: 1em;
+    background-color: #65954e;
+    color: #fff;
+}
+
+.section button:active {
+    background-color: #6a4940;
+    border-color: #6a4940;
+}
+
+.section .parent .lbox, .cbox + label::before, .goals .iv-box + label {
+    margin-bottom: -3.5pt;
+}
+
+input:checked + label.lbox, input:checked + label::before {
+    background-color: #65954e;
+}
+
+.iv-box {
+    display: inline-block;
+}
+
+.goals .iv-box + label {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+}
+
+.section .indented {
+    margin-left: 16pt;
+}

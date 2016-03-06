@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    {{ apos.assets.stylesheets(data.when) }}
+    {% block extraHead %}
+    {% endblock %}
+  </head>
+  <body class="{% block bodyClass %}{% endblock %}">
+    {% block apostropheMenu %}
+      {# TODO: Check permissions and not just if they have a user? #}
+      {% if data.user or data.loginButton %}
+        <div class="apos-ui">
+          <div class="apos-admin-bar apos-active apos-text-meta" data-apos-admin-bar>
+            <div class="apos-admin-bar-inner">
+              <div class="apos-admin-bar-logo" data-apos-admin-bar-logo data-apos-actionable='data-apos-admin-bar'>
+                {% include 'logo.html' %}
+              </div>
+              {% block apostropheMenuBody %}
+              {# Default behavior for admin bar is to spit out every menu available except for pages. This can be overwritten with a project level outerLayout.html #}
+              <div class="apos-admin-bar-items" data-apos-admin-bar-items>
+                {% for name, item in apos.modules %}
+                  {% if apos.utils.isFunction(item.menu) and name != 'apostrophe-pages' %}
+                    {{ item.menu() }}
+                  {% endif %}
+                {% endfor %}
+              </div>
+              {% endblock %}
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endblock %}
+
+    {% if data.user %}
+      {{ apos.pages.menu({ contextMenu: data.contextMenu, page: data.page, bottom: true })}}
+    {% endif %}
+    <div class="apos-refreshable" data-apos-refreshable>
+      {% block beforeMain %}{% endblock %}
+      {% block main %}{% endblock %}
+      {% block afterMain %}{% endblock %}
+    </div>
+    {{ apos.assets.templates(data.when) }}
+    {{ apos.assets.scripts(data.when) }}
+    <script type="text/javascript">
+      {{ data.js.globalCalls }}
+      {{ data.js.reqCalls }}
+    </script>
+    {% block extraBody %}
+    {% endblock %}
+  </body>
+</html>

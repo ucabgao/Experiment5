@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+
+<title>Pok&eacute;mon Daycare</title>
+
+<link rel="stylesheet" type="text/css" href="main.css">
+
+</head>
+<body>
+
+
+<div id="container">
+
+    <h1>Pok&eacute;mon Daycare</h1>
+
+    <div class="info section">
+        <p>
+            This is a tool to help you breed pokemon of your desired IVs,
+            natures, abilities, etc. All the statistics are based on
+            the Gen 6 games. This tool requires Javascript. You can find
+            the source on
+            <a href="https://github.com/alfalfascout/pokemon-daycare">
+                Github</a>.
+        </p>
+    </div>
+
+    <h2>Parents</h2> <!-- PARENTS' INFORMATION -->
+
+    <div class="parents section">
+        <div class="parent" id="parent-primary">
+            <h3>Primary Parent</h3>
+
+            <p>Species:
+                <input type="text" name="species-text" class="species-text"
+                    id="species-text" onkeydown="setTimeout(function()
+                        {matchFields('species');}, 50)"
+                    onchange="matchFields('species')">
+                <select name="species-menu" class="species-menu"
+                    id="species-menu" onchange="updateParent(0,'species')">
+                    <option value="0" selected>Select Species</option>
+                </select>
+            </p>
+
+            <p>IVs:
+                <input type="checkbox" name="iv-hp" class="iv-box"
+                    id="iv-00" onchange="updateParent(0, 'ivs')">
+                <label for="iv-00" class="lbox"></label>
+                <input type="checkbox" name="iv-atk" class="iv-box"
+                    id="iv-01" onchange="updateParent(0, 'ivs')">
+                <label for="iv-01" class="lbox"></label>
+                <input type="checkbox" name="iv-def" class="iv-box"
+                    id="iv-02" onchange="updateParent(0, 'ivs')">
+                <label for="iv-02" class="lbox"></label>
+                <input type="checkbox" name="iv-satk" class="iv-box"
+                    id="iv-03" onchange="updateParent(0, 'ivs')">
+                <label for="iv-03" class="lbox"></label>
+                <input type="checkbox" name="iv-sdef" class="iv-box"
+                    id="iv-04" onchange="updateParent(0, 'ivs')">
+                <label for="iv-04" class="lbox"></label>
+                <input type="checkbox" name="iv-spe" class="iv-box"
+                    id="iv-05" onchange="updateParent(0, 'ivs')">
+                <label for="iv-05" class="lbox"></label>
+                <a href="#help-ivs" class="helper">?</a>
+            </p>
+
+            <label>Held Item:
+                <select name="held-item" class="held-item-menu"
+                    onchange="updateParent(0, 'item')">
+                    <option value="none">None</option>
+                    <option value="everstone">Everstone</option>
+                    <option value="destiny-knot">Destiny Knot</option>
+                    <option value="power-0">Power Weight</option>
+                    <option value="power-1">Power Bracer</option>
+                    <option value="power-2">Power Belt</option>
+                    <option value="power-3">Power Lens</option>
+                    <option value="power-4">Power Band</option>
+                    <option value="power-5">Power Anklet</option>
+                </select>
+            </label>
+
+            <input type="checkbox" name="nature" class="nature-box cbox"
+                id="nature-0" onchange="updateParent(0, 'nature')">
+            <label for="nature-0">
+                Has desired nature
+                <a href="#help-nature" class="helper">?</a>
+            </label>
+
+            <label>Ability:
+                <select name="ability" class="ability-menu"
+                    onchange="updateParent(0, 'ability')">
+                    <option value="0">Hidden Ability</option>
+                    <option value="1" selected>Regular Ability 1</option>
+                    <option value="2">Regular Ability 2</option>
+                </select>
+                <a href="#help-ability" class="helper">?</a>
+            </label>
+        </div>
+        <div class="parent" id="parent-secondary">
+        <h3>Secondary Parent</h3>
+
+            <p>IVs:
+                <input type="checkbox" name="iv-hp" class="iv-box"
+                    id="iv-10" onchange="updateParent(1, 'ivs')">
+                <label for="iv-10" class="lbox"></label>
+                <input type="checkbox" name="iv-atk" class="iv-box"
+                    id="iv-11" onchange="updateParent(1, 'ivs')">
+                <label for="iv-11" class="lbox"></label>
+                <input type="checkbox" name="iv-def" class="iv-box"
+                    id="iv-12" onchange="updateParent(1, 'ivs')">
+                <label for="iv-12" class="lbox"></label>
+                <input type="checkbox" name="iv-satk" class="iv-box"
+                    id="iv-13" onchange="updateParent(1, 'ivs')">
+                <label for="iv-13" class="lbox"></label>
+                <input type="checkbox" name="iv-sdef" class="iv-box"
+                    id="iv-14" onchange="updateParent(1, 'ivs')">
+                <label for="iv-14" class="lbox"></label>
+                <input type="checkbox" name="iv-spe" class="iv-box"
+                    id="iv-15" onchange="updateParent(1, 'ivs')">
+                <label for="iv-15" class="lbox"></label>
+                <a href="#help-ivs" class="helper">?</a>
+            </p>
+
+            <label>Held Item:
+                <select name="held-item" class="held-item-menu"
+                    onchange="updateParent(1, 'item')">
+                    <option value="none">None</option>
+                    <option value="everstone">Everstone</option>
+                    <option value="destiny-knot">Destiny Knot</option>
+                    <option value="power-0">Power Weight</option>
+                    <option value="power-1">Power Bracer</option>
+                    <option value="power-2">Power Belt</option>
+                    <option value="power-3">Power Lens</option>
+                    <option value="power-4">Power Band</option>
+                    <option value="power-5">Power Anklet</option>
+                </select>
+            </label>
+
+            <input type="checkbox" name="nature" class="nature-box cbox"
+                id="nature-1" onchange="updateParent(1, 'nature')">
+            <label for="nature-1">
+                Has desired nature
+                <a href="#help-nature" class="helper">?</a>
+            </label>
+        </div>
+    </div>
+
+    <h2>Desired Results</h2> <!-- USER'S DESIRED RESULTS SECTION -->
+
+    <div class="goals section" id="goals">
+
+        <input type="checkbox" name="goal-ivs" class="cbox"
+            id="goal-ivs" onchange="updateOrUncheck('ivs')">
+        <label for="goal-ivs"> I want these IVs...</label>
+
+        <span class="indented">
+            <input type="checkbox" name="iv-hp" class="iv-box"
+                id="iv-g0" onchange="updateGoals('ivs')">
+            <label for="iv-g0" class="lbox"></label>
+            <input type="checkbox" name="iv-atk" class="iv-box"
+                id="iv-g1" onchange="updateGoals('ivs')">
+            <label for="iv-g1" class="lbox"></label>
+            <input type="checkbox" name="iv-def" class="iv-box"
+                id="iv-g2" onchange="updateGoals('ivs')">
+            <label for="iv-g2" class="lbox"></label>
+            <input type="checkbox" name="iv-satk" class="iv-box"
+                id="iv-g3" onchange="updateGoals('ivs')">
+            <label for="iv-g3" class="lbox"></label>
+            <input type="checkbox" name="iv-sdef" class="iv-box"
+                id="iv-g4" onchange="updateGoals('ivs')">
+            <label for="iv-g4" class="lbox"></label>
+            <input type="checkbox" name="iv-spe" class="iv-box"
+                id="iv-g5" onchange="updateGoals('ivs')">
+            <label for="iv-g5" class="lbox"></label>
+            <a href="#help-ivs" class="helper">?</a>
+        </span>
+
+        <input type="checkbox" name="goal-shiny" class="cbox"
+            id="goal-shiny" onchange="updateOrUncheck('shiny')">
+        <label for="goal-shiny">
+            I care about shininess and...
+            <a href="#help-shiny" class="helper">?</a>
+        </label>
+
+        <input type="checkbox" name="goal-shiny-region" class="cbox"
+            id="goal-shiny-region" onchange="updateGoals('shiny')">
+        <label class="indented" for="goal-shiny-region">
+            My pokemon are from different regions</label>
+
+        <input type="checkbox" name="goal-shiny-charm" class="cbox"
+            id="goal-shiny-charm" onchange="updateGoals('shiny')">
+        <label class="indented" for="goal-shiny-charm">
+            I have a shiny charm</label>
+
+        <input type="checkbox" name="goal-nature" class="cbox"
+            id="goal-nature" onchange="updateOrUncheck('nature')">
+        <label for="goal-nature">
+            Show nature stats
+            <a href="#help-nature" class="helper">?</a>
+        </label>
+
+        <input type="checkbox" name="goal-ability" class="cbox"
+            id="goal-ability" onchange="updateOrUncheck('ability')">
+        <label for="goal-ability">
+            Show ability stats
+            <a href="#help-ability" class="helper">?</a>
+        </label>
+
+        <label class="indented">
+            Goal Ability
+            <select name="goal-ability-menu" class="goal-ability-menu"
+                id="goal-ability-menu" onchange="updateGoals('ability')">
+                <option value="0">Hidden Ability</option>
+                <option value="1" selected>Regular Ability 1</option>
+                <option value="2">Regular Ability 2</option>
+            </select>
+        </label>
+
+        <input type="checkbox" name="goal-gender" class="cbox"
+            id="goal-gender" onchange="updateOrUncheck('gender')">
+        <label for="goal-gender">
+            Show gender stats
+            <a href="#help-gender" class="helper">?</a>
+        </label>
+
+        <label class="indented">
+            Goal Gender
+            <select name="goal-gender-menu" class="goal-gender-menu"
+                id="goal-gender-menu" onchange="updateGoals('gender')">
+                <option value="x" selected>None</option>
+                <option value="f">Female</option>
+                <option value="m">Male</option>
+            </select>
+        </label>
+
+        <button name="goal-calculate" onclick="calculateResults()">
+            Calculate!
+        </button>
+    </div>
+
+    <h2>Results</h2> <!-- CALCULATED RESULTS SECTION -->
+
+    <div class="results section" id="results">
+
+        <p id="results-summary">
+            Fill out the information above and click "Calculate" to
+            get the probability for your desired pok&eacute;mon!
+        </p>
+
+    </div>
+
+    <h2>Help</h2> <!-- HELP SECTION -->
+
+    <div class="help section" id="help">
+
+        <h3>What is this? How do I use it?</h3>
+        <p>
+            This is a tool to help you determine the probability
+            of getting the pok&eacute;mon you want when breeding.
+            <b>You can fill out as much or as little as you like.</b>
+            If you're only interested in one section, you can safely
+            ignore the rest. For more info on breeding,
+    <a href="http://bulbapedia.bulbagarden.net/wiki/Pok%C3%A9mon_breeding">
+            Bulbapedia has a lovely article</a>.
+        </p>
+
+        <h3 id="help-ivs">How do I breed for IVs?</h3>
+        <p>
+            In Gen 6, the pok&eacute;mon you breed will inherit 3
+            IVs from their parents, at least. If one parent holds a
+            Destiny Knot, the egg will inherit 5 IVs. If one parent holds
+            a Power Item, the egg will definitely inherit that stat from
+            that parent. If both parents hold power items, the egg
+            inherits one IV or the other, but never both. There's no way
+            to guarantee that 6th perfect IV... but if you have two parents
+            with many perfect IVs and you hatch a lot of eggs,
+            you can get lucky!
+        </p>
+
+        <h3 id="help-shiny">How do I breed for shininess?</h3>
+        <p>
+            There are two ways you can make it more likely you'll
+            hatch a shiny pok&eacute;mon: if you breed pokémon from
+            two different regions (for example, SPA and KOR) or
+            if you have a shiny charm from completing the national
+            pok&eacute;dex. Together, they make a shiny hatch a lot
+            more likely, but the chance is still only 1 in 512.
+        </p>
+
+        <h3 id="help-nature">How do I breed for a specific nature?</h3>
+        <p>
+            If one of your parents has the nature you want, you
+            can give them an Everstone to guarantee they pass it on.
+            Otherwise, it's a toss-up between every possible nature.
+        </p>
+
+        <h3 id="help-ability">How do I breed for a specific ability?</h3>
+        <p>
+            If your primary parent pok&eacute;mon has that ability, they have
+            a 60% chance of passing it on to their eggs. Eggs also have a
+            chance of hatching with any of the pok&eacute;mon's regular
+            abilities. If you want to breed for a hidden ability, the primary
+            parent must have the hidden ability,
+            or your eggs will never have it.
+        </p>
+
+        <h3 id="help-gender">How do I breed for a specific gender?</h3>
+        <p>
+            There's no way to influence what gender an egg will hatch,
+            but it's worth noting that the gender ratio is different
+            for every species of pok&eacute;mon. Starter pok&eacute;mon,
+            for example, will almost always hatch male (87.5%). You
+            can look up the
+            <a href="http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_gender_ratio">gender ratio</a> for many pok&eacute;mon.
+        </p>
+
+        <h3 id="help-probability">How did you make this?</h3>
+        <p>
+            This calculator was made by Alfalfa Scout in HTML and Javascript.
+            Their comments:
+        </p>
+        <p>
+            I got a lot of inspiration (but no actual code) from <a
+            href="http://destinyknot.tk">destinyknot.tk</a>. Interestingly,
+            the numbers I get for IV calcluations are different from
+            the ones given by destinyknot.tk. Whose is right? To be honest,
+            I have no clue. We could both be wrong. If you'd like to help,
+            you can check out the code on <a
+            href="https://github.com/alfalfascout/pokemon-daycare">Github</a>.
+        </p>
+
+    </div>
+
+</div>
+
+<script type="text/javascript" src="pokedex.js"></script>
+<script type="text/javascript" src="daycare.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+.DS_Store
+public/
+**~
+**.swp
+node_modules
+npm-debug.log
+secrets.js

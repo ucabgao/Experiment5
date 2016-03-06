@@ -1,0 +1,31 @@
+.btn
+  background: $color1
+  display: inline-block
+  padding: 10px 20px
+  border-radius: 0
+  border: ($menu-item-border / 2) solid black
+
+  color: white
+  font-weight: bold
+  font-size: 110%
+
+  &:visited
+    color: white
+
+  &:hover
+    color: black
+
+  &.btn-star
+    background-color: $color1
+
+  &.btn-follow
+    background-color: royalblue
+
+  &.btn-unfollow
+    background-color: red
+
+  &.btn-create
+    background-color: darken( $color2, 20% )
+
+  &.btn-disabled
+    background-color: grey

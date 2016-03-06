@@ -1,0 +1,20 @@
+<div class="row" id="searchbar">
+    <form name="searchbar" novalidate ng-submit="search()">
+        <select ng-model="searchType" ng-options="searchType as searchType.title for searchType in searchTypes track by searchType.value" name="type"></select>
+        <input type="text" ng-model="searchText" name="query">
+        <button type="submit">Search</button>
+        <select ng-options="sort as sort.title for sort in sorts track by sort.value" ng-model="sort" name="order"></select>
+        <select ng-model="starBy" name="starBy" ng-show="sort.value === 'starCount'">
+            <option value="desc" selected>Descending</option>
+            <option value="asc">Ascending</option>
+        </select>
+        <select ng-model="textBy" name="textBy" ng-show="sort.value === 'title'">
+            <option value="asc" selected>Alphabetical (A-Z)</option>
+            <option value="desc">Alphabetical (Z-A)</option>
+        </select>
+        <select ng-model="dateBy" name="dateBy" ng-show="sort.value === 'dateCreated'">
+            <option value="desc" selected>Newest to Oldest</option>
+            <option value="asc">Oldest to Newest</option>
+        </select>
+    </form>
+</div>

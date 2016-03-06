@@ -1,0 +1,29 @@
+<div>
+	Welcome, {{user.name}}. You've created {{user.createdLevels.length}} levels so far.
+</div>
+
+<header>
+<div style="margin:auto">
+	<nav>
+	<ul>
+		<li><a ng-click='goToCreate()'>Create new level</a></li>
+	</ul>
+	</nav>
+</div>
+</header>
+
+<div class="draft-list">
+	<h2>Your Drafts</h2>
+	<div class="row" ng-repeat="draftRow in drafts">
+		<level-thumbnail ng-repeat="draft in draftRow" level="draft" edit="true" show-creator="true"></level-thumbnail>
+	</div>
+</div>
+
+<div ng-show='user.createdLevels.length'>
+	<nav>
+	<ul>
+		<li>Edit level</li>
+	</ul>
+	</nav>
+</div>
+</div>

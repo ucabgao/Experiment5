@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>bbox finder</title>
+    
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    
+    <link rel="stylesheet" href="css/maps/leaflet.css" />
+    <link rel="stylesheet" href="css/maps/leaflet.draw.css" />
+    <link rel="stylesheet" href="css/maps/mapbox.standalone.css" />
+    <link rel="stylesheet" href="css/bbox.css" />
+    
+    <script src="js/libs/jquery-1.9.1.min.js"></script>
+    <script src="js/libs/ZeroClipboard.min.js"></script>
+    <script src="js/maps/leaflet.js"></script>
+    <script src="js/maps/leaflet.draw.js"></script>
+    <script src="js/maps/mapbox.standalone.js"></script>
+    <script src="js/bbox.js"></script>
+   
+</head>
+<body>
+    <a href="https://github.com/aaronr/bboxfinder.com"><img style="position: absolute; top: 0; right: 0; border: 0; z-index:3000; max-hight:100px; max-width:100px;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+    <ul id="map-ui"></ul>
+    <div id="map"></div>
+    <div id="bbounds">
+        <img id="boxboundsbtn" data-clipboard-target="boxbounds" src="/images/copy.png" style="vertical-align:bottom;height:18px;"><input type="textarea" size= "45" id="boxbounds" name="boxbounds" value="Box Bounds" /><input type="textarea" size="5" class="bboxlabel" value="Box" style="text-align:center"/><input type="textarea" size= "55" id="boxboundsmerc" name="boxboundsmerc" value="Box Bounds" /><img id="boxboundsmercbtn" data-clipboard-target="boxboundsmerc" src="/images/copy.png" style="vertical-align:bottom;height:18px;">
+    </div>
+    <div id="mbounds">
+        <img id="mapboundsbtn" data-clipboard-target="mapbounds" src="/images/copy.png" style="vertical-align:bottom;height:18px;"><input type="textarea" size= "45" id="mapbounds" name="mapbounds" value="Map Bounds" /><input type="textarea" size="5" class="bboxlabel" value="Map" style="text-align:center"/><input type="textarea" size= "55" id="mapboundsmerc" name="mapboundsmerc" value="Map Bounds" /><img id="mapboundsmercbtn" data-clipboard-target="mapboundsmerc" src="/images/copy.png" style="vertical-align:bottom;height:18px;">
+    </div>
+    <div id="mcenter">
+        <img id="centerbtn" data-clipboard-target="center" src="/images/copy.png" style="vertical-align:bottom;height:18px;"><input type="textarea" size= "45" id="center" name="center" value="Map Center" /><input type="textarea" size="5" class="bboxlabel" value="Center" style="text-align:center"/><input type="textarea" size= "55" id="centermerc" name="centermerc" value="Map Center" /><img id="centermercbtn" data-clipboard-target="centermerc" src="/images/copy.png" style="vertical-align:bottom;height:18px;">
+    </div>
+    <div id="mouse">
+        <input type="textarea" size= "20" id="mousepos" name="mousepos" value="Mouse Position" /><input type="textarea" size="4" class="bboxlabel" value="Mouse"/><input type="textarea" size= "30" id="mouseposmerc" name="mouseposmerc" value="Mouse Position" />
+    </div>
+    <div id="zoom">
+        <input type="textarea" size="4" class="bboxlabel" value="Zoom"/><input type="textarea" size= "2" id="zoomlevel" name="zoomlevel" value="Zoom Level" />
+    </div>
+</body>                                                                                                                          
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-1253169-10', 'bboxfinder.com');
+  ga('send', 'pageview');
+
+</script>
+</html>

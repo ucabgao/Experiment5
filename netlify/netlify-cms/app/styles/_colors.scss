@@ -1,0 +1,20 @@
+body.ember-application {
+  .cms-sidebar-top, .cms-sidebar-content {
+    background: #fff;
+  }
+  .cms-navbar-bottom {
+    background: #fff;
+  }
+  .cms-control-pane {
+    background: $color-bg-light;
+  }
+  .cms-control label {
+    color: $color-text-light;
+  }
+  .cms-login-modal {
+    background: rgba(0,0,0,0.9);
+    .cms-message-box {
+      background: $color-bg-light;
+    }
+  }
+}

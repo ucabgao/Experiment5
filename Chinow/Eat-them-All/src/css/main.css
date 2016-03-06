@@ -1,0 +1,91 @@
+body {
+	background: url('../img/outerBackground.jpg') #000000 center center fixed no-repeat;
+	padding: 0;
+	margin: 0;	
+}
+
+#container {
+	width: 1000px;
+	height: 580px;
+	position: absolute;
+	left: 50%; 
+	top: 50%;
+	margin-top: -290px; /* Half of height */
+	margin-left: -500px; /* Half of width */
+}
+
+/* 1000 x 580 */
+#cr-stage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1000px;
+	height: 580px;
+	margin-top: -290px;
+	margin-left: -500px;
+}
+
+/* Start menu */
+#menu {
+	position: absolute;
+	width: 1000px;
+	height: 580px;
+	background-image: url('../img/StartMenu.png');
+}
+
+#menu-button {
+	float: left;
+	width: 275px;
+	height: 40px;
+	margin-left: 325px;
+	margin-top: 460px;
+	font-size: 0px;
+}
+
+#start-button {
+	width: 275px;
+	height: 40px;
+	background: url('../img/Menu_Items_StartGame.png') 0 0 no-repeat;
+}
+
+#start-button:hover {
+	background-position: -275px 0px;
+}
+
+#option-button {
+	margin: 10px:
+}
+
+.hideMenu {
+	display: none;
+}
+
+/* Pause */
+#pause-screen {
+	position: absolute;
+	width: 1000px;
+	height: 580px;
+	text-align: center;
+	background-color: #000000;
+	opacity: 0.8;
+	filter: alpha(opacity=80); /* For IE8 and earlier */
+	z-index: 2000;
+}
+
+#pause-screen img {
+	margin: auto;
+	margin-top: 250px;
+}
+
+/* AUDIO */
+#muter {
+	width: 50px;
+	height: 50px;
+	z-index: 9001;
+}
+#muter.mute {
+	background-image:url('../img/unmute.png');
+}
+#muter.unmute {
+	background-image:url('../img/mute.png');
+}

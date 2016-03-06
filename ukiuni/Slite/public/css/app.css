@@ -1,0 +1,207 @@
+h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+button {
+	overflow: hidden;
+}
+
+.article {
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: pre-line;
+	white-space: -hp-pre-line;
+	word-wrap: break-word;
+	width: 100%;
+}
+
+.contentTitle {
+	font-size: 30px;
+	margin-top: -115px;
+	text-shadow: black 0.1em 0.1em 0.2em;
+	font-size: 30px;
+	background-color: transparent;
+	color: white;
+}
+
+.tag {
+	color: #EEE;
+}
+
+.error {
+	font-weight: bold;
+	color: red;
+}
+/* home */
+.contentListColmun {
+	border: solid 1px #DDD;
+	border-left: solid 10px #DDD;
+	border-right: solid 10px #DDD;
+	border-radius: 3px;
+	margin-bottom: 3px;
+	border-right: solid 10px #DDD;
+}
+
+.contentListTitle {
+	padding-left: 5px;
+	font-size: 20px;
+}
+
+.contentListStatus {
+	font-size: 12px;
+}
+
+.contentListDate {
+	font-size: 12px;
+}
+
+.fixedFooter {
+	position: absolute;
+	bottom: 0px;
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+
+.repeatOdd {
+	background-color: #FAFAFA;
+}
+
+.block {
+	background-color: #EEE;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+.message {
+	white-space: pre;
+	white-space: pre-wrap;
+	white-space: pre-line;
+	white-space: -hp-pre-line;
+	word-wrap: break-word;
+}
+
+#groupArea {
+	border: solid 1px #DDD;
+	border-radius: 3px;
+	padding-top: 5px;
+}
+/* Top */
+.overToImageOnIndexViewContent {
+	min-height: 100px;
+	margin-top: -10px
+}
+/* Group input */
+#groupName {
+	font-size: 30px;
+}
+
+#groupDescription {
+	white-space: pre;
+}
+
+/* content */
+#imagePane {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.9;
+	background-color: #000;
+	align: center;
+	vertical-align: middle;
+	padding: 20px;
+}
+
+#imagePaneImgBase {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	align: center;
+	vertical-align: middle;
+	padding: 20px;
+}
+
+#imagePaneImgBase img {
+	height: 100%;
+	opacity: 1.0;
+}
+/* Message */
+.messageAccountArea {
+	opacity: 0.5;
+}
+
+.messageAccountAreaNow {
+	opacity: 1.0;
+}
+
+.channelAccountName.ng-hide {
+	opacity: 0.5;
+}
+
+.messageBody img {
+	max-height: 200px;
+}
+/* Tag input */
+.bootstrap .tags {
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.bootstrap .tags.focused {
+	border-color: #66afe9;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+.bootstrap .tags .tag-item {
+	background: #428bca;
+	border: 1px solid #357ebd;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.bootstrap .tags .tag-item.selected {
+	background: #d9534f;
+	border: 1px solid #d43f3a;
+	border-radius: 4px;
+	color: #fff;
+}
+
+.bootstrap .tags .tag-item button {
+	background: transparent;
+	color: #000;
+	opacity: .4;
+}
+
+.bootstrap .autocomplete {
+	border-radius: 4px;
+}
+
+.bootstrap .autocomplete .suggestion-item.selected {
+	color: #262626;
+	background-color: #e9e9e9;
+}
+
+.bootstrap .autocomplete .suggestion-item em {
+	font-weight: normal;
+	background-color: #ffff00;
+}
+
+.bootstrap .autocomplete .suggestion-item.selected em {
+	color: #262626;
+	background-color: #ffff00;
+}
+/* highlignt */
+.highlight {
+	color: #F39
+}

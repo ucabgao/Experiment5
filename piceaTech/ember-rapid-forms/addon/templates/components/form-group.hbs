@@ -1,0 +1,48 @@
+
+{{#if label}}
+    {{#if yieldInLabel}}
+        {{#if labelWrapperClass}}
+            <div class={{labelWrapperClass}}>
+                {{control-within-label label=label labelViewName=labelViewName extraClass=labelClass
+                  controlView=controlView controlViewName=controlViewName
+                  controlWrapper=controlWrapper
+                  cid=cid mainComponent=mainComponent}}
+            </div>
+        {{else}}
+            {{control-within-label label=label labelViewName=labelViewName extraClass=labelClass
+              controlView=controlView controlViewName=controlViewName
+              controlWrapper=controlWrapper
+              cid=cid mainComponent=mainComponent}}
+        {{/if}}
+    {{else}}
+        {{#if labelWrapperClass}}
+            <div class={{labelWrapperClass}}>
+                {{em-form-label text=label viewName=labelViewName extraClass=labelClass}}
+                {{form-group-control controlView=controlView
+                  controlViewName=controlViewName controlWrapper=controlWrapper
+                  cid=cid mainComponent=mainComponent}}
+            </div>
+        {{else}}
+            {{em-form-label text=label viewName=labelViewName extraClass=labelClass}}
+            {{form-group-control controlView=controlView
+              controlViewName=controlViewName controlWrapper=controlWrapper
+              cid=cid mainComponent=mainComponent}}
+        {{/if}}
+    {{/if}}
+{{else}}
+  {{form-group-control controlView=controlView
+    controlViewName=controlViewName
+    controlWrapper=controlWrapper cid=cid
+    mainView=mainView mainComponent=mainComponent}}
+{{/if}}
+
+{{#if validationIcons}}
+    <span class="form-control-feedback"><i class={{mainComponent.validationIcon}}></i></span>
+{{/if}}
+
+{{!Currently no errors when layout is inline}}
+{{#unless form.isInline}}
+    {{#if shouldShowErrors}}
+        {{em-form-control-help text=help viewName=helpViewName mainComponent=mainComponent}}
+    {{/if}}
+{{/unless}}

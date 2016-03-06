@@ -1,0 +1,84 @@
+link(type="text/css", href="/css/ui-lightness/jquery-ui-1.8.16.custom.css", rel="Stylesheet")
+input(id='loginType', type='hidden', value='#{loginType}')
+h1= title
+p Lets play #{game}!
+p Are the following the same?
+  br
+  img(id='eng', src='')
+  img(id='ger', src='')
+  br
+  button(id="yes") Yes
+  button(id="no") No
+div(id='dialog')
+  p You appear to have gone through all the images, congratulations!!! Why not share with your friends what you have
+    done!
+  p 
+    textarea(id='tweetMessage', readonly='true',style="height:50px; width:190px;") I have just checked a number of images for Mozilla QA and scored X on Powerball
+    br
+    button(id="tweet") Tweet
+    div(id='error')
+
+
+
+script(type="text/javascript", src='/javascripts/jquery-ui-1.8.16.custom.min.js')
+script
+  $(document).ready(function () {
+    $('#dialog').dialog({ autoOpen: false })
+    var images = ['view', 'bookmarks', 'edit', 'file', 'history', 'tools', 'window']
+    , currentShow = 0;
+    $('#eng').attr('src',"/images/eng-"+images[currentShow]+".jpg" );
+    $('#ger').attr('src',"/images/ger-"+images[currentShow]+".jpg");
+      
+    $('#yes').click(function() {
+      currentShow++;
+      score();
+      if (currentShow < images.length){
+        $('#eng').attr('src',"/images/eng-"+images[currentShow]+".jpg" );
+        $('#ger').attr('src',"/images/ger-"+images[currentShow]+".jpg");
+      } else {
+        $('#no').hide();
+        $('#yes').hide();
+        if ($('#loginType').val() === 'twitter'){
+          $('#dialog').dialog('open');
+        }
+      }
+    });
+      
+    $('#no').click(function() {
+      currentShow++;
+      score();
+      if (currentShow < images.length){
+        $('#eng').attr('src',"/images/eng-"+images[currentShow]+".jpg" );
+        $('#ger').attr('src',"/images/ger-"+images[currentShow]+".jpg");
+      } else {
+        $('#no').hide();
+        $('#yes').hide();
+        if ($('#loginType').val() === 'twitter'){
+          $('#dialog').dialog('open');
+        }
+      }
+    });
+    $('#tweet').click(function(){
+      $.post('/twitter', {status: $('#tweetMessage').text()}, function(data){
+          if (data['error']){
+            $('#error').text(data['error']);  
+          } else {
+            $('#dialog').dialog('close');
+          }
+      });  
+    });
+    var score = function(){
+      $.post('/score/'+$('#userId').attr('value')+'/l10n', { points: 1 },
+        function(data){
+          if (data.result === 'success'){
+            var score = $('#score').text();
+            score = (score * 1) + 1;
+            $('#score').text(score);
+          } else {
+            //TODO(David) do something nice
+            console.log("failure");
+          }
+      });
+    };
+  });
+  

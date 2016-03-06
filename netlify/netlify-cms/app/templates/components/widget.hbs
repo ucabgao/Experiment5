@@ -1,0 +1,5 @@
+{{#if isControl}}
+  {{component controlComponent widget=widget tagName=""}}
+{{else}}
+  {{component previewComponent widget=widget tagName=previewTagName classNames=previewClassNames}}
+{{/if}}

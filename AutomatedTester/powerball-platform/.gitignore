@@ -1,0 +1,6 @@
+.monitor
+node_modules/
+*.swo
+*.swp
+secret.txt
+dump.rdb

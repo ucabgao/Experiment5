@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cms</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {{content-for 'head'}}
+
+    <link rel="stylesheet" href="assets/vendor.css">
+    <link rel="stylesheet" href="assets/cms.css">
+
+
+    {{content-for 'head-footer'}}
+
+    <script>
+      window.repoFiles = {
+
+        _posts: {
+          "2015-02-14-this-is-a-post.md": {
+            content: "---\ntitle: This is a post\ndate: 2015-02-14T00:00:00.000Z\n\n---\n\n# I Am a Title in Markdown\n\nHello, world\n"
+          }
+        },
+        _faqs: {}
+      }
+    </script>
+    <style>
+      .post-header {
+        position: relative;
+      }
+      .post-header.image-bg {
+        overflow: hidden;
+        padding: 50px;
+        margin-top: 20px;
+        text-align: center;
+      }
+      .cover-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .post-header h1 {
+        position: relative;
+        text-shadow: 0 0 5px rgba(255,255,255,0.9);
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/x-handlebars" data-template-name='cms/preview/posts'>
+      <div class="post-header {{if entry.image 'image-bg'}}">
+        <div class="cover-image">{{cms-preview field='image'}}</div>
+        {{cms-preview field='title'}}
+      </div>
+      <div class="post-text">
+        {{cms-preview field='body'}}
+      </div>
+    </script>
+
+    <script src="assets/vendor.js"></script>
+    <script src="assets/cms.js"></script>
+  </body>
+</html>

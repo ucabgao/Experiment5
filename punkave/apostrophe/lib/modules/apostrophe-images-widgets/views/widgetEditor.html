@@ -1,0 +1,19 @@
+{% extends "baseWidgetEditor.html" %}
+
+
+{% block controls %}
+  {{ buttons.minor('Cancel', { action: 'cancel' }) }}
+  {{ buttons.major('Choose ' + data.label, { action: 'save' }) }}
+{% endblock %}
+
+{% block label %}
+Choose Images
+{% endblock %}
+
+{% block body %}
+  <div class="apos-form" data-form>
+    {{ schemas.fields(data.schema) }}
+  </div>
+{% endblock %}
+
+{% block footerContainer %}{% endblock %}

@@ -1,0 +1,12 @@
+*.swp
+.DS_Store
+.sass-cache
+.bin
+*.log
+bower_components
+node_modules
+ghpages
+.idea
+.coveralls.yml
+coverage
+/dist

@@ -1,0 +1,65 @@
+MODULE m;
+
+CONST
+	ci = 3;
+	cb = TRUE;
+	
+	cs1 = {1} + {2};
+	cs2 = {1, 2, 3} - {1, 4};
+	cs3 = {1, 2, 3} * {1, 4};
+	cs4 = {1, 2, 3} / {1, 4};
+	cs5 = -{1};
+VAR 
+	s1, s2: SET;
+	i1: INTEGER;
+	b: BOOLEAN;
+	aSet: ARRAY 1 OF SET;
+	aInt: ARRAY 1 OF INTEGER;
+
+PROCEDURE getSet1(): SET;
+	RETURN {1}
+END getSet1;
+
+PROCEDURE getSet2(): SET;
+	RETURN {2}
+END getSet2;
+
+BEGIN
+	s1 := {};
+	s1 := {0, 2..5};
+	s1 := {ci};
+	s1 := {ci * 2};
+
+	i1 := 3;
+	s2 := {i1, i1 + 2, 10 - i1..15};
+	s2 := {i1, 2};
+
+	b := i1 IN s1;
+	b := s1 <= s2;
+	b := s1 >= s2;
+	b := getSet1() <= getSet2();
+	b := getSet1() >= getSet2();
+    b := cs1 <= cs2;
+    b := cs1 >= cs2;
+    b := cs1 + cs2 <= cs1 + cs2;
+    b := cs1 + cs2 >= cs2 + cs1;
+    b := {1} + {2} <= {1} + {2};
+    b := {1} + {2} >= {2} + {1};
+	b := s1 = s2;
+	b := s1 # s2;
+
+	s1 := s1 + s2;
+	s1 := s1 - s2;
+	s1 := s1 * s2;
+	s1 := s1 / s2;
+	s1 := -s2;
+
+	INCL(s2, 3);
+	INCL(s1, ci * 2 + 3);
+	INCL(s1, ORD(cb));
+	INCL(aSet[0], 3);
+
+	EXCL(s2, 3);
+	EXCL(s2, ORD(~cb));
+	EXCL(aSet[0], 3);
+END m.

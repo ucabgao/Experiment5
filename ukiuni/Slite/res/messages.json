@@ -1,0 +1,195 @@
+{
+	"default" : {
+		"signin" : {
+			"error" : "Wrong mail or password."
+		},
+		"app" : {
+			"title" : "Slite",
+			"imageUrl" : "/images/title.png"
+		},
+		"menu" : {
+			"home" : "Home",
+			"newContent" : "New Content",
+			"setting" : "Setting",
+			"profile" : "Profile",
+			"changePassword" : "Change Password",
+			"signOut" : "Sign out"
+		},
+		"accounts" : {
+			"mail" : "mail",
+			"error" : {
+				"aleadyHaveAccount" : "You aleady have a account",
+				"duplicatedName" : "The name is duplicated"
+			},
+			"authorization" : {
+				"viewer" : "viewer",
+				"editor" : "editor",
+				"administrator" : "admin"
+			},
+			"signup0rSignin" : "Sign up or Sign in",
+			"signup" : "Sign up",
+			"signin" : "Sign in",
+			"yourMailAddress" : "Your Mail Address",
+			"nameIsAlphanumericOver5" : "Name must be alphanumeric and length over 4."
+		},
+		"group" : "Group",
+		"groups" : {
+			"newGroup" : "New Group",
+			"groupList" : "Group List",
+			"description" : "Description",
+			"addsMember" : "Add member",
+			"invite" : "Invite",
+			"join" : "Join",
+			"visibility" : {
+				"open" : "Open",
+				"secret" : "Secret",
+				"secretEvenMember" : "Secret Even Member"
+			},
+			"requestInvitements" : "Request invitation",
+			"invitationRequestSended" : "Invitation Requested",
+			"request" : "Request",
+			"thisGroupIsNotOpen" : "This group is not open.\n Request invitements to Admin.",
+			"error" : {
+				"aleadyIn" : "Invited member is aleady in this group or inviting.",
+				"aleadyThisName" : "Group name is aleady exist."
+			}
+		},
+		"channels" : {
+			"new" : "New channel",
+			"name" : "Name"
+		},
+		"message" : "message",
+		"sendWithEnter" : "Send on enter",
+		"send" : "send",
+		"edit" : "edit",
+		"save" : "save",
+		"delete" : "delete",
+		"cancel" : "cancel",
+		"next" : "next",
+		"prev" : "prev",
+		"content" : "content",
+		"contents" : {
+			"self" : "content",
+			"open" : "open",
+			"hidden" : "hidden",
+			"urlAccess" : "URL access",
+			"authenticated" : "Group only",
+			"comment":"comment",
+			"failToComment" : "Fail to comment",
+			"tags" : "tags",
+			"tagsList" : "tags list",
+			"tagDescription" : "Description",
+			"accessibility" : "Accessibility",
+			"confirmDelete" : "Delete content ?",
+			"thisContentIsNotVisible" : "This content is not visible.\nIf you want to watch it, send invitation request.",
+			"joinGroup" : "Join to group to view this content.",
+			"saved" : "Content has saved.",
+			"errors" : {
+				"failToSave" : "Fail to save content."
+			}
+		},
+		"error" : {
+			"withServer" : "Something happen with Server, please try again later.",
+			"notAccessible" : "Can't access to this resource",
+			"notFound" : "This resource is not fouded."
+		},
+		"alertOnLeave" : "Are you sure you want to leave this page?"
+	},
+	"ja" : {
+		"signin" : {
+			"error" : "メールアドレスかパスワードが違います。"
+		},
+		"app" : {
+			"title" : "Slite",
+			"imageUrl" : "/images/title.png"
+		},
+		"menu" : {
+			"home" : "Home",
+			"newContent" : "新規投稿",
+			"setting" : "設定",
+			"profile" : "Profile",
+			"changePassword" : "パスワード変更",
+			"signOut" : "Sign out"
+		},
+		"accounts" : {
+			"mail" : "mail",
+			"error" : {
+				"aleadyHaveAccount" : "すでにアカウントをお持ちです。",
+				"duplicatedName" : "アカウント名が重複しています。"
+			},
+			"authorization" : {
+				"viewer" : "閲覧者",
+				"editor" : "編集者",
+				"administrator" : "管理者"
+			},
+			"signup0rSignin" : "アカウント登録もしくはサインイン",
+			"signup" : "アカウント登録",
+			"signin" : "サインイン",
+			"yourMailAddress" : "あなたのメールアドレス",
+			"nameIsAlphanumericOver5" : "名前は4文字以上の英数字で入力してください。"
+		},
+		"group" : "グループ",
+		"groups" : {
+			"newGroup" : "新規グループ",
+			"groupList" : "グループ一覧",
+			"description" : "説明",
+			"member" : "メンバー",
+			"addsMember" : "メンバー追加",
+			"invite" : "招待",
+			"join" : "参加",
+			"visibility" : {
+				"open" : "公開",
+				"secret" : "非公開",
+				"secretEvenMember" : "メンバー非公開"
+			},
+			"requestInvitements" : "招待依頼",
+			"invitationRequestSended" : "招待依頼を行いました。",
+			"request" : "依頼",
+			"thisGroupIsNotOpen" : "このグループは公開されていません。\n参加するためには招待依頼を行ってください。",
+			"error" : {
+				"aleadyIn" : "すでにメンバーか招待中です。",
+				"aleadyThisName" : "このグループ名はすでに他で使われています。"
+			}
+		},
+		"channels" : {
+			"new" : "新規チャネル",
+			"name" : "チャネル名"
+		},
+		"message" : "メッセージ",
+		"sendWithEnter" : "Enterで送信",
+		"send" : "送信",
+		"edit" : "編集",
+		"save" : "保存",
+		"delete" : "削除",
+		"cancel" : "キャンセル",
+		"next" : "次へ",
+		"prev" : "前へ",
+		"content" : "投稿",
+		"contents" : {
+			"self" : "自分の投稿",
+			"open" : "公開",
+			"hidden" : "非公開",
+			"urlAccess" : "URLアクセス",
+			"authenticated" : "グループ内のみ",
+			"comment" : "コメント",
+			"failToComment" : "コメントに失敗しました。",
+			"tags" : "タグ",
+			"tagsList" : "タグ一覧",
+			"tagDescription" : "説明",
+			"accessibility" : "アクセス許可",
+			"confirmDelete" : "投稿を削除してもよいですか？",
+			"thisContentIsNotVisible" : "このコンテンツを見るためにはグループへ参加する必要があります。招待依頼をしますか？",
+			"joinGroup" : "このコンテンツを見るためにはグループへ参加してください。",
+			"saved" : "投稿が保存されました。",
+			"errors" : {
+				"failToSave" : "投稿の保存に失敗しました。"
+			}
+		},
+		"error" : {
+			"withServer" : "サーバーとの通信で問題が発生しました。後ほど再実行してください。",
+			"notAccessible" : "アクセスできませんでした。",
+			"notFound" : "ページがみつかりません。"
+		},
+		"alertOnLeave" : "本当にこのページから遷移してもいいですか？"
+	}
+}

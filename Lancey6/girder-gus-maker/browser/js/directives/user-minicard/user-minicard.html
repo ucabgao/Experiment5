@@ -1,0 +1,11 @@
+<div class="minicard">
+  <img class="profile-pic" ng-src="creator.profilePic" onerror="this.src='/images/gus.png'" ng-click="checkCreator()"></img>
+  <div class="star-count"><span class="glyphicon glyphicon-star"></span> {{ creator.totalStars }}</div>
+  <h3>{{ creator.name }}</h3>
+  <p>{{ creator.totalFollowers }} follower<span ng-show="creator.totalFollowers !== 1">s</span></p>
+  <a class="btn btn-follow" href="#" ng-show="!followed && !pending" ng-click="followCreator()">Follow</a>
+  <a class="btn btn-disabled" ng-show="!followed && pending"><span class="glyphicon glyphicon-time"></span> Following</a>
+  <a class="btn btn-unfollow" href="#" ng-show="followed && !pending" ng-click="unfollowCreator()">Unfollow</a>
+  <a class="btn btn-disabled" ng-show="followed && pending"><span class="glyphicon glyphicon-time"></span> Unfollowing</a>
+  <div class="more-by"><a href="#">More by this builder</a></more-by>
+</div>

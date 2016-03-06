@@ -1,0 +1,11 @@
+<div class="carousel-box">
+    <slick slides-to-show=3 slides-to-scroll=3 dots=true center-mode=true init-onload=true data="levels">
+        <!-- <level-thumbnail ng-repeat="level in levels" level="level" show-creator="false"></level-thumbnail> -->
+        <div ng-repeat="level in levels">
+            <img src="http://placehold.it/250x150">
+            <div>
+                <h5>{{ level.title }}</h5>
+            </div>
+        </div>
+    </slick>
+</div>

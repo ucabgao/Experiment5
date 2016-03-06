@@ -1,0 +1,40 @@
+{
+  "name": "nrj",
+  "version": "0.0.2",
+  "description": "A Node.js client for the Riak Json https://github.com/basho-labs/riak_json/ document store framework.",
+  "main": "index.js",
+  "scripts": {
+    "seed": "node ./test/seeds/_seeds.js",
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dmitrizagidulin/nrj.git"
+  },
+  "dependencies": {
+    "superagent": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "sinon": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "riak",
+    "basho",
+    "solr",
+    "search",
+    "odm",
+    "document",
+    "json"
+  ],
+  "author": "Dmitri Zagidulin <dzagidulin@basho.com>",
+  "contributors": [
+     { "name": "Dmitri Zagidulin", "email": "dzagidulin@basho.com" }
+  ],
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/dmitrizagidulin/nrj/issues"
+  },
+  "homepage": "https://github.com/dmitrizagidulin/nrj"
+}

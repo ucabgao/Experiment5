@@ -1,0 +1,76 @@
+!!! 5
+html
+  head
+    meta(name="viewport", content="initial-scale=1.0, width=device-width")
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/movingboxes.css')
+  body
+    a(class='mozilla', href='http://www.mozilla.org') visit
+        span mozilla
+    div(id='container')
+      header
+        nav
+          ul(id='nav')
+            li
+              a(href='/') home
+            li
+              a(href='/games') games
+            li
+              a(href='/leaderboards') leaderboard
+
+      include login
+      script(type="text/javascript", src='/javascripts/jquery-1.6.4.min.js')    
+    
+      div!=body
+    footer
+      p Site developed by 
+        a(href='http://www.theautomatedtester.co.uk') David Burns 
+        fork on  
+        a(href='https://github.com/automatedtester/powerball-platform') Github
+    script(src='https://browserid.org/include.js', type='text/javascript')
+    script(type="text/javascript", src='/javascripts/jquery.movingboxes.min.js')
+    script
+      $(document).ready(function(){
+        $('#slider').movingBoxes({
+          startPanel : 1, // start with this panel
+          width : 800, // overall width of movingBoxes (not including navigation arrows)
+          wrap : true, // if true, the panel will "wrap" (it really rewinds/fast forwards) at the ends
+          buildNav : true, // if true, navigation links will be added
+          navFormatter : function(){ return "&#9679;"; } // function which returns the navigation text for each panel
+        });
+        $('#browserid').click(function(){
+          $('#twitter').hide();
+          $('#browserid').hide();
+          $('#signin').html('<div>Signing in...</div>');
+          navigator.id.getVerifiedEmail(function(assertion) {
+            if (assertion) {
+              $.post('/browserid', {assertion: assertion}, function(data){
+                var parsedData = data;
+                if (parsedData.result === 'success'){
+                  
+                  $('#signin').html("<a href='/user/" + parsedData.email + "'>" + parsedData.email +
+                  "</a><input type='hidden' value=" + parsedData.userId + " id='userId'/>");
+                  $('#signin').before('<div id="score" class="score">' + parsedData.score + '</div>');
+                  $('#signin').after('<div id="logout"><a href="/logout">Logout</a></div>');
+                }
+              });
+
+            } else {
+              $('#twitter').show();
+              $('#browserid').show();
+              //TODO(David) Have a clean error message to say we can do the comms
+            }
+          });
+        });
+      });
+    script
+      var uvOptions = {};
+      (function() {
+        var uv = document.createElement('script'); uv.type = 'text/javascript'; uv.async = true;
+        uv.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'widget.uservoice.com/CuWYPnn8a68maGDHls9pxg.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(uv, s);
+      })();
+    
+      
+    

@@ -1,0 +1,43 @@
+{
+  "name": "restfulapi-sdk",
+  "version": "0.1.12",
+  "description": "standard restful api sdk with cache",
+  "main": "dist/index.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/youngerheart/restfulapi-sdk.git"
+  },
+  "files": [
+    "README.md",
+    "dist/"
+  ],
+  "keywords": [
+    "restfulapi"
+  ],
+  "author": "youngerheart",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngerheart/restfulapi-sdk/issues"
+  },
+  "homepage": "https://github.com/youngerheart/restfulapi-sdk",
+  "devDependencies": {
+    "babel-core": "^6.1.2",
+    "babel-loader": "^6.1.0",
+    "babel-preset-es2015": "^6.1.18",
+    "browser-cache": "0.0.7",
+    "coveralls": "^2.11.6",
+    "eslint-loader": "1.1.1",
+    "express": "^4.10.0",
+    "istanbul": "^0.4.1",
+    "mocha-lcov-reporter": "^1.0.0",
+    "sinon-chai": "^2.8.0",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "test": "make test",
+    "test-travis": "make build && ./node_modules/.bin/istanbul cover --report lcovonly _mocha test/unit && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js",
+    "build": "webpack --progress --hide-modules",
+    "watch": "NODE_ENV=watch webpack --progress --hide-modules --watch",
+    "deploy": "NODE_ENV=production webpack --progress --hide-modules"
+  }
+}

@@ -1,0 +1,49 @@
+// startup options
+var FULLSCREEN = false;
+var WIDTH = FULLSCREEN ? window.innerWidth * window.devicePixelRatio : 800,
+	HEIGHT = FULLSCREEN ? window.innerHeight * window.devicePixelRatio : 600;
+
+function startGame( phaser ) {
+
+	// initialize the game
+	window.game = new phaser.Game( WIDTH, HEIGHT, Phaser.AUTO, 'game-container', undefined, undefined, false );
+
+  //game.ghostMode = process.env.GHOST_MODE;
+  game.ghostMode = false;
+  //no process.env variables in the browser, nice try yustynn
+  game.recordingMode = process.env.RECORDING_MODE;
+
+	var bootState = require( "./states/boot" );
+	var gameState = require( "./states/game" );
+	var loadState = require( "./states/load" );
+
+	// add states
+	game.state.add( "boot", bootState() );
+	game.state.add( "load", loadState() );
+	game.state.add( "game", gameState() );
+
+	game.state.start( "boot" );
+
+}
+
+(function checkPhaserExists( phaser ) {
+  if ( phaser ) {
+		console.log( "Checking existence of previous games...");
+		var oldGameStillRunning = (window.game ? window.game.isBooted : false);
+		console.log( phaser.GAMES, window.game );
+		for ( var game in phaser.GAMES ) {
+			if ( phaser.GAMES[game] !== null ) oldGameStillRunning = true;
+		}
+
+		if ( oldGameStillRunning ) {
+			console.log( "Waiting for cleanup to finish..." );
+			setTimeout( function() { checkPhaserExists( window.Phaser ) }, 300 );
+			return;
+		}
+
+		console.log( "Phaser runtime initialized, starting...");
+		startGame( phaser );
+	} else {
+		setTimeout( function() { checkPhaserExists( window.Phaser ) }, 100 );
+	}
+})( window.Phaser );

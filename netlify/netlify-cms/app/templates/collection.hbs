@@ -1,0 +1,8 @@
+<div class="cms cms-content cms-list-content">
+  <h2 class="cms-list-header cms-text">All {{collection.label}} entries</h2>
+  <ul class="cms cms-list">
+    {{#each entries as |entry|}}
+      {{cms-list-entry entry=entry}}
+    {{/each}}
+  </ul>
+</div>

@@ -1,0 +1,13 @@
+<div class="level-box">
+    <div>
+        <a href="{{ linkUrl }}">
+            <img ng-src="https://s3.amazonaws.com/girder-gus/{{ level._id }}.png" onerror="this.src='/images/mapthumbs/placeholder.png'">
+            <div>
+                <h5 ng-if=!edit class="star-count"><span class="glyphicon glyphicon-star"></span> {{ level.starCount }}</h5>
+                <h5>{{ level.title }}</a></h5>
+                <h6 ng-if=!edit>Created by {{ level.creator.name }}</h6>
+                <h6>on {{ level.dateCreated | date: longDate }}</h6>
+            </div>
+        </a>
+    </div>
+</div>

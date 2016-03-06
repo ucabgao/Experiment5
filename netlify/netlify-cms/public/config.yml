@@ -1,0 +1,25 @@
+backend:
+  name: test-repo
+  delay: 0.1
+
+media_folder: "assets/uploads"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "posts" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Title", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Cover Image", name: "image", widget: "image", optional: true, tagname: ""}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mma"}
+  - name: "faq" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "FAQ" # Used in the UI, ie.: "New Post"
+    folder: "_faqs"
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "Question", name: "title", widget: "string", tagname: "h1"}
+      - {label: "Answer", name: "body", widget: "markdown"}

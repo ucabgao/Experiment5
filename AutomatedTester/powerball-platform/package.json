@@ -1,0 +1,16 @@
+{
+    "name": "powerball-platform"
+  , "version": "0.0.1"
+  , "private": true
+  , "dependencies": {
+      "express": "2.5.1"
+    , "jade": ">= 0.0.1"
+    , "connect-redis": "1.0.7"
+    , "mongoose": "2.3.5"
+    , "mocha": "0.3.2"
+    , "oauth": "0.9.5"
+    }
+  , "scripts": {
+      "test": "mocha tests/*.js -t 540000 --globals name --reporter spec -t 20000"
+    }
+}

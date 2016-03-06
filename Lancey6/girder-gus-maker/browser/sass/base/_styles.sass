@@ -1,0 +1,33 @@
+body
+  /*background-color: $bg*/
+  background: $bgImage
+
+*
+  color: white
+  +font2
+
+a
+  color: black
+  pointer: cursor
+
+  &:hover, &:visited
+    color: black
+    text-decoration: none
+
+h1, h2, h3
+  +font1
+
+h2
+  font-size: 16pt
+
+h3
+  font-size: 12pt
+
+.row
+  margin: auto
+
+a[ng-click]
+  cursor: pointer
+
+  disabled
+    cursor: default

@@ -1,0 +1,6 @@
+<div class="leaderboard">
+    <h4>{{ userType }} with the {{ achievement }}</h3>
+    <ol>
+        <li ng-repeat="creator in list"><h5>{{ creator.name }} <span ng-class="countType"> {{ creator.topField }}</span></h5></li>
+    </ol>
+</div>

@@ -1,0 +1,52 @@
+.apos-ui
+{
+
+  .apos-manage-view--chooser
+  {
+    .apos-inline-block;
+    float: right;
+    max-width: 75%;
+    .apos-table { padding-left: @apos-padding-2; }
+  }
+
+  .apos-chooser
+  {
+    .apos-inline-block;
+    float: left;
+    min-height: 100%;
+    width: 25%;
+    background-color: @apos-light;
+  }
+
+  .apos-chooser-choices
+  {
+
+  }
+
+  .apos-chooser-choice
+  {
+    position: relative;
+    display: block;
+    margin: @apos-margin-1;
+    padding: @apos-padding-2;
+    background-color: @apos-mid;
+    &:hover
+    {
+      background-color: @apos-primary;
+      color: @apos-white;
+    }
+  }
+
+  .apos-chooser-controls
+  {
+    display: none;
+    position: absolute;
+    top: -@apos-padding-1;
+    right: -@apos-padding-1;
+  }
+
+  .apos-chooser-choice:hover .apos-chooser-controls
+  {
+    display: block;
+  }
+}

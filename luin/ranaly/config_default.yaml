@@ -1,0 +1,12 @@
+app_name: My App
+port: 3000
+redis:
+  host: 127.0.0.1
+  port: 6379
+  key_prefix: 'Ranaly:'
+users:
+  - username: admin
+    password: admin123
+    role: 0
+pages:
+  # Add your pages here.

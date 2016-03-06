@@ -1,0 +1,3 @@
+<div>
+    <span ng-repeat="count in gusGifs"><img ng-class="{ 'flip-horizontal': count.rand===9, 'flip-vertical': count.rand===10}" ng-src="{{count.rand%2===0?'/images/gusdance.gif':'/images/gusspin.gif'}}"/> </span>
+</div>

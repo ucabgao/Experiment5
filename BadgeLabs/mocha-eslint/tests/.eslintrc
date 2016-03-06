@@ -1,0 +1,9 @@
+{
+  "rules" : {
+    "camelcase": 1,
+    "quotes"  : [2, "single"]
+  },
+  "env": {
+    "node": true
+  }
+}

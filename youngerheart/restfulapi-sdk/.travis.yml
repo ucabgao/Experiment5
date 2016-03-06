@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "4.1"
+before_script:
+  - command -v webpack >/dev/null 2>&1 || npm install -g webpack
+  - command -v slimerjs >/dev/null 2>&1 || npm install -g slimerjs
+  - command -v casperjs >/dev/null 2>&1 || npm install -g casperjs
+  - command -v mocha-casperjs >/dev/null 2>&1 || npm install -g mocha-casperjs
+  - command -v sass >/dev/null 2>&1 || gem install sass

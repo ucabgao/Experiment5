@@ -1,0 +1,70 @@
+$menu-item-border: 4px
+
+#logo
+  height: 96px
+  padding-right: 15px
+
+  /* aliased mode */
+  image-rendering: -moz-crisp-edges         /* Firefox */
+  image-rendering:   -o-crisp-edges         /* Opera */
+  image-rendering: -webkit-optimize-contrast/* Webkit (non-standard naming) */
+  image-rendering: crisp-edges
+  -ms-interpolation-mode: nearest-neighbor  /* IE (non-standard property) */
+
+#company-title
+  color: $heading
+  font-size: 24px
+  letter-spacing: 1px
+  +font1
+
+#login
+  color: #ECECEC
+  +font2
+
+#logout
+  color: #905050
+  cursor: pointer
+
+header
+  padding: 10px 0
+  +display(flex)
+  +flex-direction(row)
+  +outer-container(95%)
+
+  div:first-child
+    margin-right:auto
+
+  div:last-child
+    margin-left: auto
+
+  p
+    float: right
+
+  nav ul
+    list-style: none
+    padding: 0
+
+    li
+      display: inline-block
+
+      border: ( $menu-item-border / 2 ) solid black
+      border-collapse: collapse
+
+      &:first-child
+        border-left: $menu-item-border solid black
+
+      &:last-child
+        border-right: $menu-item-border solid black
+
+      a
+        background-color: $color1
+        display: inline-block
+        padding: 10px 40px
+
+        font-size: 18px
+        font-weight: 800
+        letter-spacing: 1px
+
+        &:hover
+          background-color: lighten($color1, 10%)
+

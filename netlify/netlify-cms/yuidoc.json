@@ -1,0 +1,13 @@
+{
+  "name": "netlify-cms",
+  "url": "https://www.netlify.com",
+  "description": "Netlify CMS is a CMS for static site generators.",
+  "version": "0.0.0",
+  "options": {
+    "paths": [
+      "app"
+    ],
+    "exclude": "vendor",
+    "outdir": "docs"
+  }
+}

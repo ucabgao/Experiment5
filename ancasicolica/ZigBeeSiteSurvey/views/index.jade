@@ -1,0 +1,38 @@
+//
+   Created by kc on 25.06.15.
+extends layout
+block content
+  div(ng-app='surveyApp' ng-controller='surveyCtrl')
+    include about
+    .container(ng-hide='startingUp')
+      .row(ng-hide='surveyReady')
+        div(ng-hide='usbConnected')
+          p
+          .jumbotron
+            h1=title
+            p Please connect a RapidConnect ZigBee USB Stick to your computer to continue...
+            p &nbsp;
+            p
+      .row(ng-show='surveyReady')
+        .col-md-12.main-col
+          .main-bar
+            h1.main-title=title
+            img.logo(src=custom.logo)
+      .row(ng-show='surveyReady')
+        div(ng-hide='usbConnected')
+          .alert.alert-danger
+            | No RapidConnect USB dongle found, scanning is disabled!
+        div(ng-show='panel==="networks"')
+          include networks
+        div(ng-show='panel==="survey"')
+          include survey
+
+
+      .row.no-print(ng-show='surveyReady')
+        .col-md-12.info-bar
+           | Version {{settings.version}},&nbsp
+           a.info-bar(href='#' data-toggle="modal" ng-click='refreshSettings()' data-target="#about")
+             i.glyphicon.glyphicon-info-sign
+             | &nbsp;Help and info
+
+

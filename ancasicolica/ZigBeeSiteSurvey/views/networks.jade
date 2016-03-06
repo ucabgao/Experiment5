@@ -1,0 +1,40 @@
+//
+   Created by kc on 25.06.15.
+
+.wait-for-measurements(ng-hide='networks.length')
+  .alert.alert-warning
+    |  Retrieving ZigBee networks, this takes only a few seconds... &nbsp;&nbsp;
+    i.fa.fa-spinner.fa-spin
+
+div(ng-show='networks.length')
+  .row
+    .col-xs-12.col-sm-6.col-md-4.col-lg-3(data-ng-repeat='n in networks')
+      .panel.panel-default
+        .panel-heading
+          h3.panel-title
+            a(href='#' ng-click='survey(n)')
+              span(ng-visible='n.device')
+                | {{n.device}}&nbsp;
+              | {{n.extendedPanId}}
+              span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+        .panel-body
+          .small-chart-area.wait-for-data(ng-hide='n.chartGenerated')
+            i.fa.fa-spinner.fa-spin
+          .small-chart-area(id='chart-{{n.id}}' ng-show='n.chartGenerated')
+          .row
+           .col-xs-6.col-sm-5.col-md-4 RSSI
+           .col-xs-6.col-sm-7.col-md-8 {{n.rssi}}
+          .row
+            .col-xs-6.col-sm-5.col-md-4 LQI
+            .col-xs-6.col-sm-7.col-md-8 {{n.lqi}}
+          .row
+            .col-xs-6.col-sm-5.col-md-4 Channel
+            .col-xs-6.col-sm-7.col-md-8 {{n.channel}}
+          .row
+            .col-xs-6.col-sm-5.col-md-4 PAN-ID
+            .col-xs-6.col-sm-7.col-md-8 {{n.panId}}
+          .row
+            .col-md-12 Joining {{n.permitJoin === 'yes' ? 'permitted' : 'not allowed'}}
+
+
+// button.btn.btn-default.no-print(ng-click='getNetworks()' ng-disabled='networkScanActive') Scan networks
