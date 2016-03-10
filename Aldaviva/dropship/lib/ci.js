@@ -1,3 +1,5 @@
+/* @flow */
+
 var _      = require('lodash');
 var config = require('../config');
 var http   = require('http');

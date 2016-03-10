@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+Aldaviva/dropship,2,4e1deca571dc5f4e3c03929aeb51bb4d9c057018,Flow,Undetectable,"Specification error. The property result of object raw is not a reliable way to get the build status. Sometimes, its value is not set.",360.0
