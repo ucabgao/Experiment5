@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+netlify/netlify-cms,3,1d6a9b696a186e3b1c3cf8e2b72c7cdc4751b788,TypeScript,Undetectable,"Specification error. The bug was forgetting to update an element in the page. ",109.0
