@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+BBC-News-Labs/election-2015-issues,2,813d686dcc2d0d13e21717699b73015017117e68,Flow,Undetectable,"API changes and String error. Because of some API and their corresponding URL changes, some properties's string values are not correct anymore. ",19.0
