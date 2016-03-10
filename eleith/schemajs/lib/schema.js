@@ -1,3 +1,5 @@
+/* @flow */
+
 var _ = require('underscore');
 var rules = require('./rules.js');
 

@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+eleith/schemajs,12,a91599692ff01118a5782802911fc951a4ee75b6,Flow,Undetectable,"Spec error. Wrongly handle the validation against arrays.",515.0
