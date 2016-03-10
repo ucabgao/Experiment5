@@ -1,3 +1,5 @@
+/* @flow */
+
 'use strict';
 
 var Pleeease     = require('pleeease'),
@@ -177,9 +179,14 @@ CLI.prototype.compile = function (inputs, output) {
         if (err) {
             console.log(err);
         }
-        if (cli.pleeease.options.sourcemaps && cli.pleeease.options.sourcemaps.map.inline === false) {
+        var sourcemaps:t = cli.pleeease.options.sourcemaps;
+        if (sourcemaps) {       
+            var map:?s = sourcemaps.map;
+            if (map.inline === false) {
+//        if (cli.pleeease.options.sourcemaps && cli.pleeease.options.sourcemaps.map.inline === false) {
             fs.writeFileSync(output, fixed.css);
             fs.writeFileSync(output + '.map', fixed.map);
+            }
         } else {
             fs.writeFileSync(output, fixed);
         }
@@ -187,6 +194,14 @@ CLI.prototype.compile = function (inputs, output) {
     });
 
 };
+
+class t {
+    map:?s;
+}
+
+class s {
+    inline:?boolean; 
+}
 
 /**
  *
