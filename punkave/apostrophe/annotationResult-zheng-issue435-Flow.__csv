@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+punkave/apostrophe,435,5766db3695fc24e3bdb103b2ddfcee154e12d21a,Flow,Undetectable,"Spec error. Wrong predicates and body. The buggy program focuses on too elements that are unnecessary to be focused on. The fix changes the content of the string for element selector, which is also invisible to type systems.",70.0
