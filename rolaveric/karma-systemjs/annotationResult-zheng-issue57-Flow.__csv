@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+rolaveric/karma-systemjs,57,07e4727e5f9b54e314c0eeafe1f76061f2453656,Flow,Detectable,"Successfully detects an undeclared variable which is in fact a typo",130.0
