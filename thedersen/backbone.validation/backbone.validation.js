@@ -1,3 +1,5 @@
+/* @flow */
+
 // Backbone.Validation v0.4.1
 //
 // Copyright (C)2011 Thomas Pedersen
@@ -132,12 +134,16 @@ Backbone.Validation = (function(Backbone, _, undefined) {
             };
         },
 
-        unbind: function(view) {
+        unbind: function(view:t) {
             delete view.model.validate;
             delete view.model.isValid;
         }
     };
 } (Backbone, _));
+
+class t {
+    model:?Object;
+}
 
 Backbone.Validation.callbacks = {
     valid: function(view, attr, selector) {

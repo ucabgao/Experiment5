@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+thedersen/backbone.validation,17,b6e4a0f9ac73074776b8343b7cb5388e1883f03c,Flow,Detectable,"Construct a type annotation that indicates some fields can be null or undefined.",166.0
