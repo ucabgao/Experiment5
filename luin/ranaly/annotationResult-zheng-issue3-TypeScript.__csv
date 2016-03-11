@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+luin/ranaly,3,47b4716ad22d64aed7ed75b75598ffb237eb9068,TypeScript,Undetectable,"EIS error. Flow and TypeScript do enforce the arity of methods. So, if we force the method of interest here, createClient(), to only accept two paras. However, the method here are overloaded. Restricting the arity significantly changes the original program's semantics.  ",31.0
