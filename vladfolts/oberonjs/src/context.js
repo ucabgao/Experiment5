@@ -1,3 +1,5 @@
+/* @flow */
+
 "use strict";
 
 var Cast = require("cast.js");
