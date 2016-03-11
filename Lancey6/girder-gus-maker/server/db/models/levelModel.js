@@ -55,7 +55,8 @@ const schema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User'
   },
-  map: map,
+  map: map,    
+      
   dateCreated: {
     type: Date,
     default: Date.now()
