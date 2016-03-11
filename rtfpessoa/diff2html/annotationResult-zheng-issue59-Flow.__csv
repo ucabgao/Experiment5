@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+rtfpessoa/diff2html,59,6abfbdb6a82dcc29deb5eec6672857343809459e,Flow,Undetectable,"RegEx error. Wrongly conposes the regular expression for EOL for cross platform purpose.",131.0
