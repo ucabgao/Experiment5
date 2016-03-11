@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+youngerheart/restfulapi-sdk,28,0dad4809f1eeb06a25da1a5210a8d18866013651,TypeScript,Undetectable,"EIS error. The bug was due to a confusion between JSON.stringify() and toString()",121.0
