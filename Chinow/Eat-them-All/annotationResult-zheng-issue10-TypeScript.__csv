@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+Chinow/Eat-them-All,10,e42505981a0d0072b56dff81e7931dc0409a7cfb,TypeScript,Undetectable,"UI error / EIS error. Some elements have unnecessary contraints on their positions on the page.",88.0
