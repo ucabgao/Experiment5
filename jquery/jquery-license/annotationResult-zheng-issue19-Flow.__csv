@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+jquery/jquery-license,19,874f55e2b037344e99ef27e259b6407198d01369,Flow,Undetectable,"EIS. Missing functionality.",68.0
