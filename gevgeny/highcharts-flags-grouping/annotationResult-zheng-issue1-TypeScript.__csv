@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+gevgeny/highcharts-flags-grouping,1,b56ffbac7319c91f13181f31432e424e1b050ca8,TypeScript,Undetectable,"Non-nullable. TypeScript failed to handle the type error caused by possibly null/undefined.",100.0
