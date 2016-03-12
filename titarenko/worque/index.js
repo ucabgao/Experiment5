@@ -1,5 +1,16 @@
+/* @flow */
+
 var amqp = require('amqp');
-var Promise = require('bluebird');
+//var Promise = require('bluebird');
+
+class Promise{
+
+}
+
+
+
+
+
 
 function Client (config) {
 	this.config = config;
