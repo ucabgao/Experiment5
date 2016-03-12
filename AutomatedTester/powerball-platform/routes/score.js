@@ -1,3 +1,5 @@
+/* @flow */
+
 /* ***** BEGIN LICENSE BLOCK *****
  * Version: MPL 1.1/GPL 2.0/LGPL 2.1
  *
@@ -34,12 +36,25 @@
 
 var DataProvider = require('../dataprovider').DataProvider;
 
+class u {
+    points:string;
+}
+
+
+class t {
+    session:s;
+    body:u;
+}
+
+class s {
+    score:number;
+}
 
 module.exports = function(app){
   
   var dataProvider = new DataProvider();
 
-  app.post('/score/:uniqueId/:games', function(req, res, next){
+  app.post('/score/:uniqueId/:games', function(req:t, res, next){
     var FAILURE = {
         result: "failure"
       , message: "you need to pass in the unique id, from your profile page, and the game." +
@@ -61,7 +76,7 @@ module.exports = function(app){
                   res.json(FAILURE);
               } else {
                   if (games){
-                    var data = req.body; 
+                    var data:u = req.body; 
                     dataProvider.putScore({user: ruser.name, game: games.name, points: data.points} , function(err){
                       if (!err) {
                         req.session.score += data.points;
