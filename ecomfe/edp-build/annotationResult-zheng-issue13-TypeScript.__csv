@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+ecomfe/edp-build,13,c92fefcaebdd90215aa0be33e7e27c4521519245,TypeScript,Undetectable,"Incomplete predicates. Missing a check on a variable's value. Not type related.",22.0
