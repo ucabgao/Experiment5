@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+kobotoolbox/enketo-express,329,fb13728d64157382aafad64fb6124baf94751f47,TypeScript,Undetectable,"Wrong predicates. Forgot to check the case when server is an empty string and !server also evaluates to true.",230.0
