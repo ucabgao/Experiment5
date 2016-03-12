@@ -1,12 +1,22 @@
+/* @flow */
+
 'use strict';
 
-var assign = require('object-assign');
-var babel = require('babel-core');
-var loaderUtils = require('loader-utils');
-var cache = require('./lib/fs-cache.js');
-var resolveRc = require('./lib/resolve-rc.js');
-var pkg = require('./package.json');
-var babelrc = resolveRc(process.cwd());
+var assign = function (x:any, y:any, z:Object, w:any):any {}
+var babel:any;
+var loaderUtils:any;
+var cache:any;
+var resolveRc:any;
+var pkg:any;
+var babelrc:any;
+
+//var assign = require('object-assign');
+//var babel = require('babel-core');
+//var loaderUtils = require('loader-utils');
+//var cache = require('./lib/fs-cache.js');
+//var resolveRc = require('./lib/resolve-rc.js');
+//var pkg = require('./package.json');
+//var babelrc = resolveRc(process.cwd());
 
 var transpile = function(source, options) {
   var result = babel.transform(source, options);
@@ -35,7 +45,7 @@ module.exports = function(source, inputSourceMap) {
       babelrc: babelrc || '',
     }),
   };
-  var globalOptions = this.options.babel;
+  var globalOptions:?Object = this.options.babel;
   var loaderOptions = loaderUtils.parseQuery(this.query);
   var options = assign({}, defaultOptions, globalOptions, loaderOptions);
 
