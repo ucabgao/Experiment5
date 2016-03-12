@@ -1,3 +1,5 @@
+/* @flow */
+
 /**
  * This plugin adds possibility to group flags series in accordance with selected time range
  * */
@@ -222,7 +224,7 @@
     /**
      * Use this hook to set replace points with necessary grouping when date range changes
      * */
-    H.wrap(H.Axis.prototype, 'setExtremes', function (proceed, min, max) {
+    H.wrap(H.Axis.prototype, 'setExtremes', function (proceed, min:?number, max:?number) {
         var opts = this.chart.options.flagsGrouping,
             chart = this.chart,
             axis = this,
