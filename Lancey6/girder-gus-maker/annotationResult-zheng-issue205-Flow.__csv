@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+Lancey6/girder-gus-maker,205,dc562c64010ebf5c6eabf754a86708aaf31ae45d,Flow,Unknown,"How to annotate a property in an object declaration that uses a hash style; that is, how to annotate properties defined using colon?",79.0
