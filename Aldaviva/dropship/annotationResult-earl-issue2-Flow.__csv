@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+Aldaviva/dropship,2,4e1deca571dc5f4e3c03929aeb51bb4d9c057018,Flow,Undetectable,"The fix adds a check on a new field, "building".  It is unintutive that this bug could not be fixed by a type restricted to be nonnull and reflect the current state of the building work, but that is evidently not how the code was constructed.",241.0
