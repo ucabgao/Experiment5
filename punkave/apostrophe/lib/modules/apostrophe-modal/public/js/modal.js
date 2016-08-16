@@ -1,3 +1,4 @@
+/* @flow */
 apos.define('apostrophe-modal', {
 
   extend: 'apostrophe-context',
