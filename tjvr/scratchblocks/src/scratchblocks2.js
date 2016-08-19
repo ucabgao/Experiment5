@@ -1,3 +1,4 @@
+/* @flow */
 /*
  * scratchblocks2
  * http://github.com/blob8108/scratchblocks2
