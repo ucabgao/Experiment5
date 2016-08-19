@@ -1,3 +1,4 @@
+/* @flow */
 var CLIEngine = require('eslint').CLIEngine;
 var chalk = require('chalk');
 var globAll = require('glob-all');
