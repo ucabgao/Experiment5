@@ -1,3 +1,4 @@
+/* @flow */
 /**
  * An experimental look at coverage of issues in the media, in the run up to 
  * the UK 2015 General Election using BBC News Labs data.
