@@ -1,3 +1,4 @@
+/* @flow */
 var map = null;
 
 function addLayer(layer, name, zIndex, on) {
