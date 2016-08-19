@@ -1,4 +1,7 @@
-import Ember from 'ember';
+/* @flow */
+//import Ember from 'ember';
+var Ember:any;
+Ember = {};
 
 /**
 @module app
