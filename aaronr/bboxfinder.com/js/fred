@@ -1,0 +1,174 @@
+bbox.js:25
+ 25:         if (map.hasLayer(layer)) {
+                 ^^^^^^^^^^^^^^^^^^^ call of method `hasLayer`. Method cannot be called on possibly null value
+ 25:         if (map.hasLayer(layer)) {
+                 ^^^ null
+
+bbox.js:26
+ 26:             map.removeLayer(layer);
+                 ^^^^^^^^^^^^^^^^^^^^^^ call of method `removeLayer`. Method cannot be called on possibly null value
+ 26:             map.removeLayer(layer);
+                 ^^^ null
+
+bbox.js:29
+ 29:             map.addLayer(layer);
+                 ^^^^^^^^^^^^^^^^^^^ call of method `addLayer`. Method cannot be called on possibly null value
+ 29:             map.addLayer(layer);
+                 ^^^ null
+
+bbox.js:47
+ 47:         ymin = southwest.lat.toFixed(6);
+             ^^^^ assignment of identifier `ymin`. Could not resolve name
+
+bbox.js:48
+ 48:         xmax = northeast.lng.toFixed(6);
+             ^^^^ assignment of identifier `xmax`. Could not resolve name
+
+bbox.js:49
+ 49:         ymax = northeast.lat.toFixed(6);
+             ^^^^ assignment of identifier `ymax`. Could not resolve name
+
+bbox.js:51
+ 51:         southwest = L.CRS.EPSG3857.project(southwest)
+                         ^ identifier `L`. Could not resolve name
+
+bbox.js:54
+ 54:         ymin = southwest.y.toFixed(4);
+             ^^^^ assignment of identifier `ymin`. Could not resolve name
+
+bbox.js:55
+ 55:         xmax = northeast.x.toFixed(4);
+             ^^^^ assignment of identifier `xmax`. Could not resolve name
+
+bbox.js:56
+ 56:         ymax = northeast.y.toFixed(4);
+             ^^^^ assignment of identifier `ymax`. Could not resolve name
+
+bbox.js:59
+ 59:         formattedBounds = xmin+','+ymin+','+xmax+','+ymax;
+                                        ^^^^ identifier `ymin`. Could not resolve name
+
+bbox.js:59
+ 59:         formattedBounds = xmin+','+ymin+','+xmax+','+ymax;
+                                                 ^^^^ identifier `xmax`. Could not resolve name
+
+bbox.js:59
+ 59:         formattedBounds = xmin+','+ymin+','+xmax+','+ymax;
+                                                          ^^^^ identifier `ymax`. Could not resolve name
+
+bbox.js:61
+ 61:         formattedBounds = xmin+' '+ymin+' '+xmax+' '+ymax;
+                                        ^^^^ identifier `ymin`. Could not resolve name
+
+bbox.js:61
+ 61:         formattedBounds = xmin+' '+ymin+' '+xmax+' '+ymax;
+                                                 ^^^^ identifier `xmax`. Could not resolve name
+
+bbox.js:61
+ 61:         formattedBounds = xmin+' '+ymin+' '+xmax+' '+ymax;
+                                                          ^^^^ identifier `ymax`. Could not resolve name
+
+bbox.js:69
+ 69:         x = point.lng.toFixed(6);
+             ^ assignment of identifier `x`. Could not resolve name
+
+bbox.js:70
+ 70:         y = point.lat.toFixed(6);
+             ^ assignment of identifier `y`. Could not resolve name
+
+bbox.js:72
+ 72:         point = L.CRS.EPSG3857.project(point)
+                     ^ identifier `L`. Could not resolve name
+
+bbox.js:73
+ 73:         x = point.x.toFixed(4);
+             ^ assignment of identifier `x`. Could not resolve name
+
+bbox.js:74
+ 74:         y = point.y.toFixed(4);
+             ^ assignment of identifier `y`. Could not resolve name
+
+bbox.js:77
+ 77:         formattedBounds = x+','+y;
+             ^^^^^^^^^^^^^^^ assignment of identifier `formattedBounds`. Could not resolve name
+
+bbox.js:77
+ 77:         formattedBounds = x+','+y;
+                               ^ identifier `x`. Could not resolve name
+
+bbox.js:77
+ 77:         formattedBounds = x+','+y;
+                                     ^ identifier `y`. Could not resolve name
+
+bbox.js:79
+ 79:         formattedBounds = x+' '+y;
+             ^^^^^^^^^^^^^^^ assignment of identifier `formattedBounds`. Could not resolve name
+
+bbox.js:79
+ 79:         formattedBounds = x+' '+y;
+                               ^ identifier `x`. Could not resolve name
+
+bbox.js:79
+ 79:         formattedBounds = x+' '+y;
+                                     ^ identifier `y`. Could not resolve name
+
+bbox.js:81
+ 81:     return formattedBounds
+                ^^^^^^^^^^^^^^^ identifier `formattedBounds`. Could not resolve name
+
+bbox.js:84
+ 84: $(function() {
+     ^ identifier `$`. Could not resolve name
+
+bbox.js:85
+ 85:     map = L.mapbox.map('map', 'examples.map-9ijuk24y')
+               ^ identifier `L`. Could not resolve name
+
+bbox.js:136
+136:         $('#mapbounds').val(formatBounds(map.getBounds(),'4326','gdal'));
+                                              ^^^^^^^^^^^^^^^ call of method `getBounds`. Method cannot be called on possibly null value
+136:         $('#mapbounds').val(formatBounds(map.getBounds(),'4326','gdal'));
+                                              ^^^ null
+
+bbox.js:137
+137:         $('#mapboundsmerc').val(formatBounds(map.getBounds(),'3857','gdal'));
+                                                  ^^^^^^^^^^^^^^^ call of method `getBounds`. Method cannot be called on possibly null value
+137:         $('#mapboundsmerc').val(formatBounds(map.getBounds(),'3857','gdal'));
+                                                  ^^^ null
+
+bbox.js:138
+138:         $('#center').val(formatPoint(map.getCenter(),'4326','gdal'));
+                                          ^^^^^^^^^^^^^^^ call of method `getCenter`. Method cannot be called on possibly null value
+138:         $('#center').val(formatPoint(map.getCenter(),'4326','gdal'));
+                                          ^^^ null
+
+bbox.js:139
+139:         $('#centermerc').val(formatPoint(map.getCenter(),'3857','gdal'));
+                                              ^^^^^^^^^^^^^^^ call of method `getCenter`. Method cannot be called on possibly null value
+139:         $('#centermerc').val(formatPoint(map.getCenter(),'3857','gdal'));
+                                              ^^^ null
+
+bbox.js:142
+142:         $('#zoomlevel').val(map.getZoom().toString());
+                                 ^^^^^^^^^^^^^ call of method `getZoom`. Method cannot be called on possibly null value
+142:         $('#zoomlevel').val(map.getZoom().toString());
+                                 ^^^ null
+
+bbox.js:143
+143:         $('#mapbounds').val(formatBounds(map.getBounds(),'4326','gdal'));
+                                              ^^^^^^^^^^^^^^^ call of method `getBounds`. Method cannot be called on possibly null value
+143:         $('#mapbounds').val(formatBounds(map.getBounds(),'4326','gdal'));
+                                              ^^^ null
+
+bbox.js:144
+144:         $('#mapboundsmerc').val(formatBounds(map.getBounds(),'3857','gdal'));
+                                                  ^^^^^^^^^^^^^^^ call of method `getBounds`. Method cannot be called on possibly null value
+144:         $('#mapboundsmerc').val(formatBounds(map.getBounds(),'3857','gdal'));
+                                                  ^^^ null
+
+bbox.js:147
+147:     var boxboundclip = new ZeroClipboard( $("#boxboundsbtn"), {
+                                ^^^^^^^^^^^^^ identifier `ZeroClipboard`. Could not resolve name
+
+
+Found 38 errors
