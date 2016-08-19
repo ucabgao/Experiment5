@@ -1,3 +1,4 @@
+/* @flow */
 (function(){
   var defaults, extend;
   defaults = {
