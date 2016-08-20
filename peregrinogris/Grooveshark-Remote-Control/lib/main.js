@@ -1,3 +1,4 @@
+/* @flow */
 const widgets = require("widget");
 const panels = require("panel");
 const data = require("self").data;
