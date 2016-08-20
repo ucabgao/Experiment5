@@ -1,3 +1,5 @@
+/* @flow */
+var L:any;
 L.Tooltip = L.Class.extend({
 	
 	options: {
