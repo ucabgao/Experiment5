@@ -1,3 +1,4 @@
+/* @flow */
 /**
  * Angular.js controller for the site survey tool
  * Created by kc on 25.06.15.
