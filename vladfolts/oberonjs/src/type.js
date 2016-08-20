@@ -1,3 +1,4 @@
+/* @flow */
 "use strict";
 
 var Class = require("rtl.js").Class;

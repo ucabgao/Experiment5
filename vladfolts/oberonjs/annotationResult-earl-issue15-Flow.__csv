@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+vladfolts/oberonjs,15,f1c1f515ca1aa9356e7b9710c02fc4fcdcb7a76f,Flow,Undetectable,"This is a tough call.  This code emits code.  The patch mostly adds new functionality to fix a bug, so, in this sense, it falls under EIS.  This, despite the fact that it defines a typeguard function in its test code, which it would not need if static types were available.  The nontest code changes are, however, mostly trivial, like adding this as an explicit parameter, thus the rating.",313.0
