@@ -1,0 +1,18 @@
+api.ts(2,15): error TS2304: Cannot find name 'require'.
+api.ts(5,10): error TS2304: Cannot find name 'require'.
+api.ts(9,44): error TS2304: Cannot find name 'process'.
+api.ts(11,5): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(17,5): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(26,41): error TS2304: Cannot find name 'process'.
+api.ts(39,5): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(50,41): error TS2304: Cannot find name 'process'.
+api.ts(57,5): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(64,5): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(84,5): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(90,13): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(96,21): error TS2346: Supplied parameters do not match any signature of call target.
+api.ts(110,16): error TS2304: Cannot find name 'process'.
+api.ts(113,13): error TS2304: Cannot find name 'response'.
+api.ts(119,21): error TS2304: Cannot find name 'response'.
+api.ts(131,9): error TS2339: Property 'captureStackTrace' does not exist on type 'ErrorConstructor'.
+api.ts(134,1): error TS2304: Cannot find name 'module'.
