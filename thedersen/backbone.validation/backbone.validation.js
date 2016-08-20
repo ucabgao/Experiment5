@@ -1,3 +1,4 @@
+/* @flow */
 // Backbone.Validation v0.4.1
 //
 // Copyright (C)2011 Thomas Pedersen
