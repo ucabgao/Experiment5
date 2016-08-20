@@ -1,3 +1,4 @@
+/* @flow */
 /*!
 
 Split Pane v0.7.0
