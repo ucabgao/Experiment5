@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+vladfolts/oberonjs,15,f1c1f515ca1aa9356e7b9710c02fc4fcdcb7a76f,TypeScript,Undetectable,"EIS.  See Flow description for more detail.",20.0
