@@ -1,3 +1,4 @@
+/* @flow */
 var Promise = require('pinkie');
 
 var WAIT_TIMEOUT             = 3000;
