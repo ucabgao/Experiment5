@@ -31,15 +31,29 @@
  *
  * ***** END LICENSE BLOCK ***** */
 
+/* @flow */
 
-var DataProvider = require('../dataprovider').DataProvider;
+var DataProvider: any; // = require('dataprovider').DataProvider;
 
+interface reqShim {
+	session : sessionShim;
+	body : bodyShim;
+	params : any;
+}
 
-module.exports = function(app){
+interface sessionShim {
+	score : number;
+}
+
+interface bodyShim {
+	points : String;
+}
+
+module.exports = function(app:any){
   
   var dataProvider = new DataProvider();
 
-  app.post('/score/:uniqueId/:games', function(req, res, next){
+  app.post('/score/:uniqueId/:games', function(req : reqShim, res, next){
     var FAILURE = {
         result: "failure"
       , message: "you need to pass in the unique id, from your profile page, and the game." +
@@ -61,7 +75,7 @@ module.exports = function(app){
                   res.json(FAILURE);
               } else {
                   if (games){
-                    var data = req.body; 
+                    var data : bodyShim = req.body; 
                     dataProvider.putScore({user: ruser.name, game: games.name, points: data.points} , function(err){
                       if (!err) {
                         req.session.score += data.points;
