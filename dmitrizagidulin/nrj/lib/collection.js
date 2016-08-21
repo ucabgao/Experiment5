@@ -1,3 +1,4 @@
+/* @flow */
 /* -*- mode: js2; js2-basic-offset: 2; indent-tabs-mode: nil -*- */
 /**
 This file is provided to you under the Apache License,
@@ -16,7 +17,7 @@ under the License.
 **/
 var CollectionSchema = require('./collection_schema');
 
-var Collection = function Collection(name, client) {
+var Collection = function Collection(name: any, client: any) {
   this.name = name;
   this.client = client;
 }
@@ -45,11 +46,20 @@ Collection.prototype.get_schema = function get_schema(callback) {
   this.client.get_schema_json(this.name, callback);
 }
 
-Collection.prototype.insert = function insert(doc, callback) {
+interface to_json_docShim {
+	(o : Object) : string;
+}
+
+interface docShim {
+	key: string;
+	to_json_document: to_json_docShim;
+}
+
+Collection.prototype.insert = function insert(doc : docShim, callback) {
   this.insert_raw_json(doc.key, doc.to_json_document, callback);
 }
 
-Collection.prototype.insert_raw_json = function insert_raw_json(key, json_obj, callback) {
+Collection.prototype.insert_raw_json = function insert_raw_json(key : number, json_obj : Object, callback) {
   this.client.insert_raw_json(this.name, key, json_obj, callback);
 }
 
