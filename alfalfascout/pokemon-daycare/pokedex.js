@@ -1,3 +1,4 @@
+/* @flow */
 var pokedex = [
     {
         "name": "Pokemon",
