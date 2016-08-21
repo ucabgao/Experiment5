@@ -1,3 +1,4 @@
+/* @flow */
 'use strict';
 var Promise = require('q').Promise;
 var utils = require('../lib/utils');
