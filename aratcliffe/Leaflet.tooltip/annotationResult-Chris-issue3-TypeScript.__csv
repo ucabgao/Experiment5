@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+aratcliffe/Leaflet.tooltip,3,6e4f662aa314b07efd8650d5251e5289e28616ed,TypeScript,Undetectable,"EIS - calling the wrong API but both are valid",21.0
