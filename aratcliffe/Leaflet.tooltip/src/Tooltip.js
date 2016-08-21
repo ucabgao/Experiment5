@@ -1,3 +1,4 @@
+/* @flow */
 L.Tooltip = L.Class.extend({
 	
 	options: {
