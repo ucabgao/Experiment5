@@ -1,3 +1,4 @@
+/* @flow */
 const Cache = require('browser-cache');
 const Promise = require('./promise');
 
