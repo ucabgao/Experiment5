@@ -1,4 +1,3 @@
-/* @flow */
 "use strict";
 var ember_1 = require('ember');
 exports.__esModule = true;
