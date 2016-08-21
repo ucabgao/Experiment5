@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+iamvdo/pleeease-cli,4,11378f604174fb4d4166ac385a248f42b8451459,TypeScript,Undetectable,"reference error - typescript doesn't recognize that map could be null or undefined",40.0
