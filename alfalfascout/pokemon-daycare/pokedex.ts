@@ -3,7 +3,8 @@ var pokedex = [
         "name": "Pokemon",
         "gender": 0.5,
         "family": 0,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hidden",
             "1": "Regular",
             "2": "Regular"
@@ -13,7 +14,8 @@ var pokedex = [
         "name": "Bulbasaur",
         "gender": 0.125,
         "family": 1,
-        "abilities": {
+        "abilities":
+        {
             "0": "Chlorophyll",
             "1": "Overgrow"
         }
@@ -22,7 +24,8 @@ var pokedex = [
         "name": "Ivysaur",
         "gender": 0.125,
         "family": 1,
-        "abilities": {
+        "abilities":
+        {
             "0": "Chlorophyll",
             "1": "Overgrow"
         }
@@ -31,7 +34,8 @@ var pokedex = [
         "name": "Venusaur",
         "gender": 0.125,
         "family": 1,
-        "abilities": {
+        "abilities":
+        {
             "0": "Chlorophyll",
             "1": "Overgrow"
         }
@@ -40,7 +44,8 @@ var pokedex = [
         "name": "Charmander",
         "gender": 0.125,
         "family": 4,
-        "abilities": {
+        "abilities":
+        {
             "0": "Solar Power",
             "1": "Blaze"
         }
@@ -49,7 +54,8 @@ var pokedex = [
         "name": "Charmeleon",
         "gender": 0.125,
         "family": 4,
-        "abilities": {
+        "abilities":
+        {
             "0": "Solar Power",
             "1": "Blaze"
         }
@@ -58,7 +64,8 @@ var pokedex = [
         "name": "Charizard",
         "gender": 0.125,
         "family": 4,
-        "abilities": {
+        "abilities":
+        {
             "0": "Solar Power",
             "1": "Blaze"
         }
@@ -67,7 +74,8 @@ var pokedex = [
         "name": "Squirtle",
         "gender": 0.125,
         "family": 7,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Torrent"
         }
@@ -76,7 +84,8 @@ var pokedex = [
         "name": "Wartortle",
         "gender": 0.125,
         "family": 7,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Torrent"
         }
@@ -85,7 +94,8 @@ var pokedex = [
         "name": "Blastoise",
         "gender": 0.125,
         "family": 7,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Torrent"
         }
@@ -94,7 +104,8 @@ var pokedex = [
         "name": "Caterpie",
         "gender": 0.5,
         "family": 10,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Shield Dust"
         }
@@ -103,7 +114,8 @@ var pokedex = [
         "name": "Metapod",
         "gender": 0.5,
         "family": 10,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shed Skin",
             "1": "Shed Skin"
         }
@@ -112,7 +124,8 @@ var pokedex = [
         "name": "Butterfree",
         "gender": 0.5,
         "family": 10,
-        "abilities": {
+        "abilities":
+        {
             "0": "Tinted Lens",
             "1": "Compound Eyes"
         }
@@ -121,7 +134,8 @@ var pokedex = [
         "name": "Weedle",
         "gender": 0.5,
         "family": 13,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Shield Dust"
         }
@@ -130,7 +144,8 @@ var pokedex = [
         "name": "Kakuna",
         "gender": 0.5,
         "family": 13,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shed Skin",
             "1": "Shed Skin"
         }
@@ -139,7 +154,8 @@ var pokedex = [
         "name": "Beedrill",
         "gender": 0.5,
         "family": 13,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sniper",
             "1": "Swarm"
         }
@@ -148,7 +164,8 @@ var pokedex = [
         "name": "Pidgey",
         "gender": 0.5,
         "family": 16,
-        "abilities": {
+        "abilities":
+        {
             "0": "Big Pecks",
             "1": "Keen Eye",
             "2": "Tangled Feet"
@@ -158,7 +175,8 @@ var pokedex = [
         "name": "Pidgeotto",
         "gender": 0.5,
         "family": 16,
-        "abilities": {
+        "abilities":
+        {
             "0": "Big Pecks",
             "1": "Keen Eye",
             "2": "Tangled Feet"
@@ -168,7 +186,8 @@ var pokedex = [
         "name": "Pidgeot",
         "gender": 0.5,
         "family": 16,
-        "abilities": {
+        "abilities":
+        {
             "0": "Big Pecks",
             "1": "Keen Eye",
             "2": "Tangled Feet"
@@ -178,7 +197,8 @@ var pokedex = [
         "name": "Rattata",
         "gender": 0.5,
         "family": 19,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hustle",
             "1": "Run Away",
             "2": "Guts"
@@ -188,7 +208,8 @@ var pokedex = [
         "name": "Raticate",
         "gender": 0.5,
         "family": 19,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hustle",
             "1": "Run Away",
             "2": "Guts"
@@ -198,7 +219,8 @@ var pokedex = [
         "name": "Spearow",
         "gender": 0.5,
         "family": 21,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sniper",
             "1": "Keen Eye"
         }
@@ -207,7 +229,8 @@ var pokedex = [
         "name": "Fearow",
         "gender": 0.5,
         "family": 21,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sniper",
             "1": "Keen Eye"
         }
@@ -216,7 +239,8 @@ var pokedex = [
         "name": "Ekans",
         "gender": 0.5,
         "family": 23,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Intimidate",
             "2": "Shed Skin"
@@ -226,7 +250,8 @@ var pokedex = [
         "name": "Arbok",
         "gender": 0.5,
         "family": 23,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Intimidate",
             "2": "Shed Skin"
@@ -236,7 +261,8 @@ var pokedex = [
         "name": "Pikachu",
         "gender": 0.5,
         "family": 172,
-        "abilities": {
+        "abilities":
+        {
             "0": "Lightning Rod",
             "1": "Static"
         }
@@ -245,7 +271,8 @@ var pokedex = [
         "name": "Raichu",
         "gender": 0.5,
         "family": 172,
-        "abilities": {
+        "abilities":
+        {
             "0": "Lightning Rod",
             "1": "Static"
         }
@@ -254,7 +281,8 @@ var pokedex = [
         "name": "Sandshrew",
         "gender": 0.5,
         "family": 27,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Rush",
             "1": "Sand Veil"
         }
@@ -263,7 +291,8 @@ var pokedex = [
         "name": "Sandslash",
         "gender": 0.5,
         "family": 27,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Rush",
             "1": "Sand Veil"
         }
@@ -272,17 +301,19 @@ var pokedex = [
         "name": "Nidoran",
         "gender": 0.5,
         "family": 29,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hustle",
             "1": "Poison Point",
             "2": "Rivalry"
         }
-    }, , ,
+    },,,
     {
         "name": "Nidoran",
         "gender": 0.5,
         "family": 29,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hustle",
             "1": "Poison Point",
             "2": "Rivalry"
@@ -292,7 +323,8 @@ var pokedex = [
         "name": "Nidorino",
         "gender": 0.5,
         "family": 29,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hustle",
             "1": "Poison Point",
             "2": "Rivalry"
@@ -302,7 +334,8 @@ var pokedex = [
         "name": "Nidoking",
         "gender": 0.5,
         "family": 29,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Poison Point",
             "2": "Rivalry"
@@ -312,7 +345,8 @@ var pokedex = [
         "name": "Clefairy",
         "gender": 0.75,
         "family": 173,
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Cute Charm",
             "2": "Magic Guard"
@@ -322,7 +356,8 @@ var pokedex = [
         "name": "Clefable",
         "gender": 0.75,
         "family": 173,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unaware",
             "1": "Cute Charm",
             "2": "Magic Guard"
@@ -332,7 +367,8 @@ var pokedex = [
         "name": "Vulpix",
         "gender": 0.75,
         "family": 37,
-        "abilities": {
+        "abilities":
+        {
             "0": "Drought",
             "1": "Flash Fire"
         }
@@ -341,7 +377,8 @@ var pokedex = [
         "name": "Ninetales",
         "gender": 0.75,
         "family": 37,
-        "abilities": {
+        "abilities":
+        {
             "0": "Drought",
             "1": "Flash Fire"
         }
@@ -350,7 +387,8 @@ var pokedex = [
         "name": "Jigglypuff",
         "gender": 0.75,
         "family": 174,
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Cute Charm",
             "2": "Competitive"
@@ -360,7 +398,8 @@ var pokedex = [
         "name": "Wigglytuff",
         "gender": 0.75,
         "family": 174,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Cute Charm",
             "2": "Competitive"
@@ -370,7 +409,8 @@ var pokedex = [
         "name": "Zubat",
         "gender": 0.5,
         "family": 41,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Inner Focus"
         }
@@ -379,7 +419,8 @@ var pokedex = [
         "name": "Golbat",
         "gender": 0.5,
         "family": 41,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Inner Focus"
         }
@@ -388,7 +429,8 @@ var pokedex = [
         "name": "Oddish",
         "gender": 0.5,
         "family": 43,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Chlorophyll"
         }
@@ -397,7 +439,8 @@ var pokedex = [
         "name": "Gloom",
         "gender": 0.5,
         "family": 43,
-        "abilities": {
+        "abilities":
+        {
             "0": "Stench",
             "1": "Chlorophyll"
         }
@@ -406,7 +449,8 @@ var pokedex = [
         "name": "Vileplume",
         "gender": 0.5,
         "family": 43,
-        "abilities": {
+        "abilities":
+        {
             "0": "Effect Spore",
             "1": "Chlorophyll"
         }
@@ -415,7 +459,8 @@ var pokedex = [
         "name": "Paras",
         "gender": 0.5,
         "family": 46,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Effect Spore",
             "2": "Dry Skin"
@@ -425,7 +470,8 @@ var pokedex = [
         "name": "Parasect",
         "gender": 0.5,
         "family": 46,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Effect Spore",
             "2": "Dry Skin"
@@ -435,7 +481,8 @@ var pokedex = [
         "name": "Venonat",
         "gender": 0.5,
         "family": 48,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Compound Eyes",
             "2": "Tinted Lens"
@@ -445,7 +492,8 @@ var pokedex = [
         "name": "Venomoth",
         "gender": 0.5,
         "family": 48,
-        "abilities": {
+        "abilities":
+        {
             "0": "Wonder Skin",
             "1": "Shield Dust",
             "2": "Tinted Lens"
@@ -455,7 +503,8 @@ var pokedex = [
         "name": "Diglett",
         "gender": 0.5,
         "family": 50,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sand Veil",
             "2": "Arena Trap"
@@ -465,7 +514,8 @@ var pokedex = [
         "name": "Dugtrio",
         "gender": 0.5,
         "family": 50,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sand Veil",
             "2": "Arena Trap"
@@ -475,7 +525,8 @@ var pokedex = [
         "name": "Meowth",
         "gender": 0.5,
         "family": 52,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Pickup",
             "2": "Technician"
@@ -485,7 +536,8 @@ var pokedex = [
         "name": "Persian",
         "gender": 0.5,
         "family": 52,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Limber",
             "2": "Technician"
@@ -495,7 +547,8 @@ var pokedex = [
         "name": "Psyduck",
         "gender": 0.5,
         "family": 54,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Damp",
             "2": "Cloud Nine"
@@ -505,7 +558,8 @@ var pokedex = [
         "name": "Golduck",
         "gender": 0.5,
         "family": 54,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Damp",
             "2": "Cloud Nine"
@@ -515,7 +569,8 @@ var pokedex = [
         "name": "Mankey",
         "gender": 0.5,
         "family": 56,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Vital Spirit",
             "2": "Anger Point"
@@ -525,7 +580,8 @@ var pokedex = [
         "name": "Primeape",
         "gender": 0.5,
         "family": 56,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Vital Spirit",
             "2": "Anger Point"
@@ -535,7 +591,8 @@ var pokedex = [
         "name": "Growlithe",
         "gender": 0.25,
         "family": 58,
-        "abilities": {
+        "abilities":
+        {
             "0": "Justified",
             "1": "Intimidate",
             "2": "Flash Fire"
@@ -545,7 +602,8 @@ var pokedex = [
         "name": "Arcanine",
         "gender": 0.25,
         "family": 58,
-        "abilities": {
+        "abilities":
+        {
             "0": "Justified",
             "1": "Intimidate",
             "2": "Flash Fire"
@@ -555,7 +613,8 @@ var pokedex = [
         "name": "Poliwag",
         "gender": 0.5,
         "family": 60,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Water Absorb",
             "2": "Damp"
@@ -565,7 +624,8 @@ var pokedex = [
         "name": "Poliwhirl",
         "gender": 0.5,
         "family": 60,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Water Absorb",
             "2": "Damp"
@@ -575,7 +635,8 @@ var pokedex = [
         "name": "Poliwrath",
         "gender": 0.5,
         "family": 60,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Water Absorb",
             "2": "Damp"
@@ -585,7 +646,8 @@ var pokedex = [
         "name": "Abra",
         "gender": 0.25,
         "family": 63,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magic Guard",
             "1": "Synchronize",
             "2": "Inner Focus"
@@ -595,7 +657,8 @@ var pokedex = [
         "name": "Kadabra",
         "gender": 0.25,
         "family": 63,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magic Guard",
             "1": "Synchronize",
             "2": "Inner Focus"
@@ -605,7 +668,8 @@ var pokedex = [
         "name": "Alakazam",
         "gender": 0.25,
         "family": 63,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magic Guard",
             "1": "Synchronize",
             "2": "Inner Focus"
@@ -615,7 +679,8 @@ var pokedex = [
         "name": "Machop",
         "gender": 0.25,
         "family": 66,
-        "abilities": {
+        "abilities":
+        {
             "0": "Steadfast",
             "1": "Guts",
             "2": "No Guard"
@@ -625,7 +690,8 @@ var pokedex = [
         "name": "Machoke",
         "gender": 0.25,
         "family": 66,
-        "abilities": {
+        "abilities":
+        {
             "0": "Steadfast",
             "1": "Guts",
             "2": "No Guard"
@@ -635,7 +701,8 @@ var pokedex = [
         "name": "Machamp",
         "gender": 0.25,
         "family": 66,
-        "abilities": {
+        "abilities":
+        {
             "0": "Steadfast",
             "1": "Guts",
             "2": "No Guard"
@@ -645,7 +712,8 @@ var pokedex = [
         "name": "Bellsprout",
         "gender": 0.5,
         "family": 69,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Chlorophyll"
         }
@@ -654,7 +722,8 @@ var pokedex = [
         "name": "Weepinbell",
         "gender": 0.5,
         "family": 69,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Chlorophyll"
         }
@@ -663,7 +732,8 @@ var pokedex = [
         "name": "Victreebel",
         "gender": 0.5,
         "family": 69,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Chlorophyll"
         }
@@ -672,7 +742,8 @@ var pokedex = [
         "name": "Tentacool",
         "gender": 0.5,
         "family": 72,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Clear Body",
             "2": "Liquid Ooze"
@@ -682,7 +753,8 @@ var pokedex = [
         "name": "Tentacruel",
         "gender": 0.5,
         "family": 72,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Clear Body",
             "2": "Liquid Ooze"
@@ -692,7 +764,8 @@ var pokedex = [
         "name": "Geodude",
         "gender": 0.5,
         "family": 74,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Veil",
             "1": "Rock Head",
             "2": "Sturdy"
@@ -702,7 +775,8 @@ var pokedex = [
         "name": "Graveler",
         "gender": 0.5,
         "family": 74,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Veil",
             "1": "Rock Head",
             "2": "Sturdy"
@@ -712,7 +786,8 @@ var pokedex = [
         "name": "Golem",
         "gender": 0.5,
         "family": 74,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Veil",
             "1": "Rock Head",
             "2": "Sturdy"
@@ -722,7 +797,8 @@ var pokedex = [
         "name": "Ponyta",
         "gender": 0.5,
         "family": 77,
-        "abilities": {
+        "abilities":
+        {
             "0": "Flame Body",
             "1": "Run Away",
             "2": "Flash Fire"
@@ -732,7 +808,8 @@ var pokedex = [
         "name": "Rapidash",
         "gender": 0.5,
         "family": 77,
-        "abilities": {
+        "abilities":
+        {
             "0": "Flame Body",
             "1": "Run Away",
             "2": "Flash Fire"
@@ -742,7 +819,8 @@ var pokedex = [
         "name": "Slowpoke",
         "gender": 0.5,
         "family": 79,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Oblivious",
             "2": "Own Tempo"
@@ -752,7 +830,8 @@ var pokedex = [
         "name": "Slowbro",
         "gender": 0.5,
         "family": 79,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Oblivious",
             "2": "Own Tempo"
@@ -762,7 +841,8 @@ var pokedex = [
         "name": "Magnemite",
         "gender": 'x',
         "family": 81,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Magnet Pull",
             "2": "Sturdy"
@@ -772,7 +852,8 @@ var pokedex = [
         "name": "Magneton",
         "gender": 'x',
         "family": 81,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Magnet Pull",
             "2": "Sturdy"
@@ -782,7 +863,8 @@ var pokedex = [
         "name": "Farfetch'd",
         "gender": 0.5,
         "family": 83,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Keen Eye",
             "2": "Inner Focus"
@@ -792,7 +874,8 @@ var pokedex = [
         "name": "Doduo",
         "gender": 0.5,
         "family": 84,
-        "abilities": {
+        "abilities":
+        {
             "0": "Tangled Feet",
             "1": "Run Away",
             "2": "Early Bird"
@@ -802,7 +885,8 @@ var pokedex = [
         "name": "Dodrio",
         "gender": 0.5,
         "family": 84,
-        "abilities": {
+        "abilities":
+        {
             "0": "Tangled Feet",
             "1": "Run Away",
             "2": "Early Bird"
@@ -812,7 +896,8 @@ var pokedex = [
         "name": "Seel",
         "gender": 0.5,
         "family": 86,
-        "abilities": {
+        "abilities":
+        {
             "0": "Ice Body",
             "1": "Thick Fat",
             "2": "Hydration"
@@ -822,7 +907,8 @@ var pokedex = [
         "name": "Dewgong",
         "gender": 0.5,
         "family": 86,
-        "abilities": {
+        "abilities":
+        {
             "0": "Ice Body",
             "1": "Thick Fat",
             "2": "Hydration"
@@ -832,7 +918,8 @@ var pokedex = [
         "name": "Grimer",
         "gender": 0.5,
         "family": 88,
-        "abilities": {
+        "abilities":
+        {
             "0": "Poison Touch",
             "1": "Stench",
             "2": "Sticky Hold"
@@ -842,7 +929,8 @@ var pokedex = [
         "name": "Muk",
         "gender": 0.5,
         "family": 88,
-        "abilities": {
+        "abilities":
+        {
             "0": "Poison Touch",
             "1": "Stench",
             "2": "Sticky Hold"
@@ -852,7 +940,8 @@ var pokedex = [
         "name": "Shellder",
         "gender": 0.5,
         "family": 90,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Shell Armor",
             "2": "Skill Link"
@@ -862,7 +951,8 @@ var pokedex = [
         "name": "Cloyster",
         "gender": 0.5,
         "family": 90,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Shell Armor",
             "2": "Skill Link"
@@ -872,7 +962,8 @@ var pokedex = [
         "name": "Gastly",
         "gender": 0.5,
         "family": 92,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -880,7 +971,8 @@ var pokedex = [
         "name": "Haunter",
         "gender": 0.5,
         "family": 92,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -888,7 +980,8 @@ var pokedex = [
         "name": "Gengar",
         "gender": 0.5,
         "family": 92,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -896,7 +989,8 @@ var pokedex = [
         "name": "Onix",
         "gender": 0.5,
         "family": 95,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Rock Head",
             "2": "Sturdy"
@@ -906,7 +1000,8 @@ var pokedex = [
         "name": "Drowzee",
         "gender": 0.5,
         "family": 96,
-        "abilities": {
+        "abilities":
+        {
             "0": "Inner Focus",
             "1": "Insomnia",
             "2": "Forewarn"
@@ -916,7 +1011,8 @@ var pokedex = [
         "name": "Hypno",
         "gender": 0.5,
         "family": 96,
-        "abilities": {
+        "abilities":
+        {
             "0": "Inner Focus",
             "1": "Insomnia",
             "2": "Forewarn"
@@ -926,7 +1022,8 @@ var pokedex = [
         "name": "Krabby",
         "gender": 0.5,
         "family": 98,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Hyper Cutter",
             "2": "Shell Armor"
@@ -936,7 +1033,8 @@ var pokedex = [
         "name": "Kingler",
         "gender": 0.5,
         "family": 98,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Hyper Cutter",
             "2": "Shell Armor"
@@ -946,7 +1044,8 @@ var pokedex = [
         "name": "Voltorb",
         "gender": 'x',
         "family": 100,
-        "abilities": {
+        "abilities":
+        {
             "0": "Aftermath",
             "1": "Soundproof",
             "2": "Static"
@@ -956,7 +1055,8 @@ var pokedex = [
         "name": "Electrode",
         "gender": 'x',
         "family": 100,
-        "abilities": {
+        "abilities":
+        {
             "0": "Aftermath",
             "1": "Soundproof",
             "2": "Static"
@@ -966,7 +1066,8 @@ var pokedex = [
         "name": "Exceggcute",
         "gender": 0.5,
         "family": 102,
-        "abilities": {
+        "abilities":
+        {
             "0": "Harvest",
             "1": "Chlorophyll"
         }
@@ -975,7 +1076,8 @@ var pokedex = [
         "name": "Exeggutor",
         "gender": 0.5,
         "family": 102,
-        "abilities": {
+        "abilities":
+        {
             "0": "Harvest",
             "1": "Chlorophyll"
         }
@@ -984,7 +1086,8 @@ var pokedex = [
         "name": "Cubone",
         "gender": 0.5,
         "family": 104,
-        "abilities": {
+        "abilities":
+        {
             "0": "Battle Armor",
             "1": "Rock Head",
             "2": "Lightning Rod"
@@ -994,7 +1097,8 @@ var pokedex = [
         "name": "Marowak",
         "gender": 0.5,
         "family": 104,
-        "abilities": {
+        "abilities":
+        {
             "0": "Battle Armor",
             "1": "Rock Head",
             "2": "Lightning Rod"
@@ -1004,7 +1108,8 @@ var pokedex = [
         "name": "Hitmonlee",
         "gender": 0,
         "family": 236,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unburden",
             "1": "Limber",
             "2": "Reckless"
@@ -1014,7 +1119,8 @@ var pokedex = [
         "name": "Hitmonchan",
         "gender": 0,
         "family": 236,
-        "abilities": {
+        "abilities":
+        {
             "0": "Inner Focus",
             "1": "Keen Eye",
             "2": "Iron Fist"
@@ -1024,7 +1130,8 @@ var pokedex = [
         "name": "Lickitung",
         "gender": 0.5,
         "family": 108,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cloud Nine",
             "1": "Own Tempo",
             "2": "Oblivious"
@@ -1034,7 +1141,8 @@ var pokedex = [
         "name": "Koffing",
         "gender": 0.5,
         "family": 109,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -1042,7 +1150,8 @@ var pokedex = [
         "name": "Weezing",
         "gender": 0.5,
         "family": 109,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -1050,7 +1159,8 @@ var pokedex = [
         "name": "Rhyhorn",
         "gender": 0.5,
         "family": 111,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Lightning Rod",
             "2": "Rock Head"
@@ -1060,7 +1170,8 @@ var pokedex = [
         "name": "Rhydon",
         "gender": 0.5,
         "family": 111,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Lightning Rod",
             "2": "Rock Head"
@@ -1070,7 +1181,8 @@ var pokedex = [
         "name": "Chansey",
         "gender": 1.0,
         "family": 113,
-        "abilities": {
+        "abilities":
+        {
             "0": "Healer",
             "1": "Natural Cure",
             "2": "Serene Grace"
@@ -1080,7 +1192,8 @@ var pokedex = [
         "name": "Tangela",
         "gender": 0.5,
         "family": 114,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Chlorophyll",
             "2": "Leaf Guard"
@@ -1090,7 +1203,8 @@ var pokedex = [
         "name": "Kangaskhan",
         "gender": 1.0,
         "family": 115,
-        "abilities": {
+        "abilities":
+        {
             "0": "Inner Focus",
             "1": "Early Bird",
             "2": "Scrappy"
@@ -1100,7 +1214,8 @@ var pokedex = [
         "name": "Horsea",
         "gender": 0.5,
         "family": 116,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Swift Swim",
             "2": "Sniper"
@@ -1110,7 +1225,8 @@ var pokedex = [
         "name": "Seadra",
         "gender": 0.5,
         "family": 116,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Poison Point",
             "2": "Sniper"
@@ -1120,7 +1236,8 @@ var pokedex = [
         "name": "Goldeen",
         "gender": 0.5,
         "family": 118,
-        "abilities": {
+        "abilities":
+        {
             "0": "Lightning Rod",
             "1": "Swift Swim",
             "2": "Water Veil"
@@ -1130,7 +1247,8 @@ var pokedex = [
         "name": "Seaking",
         "gender": 0.5,
         "family": 118,
-        "abilities": {
+        "abilities":
+        {
             "0": "Lightning Rod",
             "1": "Swift Swim",
             "2": "Water Veil"
@@ -1140,7 +1258,8 @@ var pokedex = [
         "name": "Staryu",
         "gender": 'x',
         "family": 120,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Illuminate",
             "2": "Natural Cure"
@@ -1150,7 +1269,8 @@ var pokedex = [
         "name": "Starmie",
         "gender": 'x',
         "family": 120,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Illuminate",
             "2": "Natural Cure"
@@ -1160,7 +1280,8 @@ var pokedex = [
         "name": "Mr. Mime",
         "gender": 0.5,
         "family": 122,
-        "abilities": {
+        "abilities":
+        {
             "0": "Technician",
             "1": "Soundproof",
             "2": "Filter"
@@ -1170,7 +1291,8 @@ var pokedex = [
         "name": "Scyther",
         "gender": 0.5,
         "family": 123,
-        "abilities": {
+        "abilities":
+        {
             "0": "Steadfast",
             "1": "Swarm",
             "2": "Technician"
@@ -1180,7 +1302,8 @@ var pokedex = [
         "name": "Jynx",
         "gender": 1,
         "family": 238,
-        "abilities": {
+        "abilities":
+        {
             "0": "Dry Skin",
             "1": "Oblivious",
             "2": "Forewarn"
@@ -1190,7 +1313,8 @@ var pokedex = [
         "name": "Electabuzz",
         "gender": 0.25,
         "family": 239,
-        "abilities": {
+        "abilities":
+        {
             "0": "Vital Spirit",
             "1": "Static"
         }
@@ -1199,7 +1323,8 @@ var pokedex = [
         "name": "Magmar",
         "gender": 0.25,
         "family": 240,
-        "abilities": {
+        "abilities":
+        {
             "0": "Vital Spirit",
             "1": "Flame Body"
         }
@@ -1208,7 +1333,8 @@ var pokedex = [
         "name": "Pinsir",
         "gender": 0.5,
         "family": 127,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Hyper Cutter",
             "2": "Mold Breaker"
@@ -1218,7 +1344,8 @@ var pokedex = [
         "name": "Tauros",
         "gender": 0.0,
         "family": 128,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Intimidate",
             "2": "Anger Point"
@@ -1228,7 +1355,8 @@ var pokedex = [
         "name": "Magikarp",
         "gender": 0.5,
         "family": 129,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Swift Swim"
         }
@@ -1237,7 +1365,8 @@ var pokedex = [
         "name": "Gyarados",
         "gender": 0.5,
         "family": 129,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Intimidate"
         }
@@ -1246,17 +1375,19 @@ var pokedex = [
         "name": "Lapras",
         "gender": 0.5,
         "family": 131,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Water Absorb",
             "2": "Shell Armor"
         }
-    }, ,
+    },,
     {
         "name": "Eevee",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Anticipation",
             "1": "Run Away",
             "2": "Adaptability"
@@ -1266,7 +1397,8 @@ var pokedex = [
         "name": "Vaporeon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Water Absorb",
             "2": "Water Absorb"
@@ -1276,7 +1408,8 @@ var pokedex = [
         "name": "Jolteon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Quick Feet",
             "1": "Volt Absorb",
             "2": "Volt Absorb"
@@ -1286,7 +1419,8 @@ var pokedex = [
         "name": "Flareon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Guts",
             "1": "Flash Fire",
             "2": "Flash Fire"
@@ -1296,7 +1430,8 @@ var pokedex = [
         "name": "Porygon",
         "gender": 'x',
         "family": 137,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Trace",
             "2": "Download"
@@ -1306,7 +1441,8 @@ var pokedex = [
         "name": "Omanyte",
         "gender": 0.125,
         "family": 138,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Swift Swim",
             "2": "Shell Armor"
@@ -1316,7 +1452,8 @@ var pokedex = [
         "name": "Omastar",
         "gender": 0.125,
         "family": 138,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Swift Swim",
             "2": "Shell Armor"
@@ -1326,7 +1463,8 @@ var pokedex = [
         "name": "Kabuto",
         "gender": 0.125,
         "family": 140,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Swift Swim",
             "2": "Battle Armor"
@@ -1336,7 +1474,8 @@ var pokedex = [
         "name": "Kabutops",
         "gender": 0.125,
         "family": 140,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Swift Swim",
             "2": "Battle Armor"
@@ -1346,7 +1485,8 @@ var pokedex = [
         "name": "Aerodactyl",
         "gender": 0.125,
         "family": 142,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Rock Head",
             "2": "Pressure"
@@ -1356,17 +1496,19 @@ var pokedex = [
         "name": "Snorlax",
         "gender": 0.125,
         "family": 143,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Immunity",
             "2": "Thick Fat"
         }
-    }, , , ,
+    },,,,
     {
         "name": "Dratini",
         "gender": 0.5,
         "family": 147,
-        "abilities": {
+        "abilities":
+        {
             "0": "Marvel Scale",
             "1": "Shed Skin"
         }
@@ -1375,7 +1517,8 @@ var pokedex = [
         "name": "Dragonair",
         "gender": 0.5,
         "family": 147,
-        "abilities": {
+        "abilities":
+        {
             "0": "Marvel Scale",
             "1": "Shed Skin"
         }
@@ -1384,16 +1527,18 @@ var pokedex = [
         "name": "Dragonite",
         "gender": 0.5,
         "family": 147,
-        "abilities": {
+        "abilities":
+        {
             "0": "Multiscale",
             "1": "Inner Focus"
         }
-    }, , ,
+    },,,
     {
         "name": "Chikorita",
         "gender": 0.125,
         "family": 152,
-        "abilities": {
+        "abilities":
+        {
             "0": "Leaf Guard",
             "1": "Overgrowth"
         }
@@ -1402,7 +1547,8 @@ var pokedex = [
         "name": "Bayleef",
         "gender": 0.125,
         "family": 152,
-        "abilities": {
+        "abilities":
+        {
             "0": "Leaf Guard",
             "1": "Overgrowth"
         }
@@ -1411,7 +1557,8 @@ var pokedex = [
         "name": "Meganium",
         "gender": 0.125,
         "family": 152,
-        "abilities": {
+        "abilities":
+        {
             "0": "Leaf Guard",
             "1": "Overgrowth"
         }
@@ -1420,7 +1567,8 @@ var pokedex = [
         "name": "Cyndaquil",
         "gender": 0.125,
         "family": 155,
-        "abilities": {
+        "abilities":
+        {
             "0": "Flash Fire",
             "1": "Blaze"
         }
@@ -1429,7 +1577,8 @@ var pokedex = [
         "name": "Quilava",
         "gender": 0.125,
         "family": 155,
-        "abilities": {
+        "abilities":
+        {
             "0": "Flash Fire",
             "1": "Blaze"
         }
@@ -1438,7 +1587,8 @@ var pokedex = [
         "name": "Typhlosion",
         "gender": 0.125,
         "family": 155,
-        "abilities": {
+        "abilities":
+        {
             "0": "Flash Fire",
             "1": "Blaze"
         }
@@ -1447,7 +1597,8 @@ var pokedex = [
         "name": "Totodile",
         "gender": 0.125,
         "family": 158,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Torrent"
         }
@@ -1456,7 +1607,8 @@ var pokedex = [
         "name": "Croconaw",
         "gender": 0.125,
         "family": 158,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Torrent"
         }
@@ -1465,7 +1617,8 @@ var pokedex = [
         "name": "Feraligatr",
         "gender": 0.125,
         "family": 158,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Torrent"
         }
@@ -1474,7 +1627,8 @@ var pokedex = [
         "name": "Sentret",
         "gender": 0.5,
         "family": 161,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Run Away",
             "2": "Keen Eye"
@@ -1484,7 +1638,8 @@ var pokedex = [
         "name": "Furret",
         "gender": 0.5,
         "family": 161,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Run Away",
             "2": "Keen Eye"
@@ -1494,7 +1649,8 @@ var pokedex = [
         "name": "Hoothoot",
         "gender": 0.5,
         "family": 163,
-        "abilities": {
+        "abilities":
+        {
             "0": "Tinted Lens",
             "1": "Insomnia",
             "2": "Keen Eye"
@@ -1504,7 +1660,8 @@ var pokedex = [
         "name": "Noctowl",
         "gender": 0.5,
         "family": 163,
-        "abilities": {
+        "abilities":
+        {
             "0": "Tinted Lens",
             "1": "Insomnia",
             "2": "Keen Eye"
@@ -1514,7 +1671,8 @@ var pokedex = [
         "name": "Ledyba",
         "gender": 0.5,
         "family": 165,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Swarm",
             "2": "Early Bird"
@@ -1524,7 +1682,8 @@ var pokedex = [
         "name": "Ledian",
         "gender": 0.5,
         "family": 165,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Fist",
             "1": "Swarm",
             "2": "Early Bird"
@@ -1534,7 +1693,8 @@ var pokedex = [
         "name": "Spinarak",
         "gender": 0.5,
         "family": 167,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sniper",
             "1": "Swarm",
             "2": "Insomnia"
@@ -1544,7 +1704,8 @@ var pokedex = [
         "name": "Ariados",
         "gender": 0.5,
         "family": 167,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sniper",
             "1": "Swarm",
             "2": "Insomnia"
@@ -1554,7 +1715,8 @@ var pokedex = [
         "name": "Crobat",
         "gender": 0.5,
         "family": 41,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Inner Focus"
         }
@@ -1563,7 +1725,8 @@ var pokedex = [
         "name": "Chinchou",
         "gender": 0.5,
         "family": 170,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Absorb",
             "1": "Volt Absorb",
             "2": "Illuminate"
@@ -1573,7 +1736,8 @@ var pokedex = [
         "name": "Lanturn",
         "gender": 0.5,
         "family": 170,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Absorb",
             "1": "Volt Absorb",
             "2": "Illuminate"
@@ -1584,7 +1748,8 @@ var pokedex = [
         "gender": 0.5,
         "family": 172,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Lightning Rod",
             "1": "Static"
         }
@@ -1594,7 +1759,8 @@ var pokedex = [
         "gender": 0.75,
         "family": 173,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Cute Charm",
             "2": "Magic Guard"
@@ -1605,7 +1771,8 @@ var pokedex = [
         "gender": 0.75,
         "family": 174,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Cute Charm",
             "2": "Competitive"
@@ -1616,7 +1783,8 @@ var pokedex = [
         "gender": 0.125,
         "family": 175,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Super Luck",
             "1": "Hustle",
             "2": "Serene Grace"
@@ -1626,7 +1794,8 @@ var pokedex = [
         "name": "Togetic",
         "gender": 0.125,
         "family": 175,
-        "abilities": {
+        "abilities":
+        {
             "0": "Super Luck",
             "1": "Hustle",
             "2": "Serene Grace"
@@ -1636,7 +1805,8 @@ var pokedex = [
         "name": "Natu",
         "gender": 0.5,
         "family": 177,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magic Bounce",
             "1": "Synchronize",
             "2": "Early Bird"
@@ -1646,7 +1816,8 @@ var pokedex = [
         "name": "Xatu",
         "gender": 0.5,
         "family": 177,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magic Bounce",
             "1": "Synchronize",
             "2": "Early Bird"
@@ -1656,7 +1827,8 @@ var pokedex = [
         "name": "Mareep",
         "gender": 0.5,
         "family": 179,
-        "abilities": {
+        "abilities":
+        {
             "0": "Plus",
             "1": "Static"
         }
@@ -1665,7 +1837,8 @@ var pokedex = [
         "name": "Flaaffy",
         "gender": 0.5,
         "family": 179,
-        "abilities": {
+        "abilities":
+        {
             "0": "Plus",
             "1": "Static"
         }
@@ -1674,7 +1847,8 @@ var pokedex = [
         "name": "Ampharos",
         "gender": 0.5,
         "family": 179,
-        "abilities": {
+        "abilities":
+        {
             "0": "Plus",
             "1": "Static"
         }
@@ -1683,7 +1857,8 @@ var pokedex = [
         "name": "Bellossom",
         "gender": 0.5,
         "family": 43,
-        "abilities": {
+        "abilities":
+        {
             "0": "Healer",
             "1": "Chlorophyll"
         }
@@ -1692,7 +1867,8 @@ var pokedex = [
         "name": "Marill",
         "gender": 0.5,
         "family": 183,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Thick Fat",
             "2": "Huge Power"
@@ -1702,7 +1878,8 @@ var pokedex = [
         "name": "Azumarill",
         "gender": 0.5,
         "family": 183,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Thick Fat",
             "2": "Huge Power"
@@ -1712,7 +1889,8 @@ var pokedex = [
         "name": "Sudowoodo",
         "gender": 0.5,
         "family": 185,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Sturdy",
             "2": "Rock Head"
@@ -1722,7 +1900,8 @@ var pokedex = [
         "name": "Politoed",
         "gender": 0.5,
         "family": 60,
-        "abilities": {
+        "abilities":
+        {
             "0": "Drizzle",
             "1": "Water Absorb",
             "2": "Damp"
@@ -1732,7 +1911,8 @@ var pokedex = [
         "name": "Hoppip",
         "gender": 0.5,
         "family": 187,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infilitrator",
             "1": "Chlorophyll",
             "2": "Leaf Guard"
@@ -1742,7 +1922,8 @@ var pokedex = [
         "name": "Skiploom",
         "gender": 0.5,
         "family": 187,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infilitrator",
             "1": "Chlorophyll",
             "2": "Leaf Guard"
@@ -1752,7 +1933,8 @@ var pokedex = [
         "name": "Jumpluff",
         "gender": 0.5,
         "family": 187,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infilitrator",
             "1": "Chlorophyll",
             "2": "Leaf Guard"
@@ -1762,7 +1944,8 @@ var pokedex = [
         "name": "Aipom",
         "gender": 0.5,
         "family": 190,
-        "abilities": {
+        "abilities":
+        {
             "0": "Skill Link",
             "1": "Run Away",
             "2": "Pickup"
@@ -1772,7 +1955,8 @@ var pokedex = [
         "name": "Sunkern",
         "gender": 0.5,
         "family": 191,
-        "abilities": {
+        "abilities":
+        {
             "0": "Early Bird",
             "1": "Chlorophyll",
             "2": "Solar Power"
@@ -1782,7 +1966,8 @@ var pokedex = [
         "name": "Sunflora",
         "gender": 0.5,
         "family": 191,
-        "abilities": {
+        "abilities":
+        {
             "0": "Early Bird",
             "1": "Chlorophyll",
             "2": "Solar Power"
@@ -1792,7 +1977,8 @@ var pokedex = [
         "name": "Yanma",
         "gender": 0.5,
         "family": 193,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Speed Boost",
             "2": "Compound Eyes"
@@ -1802,7 +1988,8 @@ var pokedex = [
         "name": "Wooper",
         "gender": 0.5,
         "family": 194,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unaware",
             "1": "Damp",
             "2": "Water Absorb"
@@ -1812,7 +1999,8 @@ var pokedex = [
         "name": "Quagsire",
         "gender": 0.5,
         "family": 194,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unaware",
             "1": "Damp",
             "2": "Water Absorb"
@@ -1822,7 +2010,8 @@ var pokedex = [
         "name": "Espeon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magic Bounce",
             "1": "Synchronize",
             "2": "Synchronize"
@@ -1832,7 +2021,8 @@ var pokedex = [
         "name": "Umbreon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Inner Focus",
             "1": "Synchronize",
             "2": "Synchronize"
@@ -1842,7 +2032,8 @@ var pokedex = [
         "name": "Murkrow",
         "gender": 0.5,
         "family": 198,
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster",
             "1": "Insomnia",
             "2": "Super Luck"
@@ -1852,7 +2043,8 @@ var pokedex = [
         "name": "Slowking",
         "gender": 0.5,
         "family": 79,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Oblivious",
             "2": "Own Tempo"
@@ -1862,15 +2054,17 @@ var pokedex = [
         "name": "Misdreavus",
         "gender": 0.5,
         "family": 200,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
-    }, ,
+    },,
     {
         "name": "Wobbuffet",
         "gender": 0.5,
         "family": 202,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Shadow Tag"
         }
@@ -1879,7 +2073,8 @@ var pokedex = [
         "name": "Girafarig",
         "gender": 0.5,
         "family": 203,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Inner Focus",
             "2": "Early Bird"
@@ -1889,7 +2084,8 @@ var pokedex = [
         "name": "Pineco",
         "gender": 0.5,
         "family": 204,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Sturdy"
         }
@@ -1898,7 +2094,8 @@ var pokedex = [
         "name": "Forretress",
         "gender": 0.5,
         "family": 204,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Sturdy"
         }
@@ -1907,7 +2104,8 @@ var pokedex = [
         "name": "Dunsparce",
         "gender": 0.5,
         "family": 206,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Serene Grace",
             "2": "Run Away"
@@ -1917,7 +2115,8 @@ var pokedex = [
         "name": "Gligar",
         "gender": 0.5,
         "family": 207,
-        "abilities": {
+        "abilities":
+        {
             "0": "Immunity",
             "1": "Hyper Cutter",
             "2": "Sand Veil"
@@ -1927,7 +2126,8 @@ var pokedex = [
         "name": "Steelix",
         "gender": 0.5,
         "family": 95,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Rock Head",
             "2": "Sturdy"
@@ -1937,7 +2137,8 @@ var pokedex = [
         "name": "Snubbull",
         "gender": 0.5,
         "family": 209,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Intimidate",
             "2": "Run Away"
@@ -1947,7 +2148,8 @@ var pokedex = [
         "name": "Granbull",
         "gender": 0.5,
         "family": 209,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Intimidate",
             "2": "Quick Feet"
@@ -1957,7 +2159,8 @@ var pokedex = [
         "name": "Qwilfish",
         "gender": 0.5,
         "family": 211,
-        "abilities": {
+        "abilities":
+        {
             "0": "Intimidate",
             "1": "Poison Point",
             "2": "Swift Swim"
@@ -1967,7 +2170,8 @@ var pokedex = [
         "name": "Scizor",
         "gender": 0.5,
         "family": 123,
-        "abilities": {
+        "abilities":
+        {
             "0": "Light Metal",
             "1": "Swarm",
             "2": "Technician"
@@ -1977,7 +2181,8 @@ var pokedex = [
         "name": "Shuckle",
         "gender": 0.5,
         "family": 213,
-        "abilities": {
+        "abilities":
+        {
             "0": "Contrary",
             "1": "Sturdy",
             "2": "Gluttony"
@@ -1987,7 +2192,8 @@ var pokedex = [
         "name": "Heracross",
         "gender": 0.5,
         "family": 214,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Swarm",
             "2": "Guts"
@@ -1997,7 +2203,8 @@ var pokedex = [
         "name": "Sneasel",
         "gender": 0.5,
         "family": 215,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pickpocket",
             "1": "Inner Focus",
             "2": "Keen Eye"
@@ -2007,7 +2214,8 @@ var pokedex = [
         "name": "Teddiursa",
         "gender": 0.5,
         "family": 216,
-        "abilities": {
+        "abilities":
+        {
             "0": "Honey Gather",
             "1": "Pickup",
             "2": "Quick Feet"
@@ -2017,7 +2225,8 @@ var pokedex = [
         "name": "Ursaring",
         "gender": 0.5,
         "family": 216,
-        "abilities": {
+        "abilities":
+        {
             "0": "Honey Gather",
             "1": "Guts",
             "2": "Quick Feet"
@@ -2027,7 +2236,8 @@ var pokedex = [
         "name": "Slugma",
         "gender": 0.5,
         "family": 218,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Magma Armor",
             "2": "Flame Body"
@@ -2037,7 +2247,8 @@ var pokedex = [
         "name": "Magcargo",
         "gender": 0.5,
         "family": 218,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Magma Armor",
             "2": "Flame Body"
@@ -2047,7 +2258,8 @@ var pokedex = [
         "name": "Swinub",
         "gender": 0.5,
         "family": 220,
-        "abilities": {
+        "abilities":
+        {
             "0": "Thick Fat",
             "1": "Oblivious",
             "2": "Snow Cloak"
@@ -2057,7 +2269,8 @@ var pokedex = [
         "name": "Piloswine",
         "gender": 0.5,
         "family": 220,
-        "abilities": {
+        "abilities":
+        {
             "0": "Thick Fat",
             "1": "Oblivious",
             "2": "Snow Cloak"
@@ -2067,7 +2280,8 @@ var pokedex = [
         "name": "Corsola",
         "gender": 0.75,
         "family": 222,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Hustle",
             "2": "Natural Cure"
@@ -2077,7 +2291,8 @@ var pokedex = [
         "name": "Remoraid",
         "gender": 0.5,
         "family": 223,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moody",
             "1": "Hustle",
             "2": "Sniper"
@@ -2087,7 +2302,8 @@ var pokedex = [
         "name": "Octillery",
         "gender": 0.5,
         "family": 223,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moody",
             "1": "Suction Cups",
             "2": "Sniper"
@@ -2097,7 +2313,8 @@ var pokedex = [
         "name": "Delibird",
         "gender": 0.5,
         "family": 225,
-        "abilities": {
+        "abilities":
+        {
             "0": "Insomnia",
             "1": "Vital Spirit",
             "2": "Hustle"
@@ -2107,7 +2324,8 @@ var pokedex = [
         "name": "Mantine",
         "gender": 0.5,
         "family": 226,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Veil",
             "1": "Swift Swim",
             "2": "Water Absorb"
@@ -2117,7 +2335,8 @@ var pokedex = [
         "name": "Skarmory",
         "gender": 0.5,
         "family": 227,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Keen Eye",
             "2": "Sturdy"
@@ -2127,7 +2346,8 @@ var pokedex = [
         "name": "Houndour",
         "gender": 0.5,
         "family": 228,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Early Bird",
             "2": "Flash Fire"
@@ -2137,7 +2357,8 @@ var pokedex = [
         "name": "Houndoom",
         "gender": 0.5,
         "family": 228,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Early Bird",
             "2": "Flash Fire"
@@ -2147,7 +2368,8 @@ var pokedex = [
         "name": "Kingdra",
         "gender": 0.5,
         "family": 116,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Swift Swim",
             "2": "Sniper"
@@ -2157,7 +2379,8 @@ var pokedex = [
         "name": "Phanpy",
         "gender": 0.5,
         "family": 231,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Veil",
             "1": "Pickup"
         }
@@ -2166,7 +2389,8 @@ var pokedex = [
         "name": "Donphan",
         "gender": 0.5,
         "family": 231,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Veil",
             "1": "Sturdy"
         }
@@ -2175,7 +2399,8 @@ var pokedex = [
         "name": "Porygon2",
         "gender": 'x',
         "family": 137,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Trace",
             "2": "Download"
@@ -2185,7 +2410,8 @@ var pokedex = [
         "name": "Stantler",
         "gender": 0.5,
         "family": 234,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Intimidate",
             "2": "Frisk"
@@ -2195,7 +2421,8 @@ var pokedex = [
         "name": "Smeargle",
         "gender": 0.5,
         "family": 235,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moody",
             "1": "Own Tempo",
             "2": "Technician"
@@ -2206,7 +2433,8 @@ var pokedex = [
         "gender": 0,
         "family": 236,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Vital Spirit",
             "1": "Guts",
             "2": "Steadfast"
@@ -2216,7 +2444,8 @@ var pokedex = [
         "name": "Hitmontop",
         "gender": 0,
         "family": 236,
-        "abilities": {
+        "abilities":
+        {
             "0": "Steadfast",
             "1": "Intimidate",
             "2": "Technician"
@@ -2227,7 +2456,8 @@ var pokedex = [
         "gender": 1,
         "family": 238,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Oblivious",
             "2": "Forewarn"
@@ -2238,7 +2468,8 @@ var pokedex = [
         "gender": 0.25,
         "family": 239,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Vital Spirit",
             "1": "Static"
         }
@@ -2248,7 +2479,8 @@ var pokedex = [
         "gender": 0.25,
         "family": 240,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Vital Spirit",
             "1": "Flame Body"
         }
@@ -2257,7 +2489,8 @@ var pokedex = [
         "name": "Miltank",
         "gender": 1.0,
         "family": 241,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Thick Fat",
             "2": "Scrappy"
@@ -2267,17 +2500,19 @@ var pokedex = [
         "name": "Blissey",
         "gender": 1.0,
         "family": 113,
-        "abilities": {
+        "abilities":
+        {
             "0": "Healer",
             "1": "Natural Cure",
             "2": "Serene Grace"
         }
-    }, , , ,
+    },,,,
     {
         "name": "Larvitar",
         "gender": 0.5,
         "family": 246,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Veil",
             "1": "Guts"
         }
@@ -2286,7 +2521,8 @@ var pokedex = [
         "name": "Pupitar",
         "gender": 0.5,
         "family": 246,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shed Skin",
             "1": "Shed Skin"
         }
@@ -2295,16 +2531,18 @@ var pokedex = [
         "name": "Tyranitar",
         "gender": 0.5,
         "family": 246,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Sand Stream"
         }
-    }, , , ,
+    },,,,
     {
         "name": "Treecko",
         "gender": 0.125,
         "family": 252,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unburden",
             "1": "Overgrow"
         }
@@ -2313,7 +2551,8 @@ var pokedex = [
         "name": "Grovyle",
         "gender": 0.125,
         "family": 252,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unburden",
             "1": "Overgrow"
         }
@@ -2322,7 +2561,8 @@ var pokedex = [
         "name": "Sceptile",
         "gender": 0.125,
         "family": 252,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unburden",
             "1": "Overgrow"
         }
@@ -2331,7 +2571,8 @@ var pokedex = [
         "name": "Torchic",
         "gender": 0.125,
         "family": 255,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Blaze"
         }
@@ -2340,7 +2581,8 @@ var pokedex = [
         "name": "Combusken",
         "gender": 0.125,
         "family": 255,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Blaze"
         }
@@ -2349,7 +2591,8 @@ var pokedex = [
         "name": "Blaziken",
         "gender": 0.125,
         "family": 255,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Blaze"
         }
@@ -2358,7 +2601,8 @@ var pokedex = [
         "name": "Mudkip",
         "gender": 0.125,
         "family": 258,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Torrent"
         }
@@ -2367,7 +2611,8 @@ var pokedex = [
         "name": "Marshtomp",
         "gender": 0.125,
         "family": 258,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Torrent"
         }
@@ -2376,7 +2621,8 @@ var pokedex = [
         "name": "Swampert",
         "gender": 0.125,
         "family": 258,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Torrent"
         }
@@ -2385,7 +2631,8 @@ var pokedex = [
         "name": "Poochyena",
         "gender": 0.5,
         "family": 261,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Run Away",
             "2": "Quick Feet"
@@ -2395,7 +2642,8 @@ var pokedex = [
         "name": "Mightyena",
         "gender": 0.5,
         "family": 261,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Intimidate",
             "2": "Quick Feet"
@@ -2405,7 +2653,8 @@ var pokedex = [
         "name": "Zigzagoon",
         "gender": 0.5,
         "family": 263,
-        "abilities": {
+        "abilities":
+        {
             "0": "Quick Feet",
             "1": "Pickup",
             "2": "Gluttony"
@@ -2415,7 +2664,8 @@ var pokedex = [
         "name": "Linoone",
         "gender": 0.5,
         "family": 263,
-        "abilities": {
+        "abilities":
+        {
             "0": "Quick Feet",
             "1": "Pickup",
             "2": "Gluttony"
@@ -2425,7 +2675,8 @@ var pokedex = [
         "name": "Wurmple",
         "gender": 0.5,
         "family": 265,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Shield Dust"
         }
@@ -2434,7 +2685,8 @@ var pokedex = [
         "name": "Silcoon",
         "gender": 0.5,
         "family": 265,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shed Skin",
             "1": "Shed Skin"
         }
@@ -2443,7 +2695,8 @@ var pokedex = [
         "name": "Beautifly",
         "gender": 0.5,
         "family": 265,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rivalry",
             "1": "Swarm"
         }
@@ -2452,7 +2705,8 @@ var pokedex = [
         "name": "Cascoon",
         "gender": 0.5,
         "family": 265,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shed Skin",
             "1": "Shed Skin"
         }
@@ -2461,7 +2715,8 @@ var pokedex = [
         "name": "Dustox",
         "gender": 0.5,
         "family": 265,
-        "abilities": {
+        "abilities":
+        {
             "0": "Compound Eyes",
             "1": "Shield Dust"
         }
@@ -2470,7 +2725,8 @@ var pokedex = [
         "name": "Lotad",
         "gender": 0.5,
         "family": 270,
-        "abilities": {
+        "abilities":
+        {
             "0": "Own Tempo",
             "1": "Swift Swim",
             "2": "Rain Dish"
@@ -2480,7 +2736,8 @@ var pokedex = [
         "name": "Lombre",
         "gender": 0.5,
         "family": 270,
-        "abilities": {
+        "abilities":
+        {
             "0": "Own Tempo",
             "1": "Swift Swim",
             "2": "Rain Dish"
@@ -2490,7 +2747,8 @@ var pokedex = [
         "name": "Ludicolo",
         "gender": 0.5,
         "family": 270,
-        "abilities": {
+        "abilities":
+        {
             "0": "Own Tempo",
             "1": "Swift Swim",
             "2": "Rain Dish"
@@ -2500,7 +2758,8 @@ var pokedex = [
         "name": "Seedot",
         "gender": 0.5,
         "family": 273,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pickpocket",
             "1": "Chlorophyll",
             "2": "Early Bird"
@@ -2510,7 +2769,8 @@ var pokedex = [
         "name": "Nuzleaf",
         "gender": 0.5,
         "family": 273,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pickpocket",
             "1": "Chlorophyll",
             "2": "Early Bird"
@@ -2520,7 +2780,8 @@ var pokedex = [
         "name": "Shiftry",
         "gender": 0.5,
         "family": 273,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pickpocket",
             "1": "Chlorophyll",
             "2": "Early Bird"
@@ -2530,7 +2791,8 @@ var pokedex = [
         "name": "Taillow",
         "gender": 0.5,
         "family": 276,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Guts"
         }
@@ -2539,7 +2801,8 @@ var pokedex = [
         "name": "Swellow",
         "gender": 0.5,
         "family": 276,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Guts"
         }
@@ -2548,7 +2811,8 @@ var pokedex = [
         "name": "Wingull",
         "gender": 0.5,
         "family": 278,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Keen Eye"
         }
@@ -2557,7 +2821,8 @@ var pokedex = [
         "name": "Pelipper",
         "gender": 0.5,
         "family": 278,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Keen Eye"
         }
@@ -2566,7 +2831,8 @@ var pokedex = [
         "name": "Ralts",
         "gender": 0.5,
         "family": 280,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Synchronize",
             "2": "Trace"
@@ -2576,7 +2842,8 @@ var pokedex = [
         "name": "Kirlia",
         "gender": 0.5,
         "family": 280,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Synchronize",
             "2": "Trace"
@@ -2586,7 +2853,8 @@ var pokedex = [
         "name": "Gardevoir",
         "gender": 0.5,
         "family": 280,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Synchronize",
             "2": "Trace"
@@ -2596,7 +2864,8 @@ var pokedex = [
         "name": "Surskit",
         "gender": 0.5,
         "family": 283,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rain Dish",
             "1": "Swift Swim"
         }
@@ -2605,7 +2874,8 @@ var pokedex = [
         "name": "Masquerain",
         "gender": 0.5,
         "family": 283,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Intimidate"
         }
@@ -2614,7 +2884,8 @@ var pokedex = [
         "name": "Shroomish",
         "gender": 0.5,
         "family": 285,
-        "abilities": {
+        "abilities":
+        {
             "0": "Quick Feet",
             "1": "Effect Spore",
             "2": "Poison Heal"
@@ -2624,7 +2895,8 @@ var pokedex = [
         "name": "Breloom",
         "gender": 0.5,
         "family": 285,
-        "abilities": {
+        "abilities":
+        {
             "0": "Technician",
             "1": "Effect Spore",
             "2": "Poison Heal"
@@ -2634,7 +2906,8 @@ var pokedex = [
         "name": "Slakoth",
         "gender": 0.5,
         "family": 287,
-        "abilities": {
+        "abilities":
+        {
             "1": "Truant"
         }
     },
@@ -2642,7 +2915,8 @@ var pokedex = [
         "name": "Vigoroth",
         "gender": 0.5,
         "family": 287,
-        "abilities": {
+        "abilities":
+        {
             "1": "Vital Spirit"
         }
     },
@@ -2650,7 +2924,8 @@ var pokedex = [
         "name": "Slaking",
         "gender": 0.5,
         "family": 287,
-        "abilities": {
+        "abilities":
+        {
             "1": "Truant"
         }
     },
@@ -2658,7 +2933,8 @@ var pokedex = [
         "name": "Nincada",
         "gender": 0.5,
         "family": 290,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Compound Eyes"
         }
@@ -2667,7 +2943,8 @@ var pokedex = [
         "name": "Ninjask",
         "gender": 0.5,
         "family": 290,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Speed Boost"
         }
@@ -2676,7 +2953,8 @@ var pokedex = [
         "name": "Shedinja",
         "gender": 0.5,
         "family": 290,
-        "abilities": {
+        "abilities":
+        {
             "0": "Wonder Guard",
             "1": "Wonder Guard"
         }
@@ -2685,7 +2963,8 @@ var pokedex = [
         "name": "Whismur",
         "gender": 0.5,
         "family": 293,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Soundproof"
         }
@@ -2694,7 +2973,8 @@ var pokedex = [
         "name": "Loudred",
         "gender": 0.5,
         "family": 293,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Soundproof"
         }
@@ -2703,7 +2983,8 @@ var pokedex = [
         "name": "Exploud",
         "gender": 0.5,
         "family": 293,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Soundproof"
         }
@@ -2712,7 +2993,8 @@ var pokedex = [
         "name": "Makuhita",
         "gender": 0.25,
         "family": 296,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Thick Fat",
             "2": "Guts"
@@ -2722,7 +3004,8 @@ var pokedex = [
         "name": "Hariyama",
         "gender": 0.25,
         "family": 296,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Thick Fat",
             "2": "Guts"
@@ -2733,7 +3016,8 @@ var pokedex = [
         "gender": 0.75,
         "family": 183,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Thick Fat",
             "2": "Huge Power"
@@ -2743,7 +3027,8 @@ var pokedex = [
         "name": "Nosepass",
         "gender": 0.5,
         "family": 299,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sturdy",
             "2": "Magnet Pull"
@@ -2753,7 +3038,8 @@ var pokedex = [
         "name": "Skitty",
         "gender": 0.75,
         "family": 300,
-        "abilities": {
+        "abilities":
+        {
             "0": "Wonder Skin",
             "1": "Cute Charm",
             "2": "Normalize"
@@ -2763,7 +3049,8 @@ var pokedex = [
         "name": "Delcatty",
         "gender": 0.75,
         "family": 300,
-        "abilities": {
+        "abilities":
+        {
             "0": "Wonder Skin",
             "1": "Cute Charm",
             "2": "Normalize"
@@ -2773,7 +3060,8 @@ var pokedex = [
         "name": "Sableye",
         "gender": 0.5,
         "family": 302,
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster",
             "1": "Keen Eye",
             "2": "Stall"
@@ -2783,7 +3071,8 @@ var pokedex = [
         "name": "Mawile",
         "gender": 0.5,
         "family": 303,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Hyper Cutter",
             "2": "Intimidate"
@@ -2793,7 +3082,8 @@ var pokedex = [
         "name": "Aron",
         "gender": 0.5,
         "family": 304,
-        "abilities": {
+        "abilities":
+        {
             "0": "Heavy Metal",
             "1": "Sturdy",
             "2": "Rock Head"
@@ -2803,7 +3093,8 @@ var pokedex = [
         "name": "Lairon",
         "gender": 0.5,
         "family": 304,
-        "abilities": {
+        "abilities":
+        {
             "0": "Heavy Metal",
             "1": "Sturdy",
             "2": "Rock Head"
@@ -2813,7 +3104,8 @@ var pokedex = [
         "name": "Aggron",
         "gender": 0.5,
         "family": 304,
-        "abilities": {
+        "abilities":
+        {
             "0": "Heavy Metal",
             "1": "Sturdy",
             "2": "Rock Head"
@@ -2823,7 +3115,8 @@ var pokedex = [
         "name": "Meditite",
         "gender": 0.5,
         "family": 307,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Pure Power"
         }
@@ -2832,7 +3125,8 @@ var pokedex = [
         "name": "Medicham",
         "gender": 0.5,
         "family": 307,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Pure Power"
         }
@@ -2841,7 +3135,8 @@ var pokedex = [
         "name": "Electrike",
         "gender": 0.5,
         "family": 309,
-        "abilities": {
+        "abilities":
+        {
             "0": "Minus",
             "1": "Static",
             "2": "Lightning Rod"
@@ -2851,7 +3146,8 @@ var pokedex = [
         "name": "Manectric",
         "gender": 0.5,
         "family": 309,
-        "abilities": {
+        "abilities":
+        {
             "0": "Minus",
             "1": "Static",
             "2": "Lightning Rod"
@@ -2861,7 +3157,8 @@ var pokedex = [
         "name": "Plusle",
         "gender": 0.5,
         "family": 311,
-        "abilities": {
+        "abilities":
+        {
             "0": "Lightning Rod",
             "1": "Plus"
         }
@@ -2870,7 +3167,8 @@ var pokedex = [
         "name": "Minun",
         "gender": 0.5,
         "family": 312,
-        "abilities": {
+        "abilities":
+        {
             "0": "Volt Absorb",
             "1": "Minus"
         }
@@ -2879,7 +3177,8 @@ var pokedex = [
         "name": "Volbeat",
         "gender": 0.0,
         "family": 313,
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster",
             "1": "Illuminate",
             "2": "Swarm"
@@ -2889,7 +3188,8 @@ var pokedex = [
         "name": "Illumise",
         "gender": 1.0,
         "family": 314,
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster",
             "1": "Oblivious",
             "2": "Tinted Lens"
@@ -2899,7 +3199,8 @@ var pokedex = [
         "name": "Roselia",
         "gender": 0.5,
         "family": 315,
-        "abilities": {
+        "abilities":
+        {
             "0": "Leaf Guard",
             "1": "Natural Cure",
             "2": "Poison Point"
@@ -2909,7 +3210,8 @@ var pokedex = [
         "name": "Gulpin",
         "gender": 0.5,
         "family": 316,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Liquid Ooze",
             "2": "Sticky Hold"
@@ -2919,7 +3221,8 @@ var pokedex = [
         "name": "Swalot",
         "gender": 0.5,
         "family": 316,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Liquid Ooze",
             "2": "Sticky Hold"
@@ -2929,7 +3232,8 @@ var pokedex = [
         "name": "Carvanha",
         "gender": 0.5,
         "family": 318,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Rough Skin"
         }
@@ -2938,7 +3242,8 @@ var pokedex = [
         "name": "Sharpedo",
         "gender": 0.5,
         "family": 318,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Rough Skin"
         }
@@ -2947,7 +3252,8 @@ var pokedex = [
         "name": "Wailmer",
         "gender": 0.5,
         "family": 320,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pressure",
             "1": "Water Veil",
             "2": "Oblivious"
@@ -2957,7 +3263,8 @@ var pokedex = [
         "name": "Wailord",
         "gender": 0.5,
         "family": 320,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pressure",
             "1": "Water Veil",
             "2": "Oblivious"
@@ -2967,7 +3274,8 @@ var pokedex = [
         "name": "Numel",
         "gender": 0.5,
         "family": 322,
-        "abilities": {
+        "abilities":
+        {
             "0": "Own Tempo",
             "1": "Oblivious",
             "2": "Simple"
@@ -2977,7 +3285,8 @@ var pokedex = [
         "name": "Camerupt",
         "gender": 0.5,
         "family": 322,
-        "abilities": {
+        "abilities":
+        {
             "0": "Anger Point",
             "1": "Magma Armor",
             "2": "Solid Rock"
@@ -2987,7 +3296,8 @@ var pokedex = [
         "name": "Torkoal",
         "gender": 0.5,
         "family": 324,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shell Armor",
             "1": "White Smoke"
         }
@@ -2996,7 +3306,8 @@ var pokedex = [
         "name": "Spoink",
         "gender": 0.5,
         "family": 325,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Thick Fat",
             "2": "Own Tempo"
@@ -3006,7 +3317,8 @@ var pokedex = [
         "name": "Grumpig",
         "gender": 0.5,
         "family": 325,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Thick Fat",
             "2": "Own Tempo"
@@ -3016,7 +3328,8 @@ var pokedex = [
         "name": "Spinda",
         "gender": 0.5,
         "family": 327,
-        "abilities": {
+        "abilities":
+        {
             "0": "Contrary",
             "1": "Own Tempo",
             "2": "Tangled Feet"
@@ -3026,7 +3339,8 @@ var pokedex = [
         "name": "Trapinch",
         "gender": 0.5,
         "family": 328,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Hyper Cutter",
             "2": "Arena Trap"
@@ -3036,7 +3350,8 @@ var pokedex = [
         "name": "Vibrava",
         "gender": 0.5,
         "family": 328,
-        "abilities": {
+        "abilities":
+        {
             "0": "Levitate",
             "1": "Levitate",
             "2": "Levitate"
@@ -3046,7 +3361,8 @@ var pokedex = [
         "name": "Flygon",
         "gender": 0.5,
         "family": 328,
-        "abilities": {
+        "abilities":
+        {
             "0": "Levitate",
             "1": "Levitate",
             "2": "Levitate"
@@ -3056,7 +3372,8 @@ var pokedex = [
         "name": "Cacnea",
         "gender": 0.5,
         "family": 331,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Absorb",
             "1": "Sand Veil"
         }
@@ -3065,7 +3382,8 @@ var pokedex = [
         "name": "Cacturne",
         "gender": 0.5,
         "family": 331,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Absorb",
             "1": "Sand Veil"
         }
@@ -3074,7 +3392,8 @@ var pokedex = [
         "name": "Swablu",
         "gender": 0.5,
         "family": 333,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cloud Nine",
             "1": "Natural Cure"
         }
@@ -3083,7 +3402,8 @@ var pokedex = [
         "name": "Altaria",
         "gender": 0.5,
         "family": 333,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cloud Nine",
             "1": "Natural Cure"
         }
@@ -3092,7 +3412,8 @@ var pokedex = [
         "name": "Zangoose",
         "gender": 0.5,
         "family": 335,
-        "abilities": {
+        "abilities":
+        {
             "0": "Toxic Boost",
             "1": "Immunity"
         }
@@ -3101,7 +3422,8 @@ var pokedex = [
         "name": "Seviper",
         "gender": 0.5,
         "family": 336,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Shed Skin"
         }
@@ -3110,7 +3432,8 @@ var pokedex = [
         "name": "Lunatone",
         "gender": 'x',
         "family": 337,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -3118,7 +3441,8 @@ var pokedex = [
         "name": "Solrock",
         "gender": 'x',
         "family": 338,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -3126,7 +3450,8 @@ var pokedex = [
         "name": "Barboach",
         "gender": 0.5,
         "family": 339,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Oblivious",
             "2": "Anticipation"
@@ -3136,7 +3461,8 @@ var pokedex = [
         "name": "Whiscash",
         "gender": 0.5,
         "family": 339,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Oblivious",
             "2": "Anticipation"
@@ -3146,7 +3472,8 @@ var pokedex = [
         "name": "Corphish",
         "gender": 0.5,
         "family": 341,
-        "abilities": {
+        "abilities":
+        {
             "0": "Adaptability",
             "1": "Hyper Cutter",
             "2": "Shell Armor"
@@ -3156,7 +3483,8 @@ var pokedex = [
         "name": "Crawdaunt",
         "gender": 0.5,
         "family": 341,
-        "abilities": {
+        "abilities":
+        {
             "0": "Adaptability",
             "1": "Hyper Cutter",
             "2": "Shell Armor"
@@ -3166,7 +3494,8 @@ var pokedex = [
         "name": "Baltoy",
         "gender": 'x',
         "family": 343,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -3174,7 +3503,8 @@ var pokedex = [
         "name": "Claydol",
         "gender": 'x',
         "family": 343,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -3182,7 +3512,8 @@ var pokedex = [
         "name": "Lileep",
         "gender": 0.125,
         "family": 345,
-        "abilities": {
+        "abilities":
+        {
             "0": "Storm Drain",
             "1": "Suction Cups",
             "2": "..."
@@ -3192,7 +3523,8 @@ var pokedex = [
         "name": "Cradily",
         "gender": 0.125,
         "family": 345,
-        "abilities": {
+        "abilities":
+        {
             "0": "Storm Drain",
             "1": "Suction Cups",
             "2": "..."
@@ -3202,7 +3534,8 @@ var pokedex = [
         "name": "Anorith",
         "gender": 0.125,
         "family": 347,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Battle Armor"
         }
@@ -3211,7 +3544,8 @@ var pokedex = [
         "name": "Armaldo",
         "gender": 0.125,
         "family": 347,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Battle Armor"
         }
@@ -3220,7 +3554,8 @@ var pokedex = [
         "name": "Feebas",
         "gender": 0.5,
         "family": 349,
-        "abilities": {
+        "abilities":
+        {
             "0": "Adaptability",
             "1": "Swift Swim",
             "2": "Oblivious"
@@ -3230,7 +3565,8 @@ var pokedex = [
         "name": "Milotic",
         "gender": 0.5,
         "family": 349,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cute Charm",
             "1": "Marvel Scale",
             "2": "Competitive"
@@ -3240,7 +3576,8 @@ var pokedex = [
         "name": "Castform",
         "gender": 0.5,
         "family": 351,
-        "abilities": {
+        "abilities":
+        {
             "1": "Forecast"
         }
     },
@@ -3248,7 +3585,8 @@ var pokedex = [
         "name": "Kecleon",
         "gender": 0.5,
         "family": 352,
-        "abilities": {
+        "abilities":
+        {
             "0": "Protean",
             "1": "Color Change"
         }
@@ -3257,7 +3595,8 @@ var pokedex = [
         "name": "Shuppet",
         "gender": 0.5,
         "family": 353,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cursed Body",
             "1": "Insomnia",
             "2": "Frisk"
@@ -3267,7 +3606,8 @@ var pokedex = [
         "name": "Banette",
         "gender": 0.5,
         "family": 353,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cursed Body",
             "1": "Insomnia",
             "2": "Frisk"
@@ -3277,7 +3617,8 @@ var pokedex = [
         "name": "Duskull",
         "gender": 0.5,
         "family": 355,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Levitate"
         }
@@ -3286,7 +3627,8 @@ var pokedex = [
         "name": "Dusclops",
         "gender": 0.5,
         "family": 355,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Pressure"
         }
@@ -3295,7 +3637,8 @@ var pokedex = [
         "name": "Tropius",
         "gender": 0.5,
         "family": 357,
-        "abilities": {
+        "abilities":
+        {
             "0": "Harvest",
             "1": "Chlorophyll",
             "2": "Solar Power"
@@ -3305,7 +3648,8 @@ var pokedex = [
         "name": "Chimecho",
         "gender": 0.5,
         "family": 358,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -3313,7 +3657,8 @@ var pokedex = [
         "name": "Absol",
         "gender": 0.5,
         "family": 359,
-        "abilities": {
+        "abilities":
+        {
             "0": "Justified",
             "1": "Pressure",
             "2": "Super Luck"
@@ -3324,7 +3669,8 @@ var pokedex = [
         "gender": 0.5,
         "family": 202,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Shadow Tag"
         }
@@ -3333,7 +3679,8 @@ var pokedex = [
         "name": "Snorunt",
         "gender": 0.5,
         "family": 361,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moody",
             "1": "Inner Focus",
             "2": "Ice Body"
@@ -3343,7 +3690,8 @@ var pokedex = [
         "name": "Glalie",
         "gender": 0.5,
         "family": 361,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moody",
             "1": "Inner Focus",
             "2": "Ice Body"
@@ -3353,7 +3701,8 @@ var pokedex = [
         "name": "Spheal",
         "gender": 0.5,
         "family": 363,
-        "abilities": {
+        "abilities":
+        {
             "0": "Oblivious",
             "1": "Thick Fat",
             "2": "Ice Body"
@@ -3363,7 +3712,8 @@ var pokedex = [
         "name": "Sealeo",
         "gender": 0.5,
         "family": 363,
-        "abilities": {
+        "abilities":
+        {
             "0": "Oblivious",
             "1": "Thick Fat",
             "2": "Ice Body"
@@ -3373,7 +3723,8 @@ var pokedex = [
         "name": "Walrein",
         "gender": 0.5,
         "family": 363,
-        "abilities": {
+        "abilities":
+        {
             "0": "Oblivious",
             "1": "Thick Fat",
             "2": "Ice Body"
@@ -3383,7 +3734,8 @@ var pokedex = [
         "name": "Clamperl",
         "gender": 0.5,
         "family": 366,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Shell Armor"
         }
@@ -3392,7 +3744,8 @@ var pokedex = [
         "name": "Huntail",
         "gender": 0.5,
         "family": 366,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Veil",
             "1": "Swift Swim"
         }
@@ -3401,7 +3754,8 @@ var pokedex = [
         "name": "Gorebyss",
         "gender": 0.5,
         "family": 366,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Swift Swim"
         }
@@ -3410,7 +3764,8 @@ var pokedex = [
         "name": "Relicanth",
         "gender": 0.125,
         "family": 369,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sturdy",
             "1": "Swift Swim",
             "2": "Rock Head"
@@ -3420,7 +3775,8 @@ var pokedex = [
         "name": "Luvdisc",
         "gender": 0.75,
         "family": 370,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Swift Swim"
         }
@@ -3429,7 +3785,8 @@ var pokedex = [
         "name": "Bagon",
         "gender": 0.5,
         "family": 371,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Rock Head"
         }
@@ -3438,7 +3795,8 @@ var pokedex = [
         "name": "Shelgon",
         "gender": 0.5,
         "family": 371,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Rock Head"
         }
@@ -3447,7 +3805,8 @@ var pokedex = [
         "name": "Salamence",
         "gender": 0.5,
         "family": 371,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Intimidate"
         }
@@ -3456,7 +3815,8 @@ var pokedex = [
         "name": "Beldum",
         "gender": 'x',
         "family": 374,
-        "abilities": {
+        "abilities":
+        {
             "0": "Light Metal",
             "1": "Clear Body"
         }
@@ -3465,7 +3825,8 @@ var pokedex = [
         "name": "Metang",
         "gender": 'x',
         "family": 374,
-        "abilities": {
+        "abilities":
+        {
             "0": "Light Metal",
             "1": "Clear Body"
         }
@@ -3474,16 +3835,18 @@ var pokedex = [
         "name": "Metagross",
         "gender": 'x',
         "family": 374,
-        "abilities": {
+        "abilities":
+        {
             "0": "Light Metal",
             "1": "Clear Body"
         }
-    }, , , , , , , , , , ,
+    },,,,,,,,,,,
     {
         "name": "Turtwig",
         "gender": 0.125,
         "family": 387,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shell Armor",
             "1": "Overgrow"
         }
@@ -3492,7 +3855,8 @@ var pokedex = [
         "name": "Grotle",
         "gender": 0.125,
         "family": 387,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shell Armor",
             "1": "Overgrow"
         }
@@ -3501,7 +3865,8 @@ var pokedex = [
         "name": "Torterra",
         "gender": 0.125,
         "family": 387,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shell Armor",
             "1": "Overgrow"
         }
@@ -3510,7 +3875,8 @@ var pokedex = [
         "name": "Chimchar",
         "gender": 0.125,
         "family": 390,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Fist",
             "1": "Blaze"
         }
@@ -3519,7 +3885,8 @@ var pokedex = [
         "name": "Monferno",
         "gender": 0.125,
         "family": 390,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Fist",
             "1": "Blaze"
         }
@@ -3528,7 +3895,8 @@ var pokedex = [
         "name": "Infernape",
         "gender": 0.125,
         "family": 390,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Fist",
             "1": "Blaze"
         }
@@ -3537,7 +3905,8 @@ var pokedex = [
         "name": "Piplup",
         "gender": 0.125,
         "family": 393,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Torrent"
         }
@@ -3546,7 +3915,8 @@ var pokedex = [
         "name": "Prinplup",
         "gender": 0.125,
         "family": 393,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Torrent"
         }
@@ -3555,7 +3925,8 @@ var pokedex = [
         "name": "Empoleon",
         "gender": 0.125,
         "family": 393,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Torrent"
         }
@@ -3564,7 +3935,8 @@ var pokedex = [
         "name": "Starly",
         "gender": 0.5,
         "family": 396,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Keen Eye"
         }
@@ -3573,7 +3945,8 @@ var pokedex = [
         "name": "Staravia",
         "gender": 0.5,
         "family": 396,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Intimidate"
         }
@@ -3582,7 +3955,8 @@ var pokedex = [
         "name": "Staraptor",
         "gender": 0.5,
         "family": 396,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Intimidate"
         }
@@ -3591,7 +3965,8 @@ var pokedex = [
         "name": "Bidoof",
         "gender": 0.5,
         "family": 399,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moody",
             "1": "Simple",
             "2": "Unaware"
@@ -3601,7 +3976,8 @@ var pokedex = [
         "name": "Bibarel",
         "gender": 0.5,
         "family": 399,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moody",
             "1": "Simple",
             "2": "Unaware"
@@ -3611,7 +3987,8 @@ var pokedex = [
         "name": "Kricketot",
         "gender": 0.5,
         "family": 401,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Shed Skin"
         }
@@ -3620,7 +3997,8 @@ var pokedex = [
         "name": "Kricketune",
         "gender": 0.5,
         "family": 401,
-        "abilities": {
+        "abilities":
+        {
             "0": "Technician",
             "1": "Swarm"
         }
@@ -3629,7 +4007,8 @@ var pokedex = [
         "name": "Shinx",
         "gender": 0.5,
         "family": 403,
-        "abilities": {
+        "abilities":
+        {
             "0": "Guts",
             "1": "Rivalry",
             "2": "Intimidate"
@@ -3639,7 +4018,8 @@ var pokedex = [
         "name": "Luxio",
         "gender": 0.5,
         "family": 403,
-        "abilities": {
+        "abilities":
+        {
             "0": "Guts",
             "1": "Rivalry",
             "2": "Intimidate"
@@ -3649,7 +4029,8 @@ var pokedex = [
         "name": "Luxray",
         "gender": 0.5,
         "family": 403,
-        "abilities": {
+        "abilities":
+        {
             "0": "Guts",
             "1": "Rivalry",
             "2": "Intimidate"
@@ -3660,7 +4041,8 @@ var pokedex = [
         "gender": 0.5,
         "family": 315,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Leaf Guard",
             "1": "Natural Cure",
             "2": "Poison Point"
@@ -3670,7 +4052,8 @@ var pokedex = [
         "name": "Roserade",
         "gender": 0.5,
         "family": 315,
-        "abilities": {
+        "abilities":
+        {
             "0": "Technician",
             "1": "Natural Cure",
             "2": "Poison Point"
@@ -3680,7 +4063,8 @@ var pokedex = [
         "name": "Cranidos",
         "gender": 0.125,
         "family": 408,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Mold Breaker"
         }
@@ -3689,7 +4073,8 @@ var pokedex = [
         "name": "Rampardos",
         "gender": 0.125,
         "family": 408,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sheer Force",
             "1": "Mold Breaker"
         }
@@ -3698,7 +4083,8 @@ var pokedex = [
         "name": "Shieldon",
         "gender": 0.125,
         "family": 410,
-        "abilities": {
+        "abilities":
+        {
             "0": "Soundproof",
             "1": "Sturdy"
         }
@@ -3707,7 +4093,8 @@ var pokedex = [
         "name": "Bastiodon",
         "gender": 0.125,
         "family": 410,
-        "abilities": {
+        "abilities":
+        {
             "0": "Soundproof",
             "1": "Sturdy"
         }
@@ -3716,7 +4103,8 @@ var pokedex = [
         "name": "Burmy",
         "gender": 0.5,
         "family": 412,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Shed Skin"
         }
@@ -3725,7 +4113,8 @@ var pokedex = [
         "name": "Wormadam",
         "gender": 0.5,
         "family": 412,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Anticipation"
         }
@@ -3734,7 +4123,8 @@ var pokedex = [
         "name": "Mothim",
         "gender": 0.5,
         "family": 412,
-        "abilities": {
+        "abilities":
+        {
             "0": "Tinted Lens",
             "1": "Swarm"
         }
@@ -3743,7 +4133,8 @@ var pokedex = [
         "name": "Combee",
         "gender": 0.125,
         "family": 415,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hustle",
             "1": "Honey Gather"
         }
@@ -3752,7 +4143,8 @@ var pokedex = [
         "name": "Vespiquen",
         "gender": 0.125,
         "family": 415,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Pressure"
         }
@@ -3761,7 +4153,8 @@ var pokedex = [
         "name": "Pachirisu",
         "gender": 0.5,
         "family": 417,
-        "abilities": {
+        "abilities":
+        {
             "0": "Volt Absorb",
             "1": "Run Away",
             "2": "Pickup"
@@ -3771,7 +4164,8 @@ var pokedex = [
         "name": "Buizel",
         "gender": 0.5,
         "family": 418,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Veil",
             "1": "Swift Swim"
         }
@@ -3780,7 +4174,8 @@ var pokedex = [
         "name": "Floatzel",
         "gender": 0.5,
         "family": 418,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Veil",
             "1": "Swift Swim"
         }
@@ -3789,7 +4184,8 @@ var pokedex = [
         "name": "Cherubi",
         "gender": 0.5,
         "family": 420,
-        "abilities": {
+        "abilities":
+        {
             "1": "Chlorophyll"
         }
     },
@@ -3797,7 +4193,8 @@ var pokedex = [
         "name": "Cherrim",
         "gender": 0.5,
         "family": 420,
-        "abilities": {
+        "abilities":
+        {
             "1": "Flower Gift"
         }
     },
@@ -3805,7 +4202,8 @@ var pokedex = [
         "name": "Shellos",
         "gender": 0.5,
         "family": 422,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sticky Hold",
             "2": "Storm Drain"
@@ -3815,7 +4213,8 @@ var pokedex = [
         "name": "Gastrodon",
         "gender": 0.5,
         "family": 422,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sticky Hold",
             "2": "Storm Drain"
@@ -3825,7 +4224,8 @@ var pokedex = [
         "name": "Ambipom",
         "gender": 0.5,
         "family": 190,
-        "abilities": {
+        "abilities":
+        {
             "0": "Skill Link",
             "1": "Technician",
             "2": "Pickup"
@@ -3835,7 +4235,8 @@ var pokedex = [
         "name": "Drifloon",
         "gender": 0.5,
         "family": 425,
-        "abilities": {
+        "abilities":
+        {
             "0": "Flare Boost",
             "1": "Aftermath",
             "2": "Unburden"
@@ -3845,7 +4246,8 @@ var pokedex = [
         "name": "Drifblim",
         "gender": 0.5,
         "family": 425,
-        "abilities": {
+        "abilities":
+        {
             "0": "Flare Boost",
             "1": "Aftermath",
             "2": "Unburden"
@@ -3855,7 +4257,8 @@ var pokedex = [
         "name": "Buneary",
         "gender": 0.5,
         "family": 427,
-        "abilities": {
+        "abilities":
+        {
             "0": "Limber",
             "1": "Run Away",
             "2": "Klutz"
@@ -3865,7 +4268,8 @@ var pokedex = [
         "name": "Lopunny",
         "gender": 0.5,
         "family": 427,
-        "abilities": {
+        "abilities":
+        {
             "0": "Limber",
             "1": "Cute Charm",
             "2": "Klutz"
@@ -3875,7 +4279,8 @@ var pokedex = [
         "name": "Mismagius",
         "gender": 0.5,
         "family": 200,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -3883,7 +4288,8 @@ var pokedex = [
         "name": "Honchkrow",
         "gender": 0.5,
         "family": 198,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Insomnia",
             "2": "Super Luck"
@@ -3893,7 +4299,8 @@ var pokedex = [
         "name": "Glameow",
         "gender": 0.75,
         "family": 431,
-        "abilities": {
+        "abilities":
+        {
             "0": "Keen Eye",
             "1": "Limber",
             "2": "Own Tempo"
@@ -3903,7 +4310,8 @@ var pokedex = [
         "name": "Purugly",
         "gender": 0.75,
         "family": 431,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Thick Fat",
             "2": "Own Tempo"
@@ -3914,7 +4322,8 @@ var pokedex = [
         "gender": 0.5,
         "family": 358,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -3922,7 +4331,8 @@ var pokedex = [
         "name": "Stunky",
         "gender": 0.5,
         "family": 434,
-        "abilities": {
+        "abilities":
+        {
             "0": "Keen Eye",
             "1": "Stench",
             "2": "Aftermath"
@@ -3932,7 +4342,8 @@ var pokedex = [
         "name": "Skuntank",
         "gender": 0.5,
         "family": 434,
-        "abilities": {
+        "abilities":
+        {
             "0": "Keen Eye",
             "1": "Stench",
             "2": "Aftermath"
@@ -3942,7 +4353,8 @@ var pokedex = [
         "name": "Bronzor",
         "gender": 'x',
         "family": 436,
-        "abilities": {
+        "abilities":
+        {
             "0": "Heavy Metal",
             "1": "Levitate",
             "2": "Heatproof"
@@ -3952,7 +4364,8 @@ var pokedex = [
         "name": "Bronzong",
         "gender": 'x',
         "family": 436,
-        "abilities": {
+        "abilities":
+        {
             "0": "Heavy Metal",
             "1": "Levitate",
             "2": "Heatproof"
@@ -3963,7 +4376,8 @@ var pokedex = [
         "gender": 0.5,
         "family": 185,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Sturdy",
             "2": "Rock Head"
@@ -3974,7 +4388,8 @@ var pokedex = [
         "gender": 0.5,
         "family": 122,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Technician",
             "1": "Soundproof",
             "2": "Filter"
@@ -3985,7 +4400,8 @@ var pokedex = [
         "gender": 1,
         "family": 113,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Natural Cure",
             "2": "Serene Grace"
@@ -3995,7 +4411,8 @@ var pokedex = [
         "name": "Chatot",
         "gender": 0.5,
         "family": 441,
-        "abilities": {
+        "abilities":
+        {
             "0": "Big Pecks",
             "1": "Keen Eye",
             "2": "Tangled Feet"
@@ -4005,7 +4422,8 @@ var pokedex = [
         "name": "Spiritomb",
         "gender": 0.5,
         "family": 442,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Pressure"
         }
@@ -4014,7 +4432,8 @@ var pokedex = [
         "name": "Gible",
         "gender": 0.5,
         "family": 443,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rough Skin",
             "1": "Sand Veil"
         }
@@ -4023,7 +4442,8 @@ var pokedex = [
         "name": "Gabite",
         "gender": 0.5,
         "family": 443,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rough Skin",
             "1": "Sand Veil"
         }
@@ -4032,7 +4452,8 @@ var pokedex = [
         "name": "Garchomp",
         "gender": 0.5,
         "family": 443,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rough Skin",
             "1": "Sand Veil"
         }
@@ -4042,7 +4463,8 @@ var pokedex = [
         "gender": 0.125,
         "family": 143,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Gluttony",
             "1": "Pickup",
             "2": "Thick Fat"
@@ -4053,7 +4475,8 @@ var pokedex = [
         "gender": 0.125,
         "family": 447,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster",
             "1": "Steadfast",
             "2": "Inner Focus"
@@ -4063,7 +4486,8 @@ var pokedex = [
         "name": "Lucario",
         "gender": 0.125,
         "family": 447,
-        "abilities": {
+        "abilities":
+        {
             "0": "Justified",
             "1": "Steadfast",
             "2": "Inner Focus"
@@ -4073,7 +4497,8 @@ var pokedex = [
         "name": "Hippopotas",
         "gender": 0.5,
         "family": 449,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sand Stream"
         }
@@ -4082,7 +4507,8 @@ var pokedex = [
         "name": "Hippowdon",
         "gender": 0.5,
         "family": 449,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sand Stream"
         }
@@ -4091,7 +4517,8 @@ var pokedex = [
         "name": "Skorupi",
         "gender": 0.5,
         "family": 451,
-        "abilities": {
+        "abilities":
+        {
             "0": "Keen Eye",
             "1": "Battle Armor",
             "2": "Sniper"
@@ -4101,7 +4528,8 @@ var pokedex = [
         "name": "Drapion",
         "gender": 0.5,
         "family": 451,
-        "abilities": {
+        "abilities":
+        {
             "0": "Keen Eye",
             "1": "Battle Armor",
             "2": "Sniper"
@@ -4111,7 +4539,8 @@ var pokedex = [
         "name": "Croagunk",
         "gender": 0.5,
         "family": 453,
-        "abilities": {
+        "abilities":
+        {
             "0": "Poison Touch",
             "1": "Anticipation",
             "2": "Dry Skin"
@@ -4121,7 +4550,8 @@ var pokedex = [
         "name": "Toxicroak",
         "gender": 0.5,
         "family": 453,
-        "abilities": {
+        "abilities":
+        {
             "0": "Poison Touch",
             "1": "Anticipation",
             "2": "Dry Skin"
@@ -4131,7 +4561,8 @@ var pokedex = [
         "name": "Carnivine",
         "gender": 0.5,
         "family": 455,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -4139,7 +4570,8 @@ var pokedex = [
         "name": "Finneon",
         "gender": 0.5,
         "family": 456,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Veil",
             "1": "Swift Swim",
             "2": "Storm Drain"
@@ -4149,7 +4581,8 @@ var pokedex = [
         "name": "Lumineon",
         "gender": 0.5,
         "family": 456,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Veil",
             "1": "Swift Swim",
             "2": "Storm Drain"
@@ -4160,7 +4593,8 @@ var pokedex = [
         "gender": 0.5,
         "family": 226,
         "breeds": "NO",
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Veil",
             "1": "Swift Swim",
             "2": "Water Absorb"
@@ -4170,7 +4604,8 @@ var pokedex = [
         "name": "Snover",
         "gender": 0.5,
         "family": 459,
-        "abilities": {
+        "abilities":
+        {
             "0": "Soundproof",
             "1": "Snow Warning"
         }
@@ -4179,7 +4614,8 @@ var pokedex = [
         "name": "Abomasnow",
         "gender": 0.5,
         "family": 459,
-        "abilities": {
+        "abilities":
+        {
             "0": "Soundproof",
             "1": "Snow Warning"
         }
@@ -4188,7 +4624,8 @@ var pokedex = [
         "name": "Weavile",
         "gender": 0.5,
         "family": 215,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pickpocket",
             "1": "Pressure",
             "2": "Pressure"
@@ -4198,7 +4635,8 @@ var pokedex = [
         "name": "Magnezone",
         "gender": 'x',
         "family": 81,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Magnet Pull",
             "2": "Sturdy"
@@ -4208,7 +4646,8 @@ var pokedex = [
         "name": "Lickilicky",
         "gender": 0.5,
         "family": 108,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cloud Nine",
             "1": "Own Tempo",
             "2": "Oblivious"
@@ -4218,7 +4657,8 @@ var pokedex = [
         "name": "Rhyperior",
         "gender": 0.5,
         "family": 111,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Lightning Rod",
             "2": "Solid Rock"
@@ -4228,7 +4668,8 @@ var pokedex = [
         "name": "Tangrowth",
         "gender": 0.5,
         "family": 114,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Chlorophyll",
             "2": "Leaf Guard"
@@ -4238,7 +4679,8 @@ var pokedex = [
         "name": "Electivire",
         "gender": 0.25,
         "family": 239,
-        "abilities": {
+        "abilities":
+        {
             "0": "Vital Spirit",
             "1": "Static"
         }
@@ -4247,7 +4689,8 @@ var pokedex = [
         "name": "Magmortar",
         "gender": 0.25,
         "family": 240,
-        "abilities": {
+        "abilities":
+        {
             "0": "Vital Spirit",
             "1": "Flame Body"
         }
@@ -4256,7 +4699,8 @@ var pokedex = [
         "name": "Togekiss",
         "gender": 0.125,
         "family": 175,
-        "abilities": {
+        "abilities":
+        {
             "0": "Super Luck",
             "1": "Hustle",
             "2": "Serene Grace"
@@ -4266,7 +4710,8 @@ var pokedex = [
         "name": "Yanmega",
         "gender": 0.5,
         "family": 193,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Speed Boost",
             "2": "Tinted Lens"
@@ -4276,7 +4721,8 @@ var pokedex = [
         "name": "Leafeon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Chlorophyll",
             "1": "Leaf Guard",
             "2": "Leaf Guard"
@@ -4286,7 +4732,8 @@ var pokedex = [
         "name": "Glaceon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Ice Body",
             "1": "Snow Cloak",
             "2": "Snow Cloak"
@@ -4296,7 +4743,8 @@ var pokedex = [
         "name": "Gliscor",
         "gender": 0.5,
         "family": 207,
-        "abilities": {
+        "abilities":
+        {
             "0": "Poison Heal",
             "1": "Hyper Cutter",
             "2": "Sand Veil"
@@ -4306,7 +4754,8 @@ var pokedex = [
         "name": "Mamoswine",
         "gender": 0.5,
         "family": 220,
-        "abilities": {
+        "abilities":
+        {
             "0": "Thick Fat",
             "1": "Oblivious",
             "2": "Snow Cloak"
@@ -4316,7 +4765,8 @@ var pokedex = [
         "name": "Porygon-Z",
         "gender": 'x',
         "family": 137,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Adaptability",
             "2": "Download"
@@ -4326,7 +4776,8 @@ var pokedex = [
         "name": "Gallade",
         "gender": 0.5,
         "family": 280,
-        "abilities": {
+        "abilities":
+        {
             "0": "Justified",
             "1": "Steadfast",
             "2": "Steadfast"
@@ -4336,7 +4787,8 @@ var pokedex = [
         "name": "Probopass",
         "gender": 0.5,
         "family": 299,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sturdy",
             "2": "Magnet Pull"
@@ -4346,7 +4798,8 @@ var pokedex = [
         "name": "Dusknoir",
         "gender": 0.5,
         "family": 355,
-        "abilities": {
+        "abilities":
+        {
             "0": "Frisk",
             "1": "Pressure"
         }
@@ -4355,7 +4808,8 @@ var pokedex = [
         "name": "Froslass",
         "gender": 0.5,
         "family": 361,
-        "abilities": {
+        "abilities":
+        {
             "0": "Cursed Body",
             "1": "Snow Cloak",
             "2": "Snow Cloak"
@@ -4365,15 +4819,17 @@ var pokedex = [
         "name": "Rotom",
         "gender": 'x',
         "family": 479,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
-    }, , , , , , , , , ,
+    },,,,,,,,,,
     {
         "name": "Phione",
         "gender": 'x',
         "family": 489,
-        "abilities": {
+        "abilities":
+        {
             "1": "Hydration"
         }
     },
@@ -4381,15 +4837,17 @@ var pokedex = [
         "name": "Manaphy",
         "gender": 'x',
         "family": 489,
-        "abilities": {
+        "abilities":
+        {
             "1": "Hydration"
         }
-    }, , , , ,
+    },,,,,
     {
         "name": "Snivy",
         "gender": 0.125,
         "family": 495,
-        "abilities": {
+        "abilities":
+        {
             "0": "Contrary",
             "1": "Overgrow"
         }
@@ -4398,7 +4856,8 @@ var pokedex = [
         "name": "Servine",
         "gender": 0.125,
         "family": 495,
-        "abilities": {
+        "abilities":
+        {
             "0": "Contrary",
             "1": "Overgrow"
         }
@@ -4407,7 +4866,8 @@ var pokedex = [
         "name": "Serperior",
         "gender": 0.125,
         "family": 495,
-        "abilities": {
+        "abilities":
+        {
             "0": "Contrary",
             "1": "Overgrow"
         }
@@ -4416,7 +4876,8 @@ var pokedex = [
         "name": "Tepig",
         "gender": 0.125,
         "family": 498,
-        "abilities": {
+        "abilities":
+        {
             "0": "Thick Fat",
             "1": "Blaze"
         }
@@ -4425,7 +4886,8 @@ var pokedex = [
         "name": "Pignite",
         "gender": 0.125,
         "family": 498,
-        "abilities": {
+        "abilities":
+        {
             "0": "Thick Fat",
             "1": "Blaze"
         }
@@ -4434,7 +4896,8 @@ var pokedex = [
         "name": "Emboar",
         "gender": 0.125,
         "family": 498,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Blaze"
         }
@@ -4443,7 +4906,8 @@ var pokedex = [
         "name": "Oshawott",
         "gender": 0.125,
         "family": 501,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shell Armor",
             "1": "Torrent"
         }
@@ -4452,7 +4916,8 @@ var pokedex = [
         "name": "Dewott",
         "gender": 0.125,
         "family": 501,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shell Armor",
             "1": "Torrent"
         }
@@ -4461,7 +4926,8 @@ var pokedex = [
         "name": "Samurott",
         "gender": 0.125,
         "family": 501,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shell Armor",
             "1": "Torrent"
         }
@@ -4470,7 +4936,8 @@ var pokedex = [
         "name": "Patrat",
         "gender": 0.5,
         "family": 504,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Run Away",
             "2": "Keen Eye"
@@ -4480,7 +4947,8 @@ var pokedex = [
         "name": "Watchog",
         "gender": 0.5,
         "family": 504,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Illuminate",
             "2": "Keen Eye"
@@ -4490,7 +4958,8 @@ var pokedex = [
         "name": "Lillipup",
         "gender": 0.5,
         "family": 506,
-        "abilities": {
+        "abilities":
+        {
             "0": "Run Away",
             "1": "Vital Spirit",
             "2": "Pickup"
@@ -4500,7 +4969,8 @@ var pokedex = [
         "name": "Herdier",
         "gender": 0.5,
         "family": 506,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Intimidate",
             "2": "Sand Rush"
@@ -4510,7 +4980,8 @@ var pokedex = [
         "name": "Stoutland",
         "gender": 0.5,
         "family": 506,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Intimidate",
             "2": "Sand Rush"
@@ -4520,7 +4991,8 @@ var pokedex = [
         "name": "Purrloin",
         "gender": 0.5,
         "family": 509,
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster",
             "1": "Limber",
             "2": "Unburden"
@@ -4530,7 +5002,8 @@ var pokedex = [
         "name": "Liepard",
         "gender": 0.5,
         "family": 509,
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster",
             "1": "Limber",
             "2": "Unburden"
@@ -4540,7 +5013,8 @@ var pokedex = [
         "name": "Pansage",
         "gender": 0.125,
         "family": 511,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overgrow",
             "1": "Gluttony"
         }
@@ -4549,7 +5023,8 @@ var pokedex = [
         "name": "Simisage",
         "gender": 0.125,
         "family": 511,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overgrow",
             "1": "Gluttony"
         }
@@ -4558,7 +5033,8 @@ var pokedex = [
         "name": "Pansear",
         "gender": 0.125,
         "family": 513,
-        "abilities": {
+        "abilities":
+        {
             "0": "Blaze",
             "1": "Gluttony"
         }
@@ -4567,7 +5043,8 @@ var pokedex = [
         "name": "Simisear",
         "gender": 0.125,
         "family": 513,
-        "abilities": {
+        "abilities":
+        {
             "0": "Blaze",
             "1": "Gluttony"
         }
@@ -4576,7 +5053,8 @@ var pokedex = [
         "name": "Panpour",
         "gender": 0.125,
         "family": 515,
-        "abilities": {
+        "abilities":
+        {
             "0": "Torrent",
             "1": "Gluttony"
         }
@@ -4585,7 +5063,8 @@ var pokedex = [
         "name": "Simipour",
         "gender": 0.125,
         "family": 515,
-        "abilities": {
+        "abilities":
+        {
             "0": "Torrent",
             "1": "Gluttony"
         }
@@ -4594,7 +5073,8 @@ var pokedex = [
         "name": "Munna",
         "gender": 0.5,
         "family": 517,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Forewarn",
             "2": "Synchronize"
@@ -4604,7 +5084,8 @@ var pokedex = [
         "name": "Musharna",
         "gender": 0.5,
         "family": 517,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Forewarn",
             "2": "Synchronize"
@@ -4614,7 +5095,8 @@ var pokedex = [
         "name": "Pidove",
         "gender": 0.5,
         "family": 519,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rivalry",
             "1": "Big Pecks",
             "2": "Super Luck"
@@ -4624,7 +5106,8 @@ var pokedex = [
         "name": "Tranquill",
         "gender": 0.5,
         "family": 519,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rivalry",
             "1": "Big Pecks",
             "2": "Super Luck"
@@ -4634,7 +5117,8 @@ var pokedex = [
         "name": "Unfezant",
         "gender": 0.5,
         "family": 519,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rivalry",
             "1": "Big Pecks",
             "2": "Super Luck"
@@ -4644,7 +5128,8 @@ var pokedex = [
         "name": "Blitzle",
         "gender": 0.5,
         "family": 522,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Lightning Rod",
             "2": "Motor Drive"
@@ -4654,7 +5139,8 @@ var pokedex = [
         "name": "Zebstrika",
         "gender": 0.5,
         "family": 522,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sap Sipper",
             "1": "Lightning Rod",
             "2": "Motor Drive"
@@ -4664,7 +5150,8 @@ var pokedex = [
         "name": "Roggenrola",
         "gender": 0.5,
         "family": 524,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sturdy"
         }
@@ -4673,7 +5160,8 @@ var pokedex = [
         "name": "Boldore",
         "gender": 0.5,
         "family": 524,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sturdy"
         }
@@ -4682,7 +5170,8 @@ var pokedex = [
         "name": "Gigalith",
         "gender": 0.5,
         "family": 524,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Force",
             "1": "Sturdy"
         }
@@ -4691,7 +5180,8 @@ var pokedex = [
         "name": "Woobat",
         "gender": 0.5,
         "family": 527,
-        "abilities": {
+        "abilities":
+        {
             "0": "Simple",
             "1": "Unaware",
             "2": "Klutz"
@@ -4701,7 +5191,8 @@ var pokedex = [
         "name": "Swoobat",
         "gender": 0.5,
         "family": 527,
-        "abilities": {
+        "abilities":
+        {
             "0": "Simple",
             "1": "Unaware",
             "2": "Klutz"
@@ -4711,7 +5202,8 @@ var pokedex = [
         "name": "Drilbur",
         "gender": 0.5,
         "family": 529,
-        "abilities": {
+        "abilities":
+        {
             "0": "Mold Breaker",
             "1": "Sand Rush",
             "2": "Sand Force"
@@ -4721,7 +5213,8 @@ var pokedex = [
         "name": "Excadrill",
         "gender": 0.5,
         "family": 529,
-        "abilities": {
+        "abilities":
+        {
             "0": "Mold Breaker",
             "1": "Sand Rush",
             "2": "Sand Force"
@@ -4731,7 +5224,8 @@ var pokedex = [
         "name": "Audino",
         "gender": 0.5,
         "family": 531,
-        "abilities": {
+        "abilities":
+        {
             "0": "Klutz",
             "1": "Healer",
             "2": "Regenerator"
@@ -4741,7 +5235,8 @@ var pokedex = [
         "name": "Timburr",
         "gender": 0.25,
         "family": 532,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Fist",
             "1": "Guts",
             "2": "Sheer Force"
@@ -4751,7 +5246,8 @@ var pokedex = [
         "name": "Gurdurr",
         "gender": 0.25,
         "family": 532,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Fist",
             "1": "Guts",
             "2": "Sheer Force"
@@ -4761,7 +5257,8 @@ var pokedex = [
         "name": "Conkeldurr",
         "gender": 0.25,
         "family": 532,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Fist",
             "1": "Guts",
             "2": "Sheer Force"
@@ -4771,7 +5268,8 @@ var pokedex = [
         "name": "Tympole",
         "gender": 0.5,
         "family": 535,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Absorb",
             "1": "Swift Swim",
             "2": "Hydration"
@@ -4781,7 +5279,8 @@ var pokedex = [
         "name": "Palpitoad",
         "gender": 0.5,
         "family": 535,
-        "abilities": {
+        "abilities":
+        {
             "0": "Water Absorb",
             "1": "Swift Swim",
             "2": "Hydration"
@@ -4791,7 +5290,8 @@ var pokedex = [
         "name": "Seismitoad",
         "gender": 0.5,
         "family": 535,
-        "abilities": {
+        "abilities":
+        {
             "0": "Poison Touch",
             "1": "Swift Swim",
             "2": "Water Absorb"
@@ -4801,7 +5301,8 @@ var pokedex = [
         "name": "Throh",
         "gender": 0.0,
         "family": 538,
-        "abilities": {
+        "abilities":
+        {
             "0": "Mold Breaker",
             "1": "Guts",
             "2": "Inner Focus"
@@ -4811,7 +5312,8 @@ var pokedex = [
         "name": "Sawk",
         "gender": 0.0,
         "family": 539,
-        "abilities": {
+        "abilities":
+        {
             "0": "Mold Breaker",
             "1": "Sturdy",
             "2": "Inner Focus"
@@ -4821,7 +5323,8 @@ var pokedex = [
         "name": "Sewaddle",
         "gender": 0.5,
         "family": 540,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Swarm",
             "2": "Chlorophyll"
@@ -4831,7 +5334,8 @@ var pokedex = [
         "name": "Swadloon",
         "gender": 0.5,
         "family": 540,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Swarm",
             "2": "Chlorophyll"
@@ -4841,7 +5345,8 @@ var pokedex = [
         "name": "Leavanny",
         "gender": 0.5,
         "family": 540,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Swarm",
             "2": "Chlorophyll"
@@ -4851,7 +5356,8 @@ var pokedex = [
         "name": "Venipede",
         "gender": 0.5,
         "family": 543,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Poison Point",
             "2": "Swarm"
@@ -4861,7 +5367,8 @@ var pokedex = [
         "name": "Whirlipede",
         "gender": 0.5,
         "family": 543,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Poison Point",
             "2": "Swarm"
@@ -4871,7 +5378,8 @@ var pokedex = [
         "name": "Scolipede",
         "gender": 0.5,
         "family": 543,
-        "abilities": {
+        "abilities":
+        {
             "0": "Speed Boost",
             "1": "Poison Point",
             "2": "Swarm"
@@ -4881,7 +5389,8 @@ var pokedex = [
         "name": "Cottonee",
         "gender": 0.5,
         "family": 546,
-        "abilities": {
+        "abilities":
+        {
             "0": "Chlorophyll",
             "1": "Prankster",
             "2": "Infiltrator"
@@ -4891,7 +5400,8 @@ var pokedex = [
         "name": "Whimsicott",
         "gender": 0.5,
         "family": 546,
-        "abilities": {
+        "abilities":
+        {
             "0": "Chlorophyll",
             "1": "Prankster",
             "2": "Infiltrator"
@@ -4901,7 +5411,8 @@ var pokedex = [
         "name": "Petilil",
         "gender": 1.0,
         "family": 548,
-        "abilities": {
+        "abilities":
+        {
             "0": "Leaf Guard",
             "1": "Chlorophyll",
             "2": "Own Tempo"
@@ -4911,7 +5422,8 @@ var pokedex = [
         "name": "Lilligant",
         "gender": 1.0,
         "family": 548,
-        "abilities": {
+        "abilities":
+        {
             "0": "Leaf Guard",
             "1": "Chlorophyll",
             "2": "Own Tempo"
@@ -4921,7 +5433,8 @@ var pokedex = [
         "name": "Basculin",
         "gender": 0.5,
         "family": 550,
-        "abilities": {
+        "abilities":
+        {
             "0": "Mold Breaker",
             "1": "Reckless/Rock Head",
             "2": "Adaptability"
@@ -4931,7 +5444,8 @@ var pokedex = [
         "name": "Sandile",
         "gender": 0.5,
         "family": 551,
-        "abilities": {
+        "abilities":
+        {
             "0": "Anger Point",
             "1": "Intimidate",
             "2": "Moxie"
@@ -4941,7 +5455,8 @@ var pokedex = [
         "name": "Krokorok",
         "gender": 0.5,
         "family": 551,
-        "abilities": {
+        "abilities":
+        {
             "0": "Anger Point",
             "1": "Intimidate",
             "2": "Moxie"
@@ -4951,7 +5466,8 @@ var pokedex = [
         "name": "Krookodile",
         "gender": 0.5,
         "family": 551,
-        "abilities": {
+        "abilities":
+        {
             "0": "Anger Point",
             "1": "Intimidate",
             "2": "Moxie"
@@ -4961,7 +5477,8 @@ var pokedex = [
         "name": "Darumaka",
         "gender": 0.5,
         "family": 554,
-        "abilities": {
+        "abilities":
+        {
             "0": "Inner Focus",
             "1": "Hustle"
         }
@@ -4970,7 +5487,8 @@ var pokedex = [
         "name": "Darmanitan",
         "gender": 0.5,
         "family": 554,
-        "abilities": {
+        "abilities":
+        {
             "0": "Zen Mode",
             "1": "Sheer Force"
         }
@@ -4979,7 +5497,8 @@ var pokedex = [
         "name": "Maractus",
         "gender": 0.5,
         "family": 556,
-        "abilities": {
+        "abilities":
+        {
             "0": "Storm Drain",
             "1": "Water Absorb",
             "2": "Chlorophyll"
@@ -4989,7 +5508,8 @@ var pokedex = [
         "name": "Dwebble",
         "gender": 0.5,
         "family": 557,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Sturdy",
             "2": "Shell Armor"
@@ -4999,7 +5519,8 @@ var pokedex = [
         "name": "Crustle",
         "gender": 0.5,
         "family": 557,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Sturdy",
             "2": "Shell Armor"
@@ -5009,7 +5530,8 @@ var pokedex = [
         "name": "Scraggy",
         "gender": 0.5,
         "family": 559,
-        "abilities": {
+        "abilities":
+        {
             "0": "Intimidate",
             "1": "Shed Skin",
             "2": "Moxie"
@@ -5019,7 +5541,8 @@ var pokedex = [
         "name": "Scrafty",
         "gender": 0.5,
         "family": 559,
-        "abilities": {
+        "abilities":
+        {
             "0": "Intimidate",
             "1": "Shed Skin",
             "2": "Moxie"
@@ -5029,7 +5552,8 @@ var pokedex = [
         "name": "Sigilyph",
         "gender": 0.5,
         "family": 561,
-        "abilities": {
+        "abilities":
+        {
             "0": "Tinted Lens",
             "1": "Wonder Skin",
             "2": "Magic Guard"
@@ -5039,7 +5563,8 @@ var pokedex = [
         "name": "Yamask",
         "gender": 0.5,
         "family": 562,
-        "abilities": {
+        "abilities":
+        {
             "1": "Mummy"
         }
     },
@@ -5047,7 +5572,8 @@ var pokedex = [
         "name": "Cofagrigus",
         "gender": 0.5,
         "family": 562,
-        "abilities": {
+        "abilities":
+        {
             "1": "Mummy"
         }
     },
@@ -5055,7 +5581,8 @@ var pokedex = [
         "name": "Tirtouga",
         "gender": 0.125,
         "family": 564,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Solid Rock",
             "2": "Sturdy"
@@ -5065,7 +5592,8 @@ var pokedex = [
         "name": "Carracosta",
         "gender": 0.125,
         "family": 564,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Solid Rock",
             "2": "Sturdy"
@@ -5075,7 +5603,8 @@ var pokedex = [
         "name": "Archen",
         "gender": 0.125,
         "family": 566,
-        "abilities": {
+        "abilities":
+        {
             "1": "Defeatist"
         }
     },
@@ -5083,7 +5612,8 @@ var pokedex = [
         "name": "Archeops",
         "gender": 0.125,
         "family": 566,
-        "abilities": {
+        "abilities":
+        {
             "1": "Defeatist"
         }
     },
@@ -5091,7 +5621,8 @@ var pokedex = [
         "name": "Trubbish",
         "gender": 0.5,
         "family": 568,
-        "abilities": {
+        "abilities":
+        {
             "0": "Aftermath",
             "1": "Stench",
             "2": "Sticky Hold"
@@ -5101,7 +5632,8 @@ var pokedex = [
         "name": "Garbodor",
         "gender": 0.5,
         "family": 568,
-        "abilities": {
+        "abilities":
+        {
             "0": "Aftermath",
             "1": "Stench",
             "2": "Weak Armor"
@@ -5111,7 +5643,8 @@ var pokedex = [
         "name": "Zorua",
         "gender": 0.125,
         "family": 570,
-        "abilities": {
+        "abilities":
+        {
             "1": "Illusion"
         }
     },
@@ -5119,7 +5652,8 @@ var pokedex = [
         "name": "Zoroark",
         "gender": 0.125,
         "family": 570,
-        "abilities": {
+        "abilities":
+        {
             "1": "Illusion"
         }
     },
@@ -5127,7 +5661,8 @@ var pokedex = [
         "name": "Minccino",
         "gender": 0.75,
         "family": 572,
-        "abilities": {
+        "abilities":
+        {
             "0": "Technician",
             "1": "Cute Charm",
             "2": "Skill Link"
@@ -5137,7 +5672,8 @@ var pokedex = [
         "name": "Cinccino",
         "gender": 0.75,
         "family": 572,
-        "abilities": {
+        "abilities":
+        {
             "0": "Technician",
             "1": "Cute Charm",
             "2": "Skill Link"
@@ -5147,7 +5683,8 @@ var pokedex = [
         "name": "Gothita",
         "gender": 0.75,
         "family": 574,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shadow Tag",
             "1": "Frisk",
             "2": "Competitive"
@@ -5157,7 +5694,8 @@ var pokedex = [
         "name": "Gothorita",
         "gender": 0.75,
         "family": 574,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shadow Tag",
             "1": "Frisk",
             "2": "Competitive"
@@ -5167,7 +5705,8 @@ var pokedex = [
         "name": "Gothitelle",
         "gender": 0.75,
         "family": 574,
-        "abilities": {
+        "abilities":
+        {
             "0": "Shadow Tag",
             "1": "Frisk",
             "2": "Competitive"
@@ -5177,7 +5716,8 @@ var pokedex = [
         "name": "Solosis",
         "gender": 0.5,
         "family": 577,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Overcoat",
             "2": "Magic Guard"
@@ -5187,7 +5727,8 @@ var pokedex = [
         "name": "Duosion",
         "gender": 0.5,
         "family": 577,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Overcoat",
             "2": "Magic Guard"
@@ -5197,7 +5738,8 @@ var pokedex = [
         "name": "Reuniclus",
         "gender": 0.5,
         "family": 577,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Overcoat",
             "2": "Magic Guard"
@@ -5207,7 +5749,8 @@ var pokedex = [
         "name": "Ducklett",
         "gender": 0.5,
         "family": 580,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Keen Eye",
             "2": "Big Pecks"
@@ -5217,7 +5760,8 @@ var pokedex = [
         "name": "Swanna",
         "gender": 0.5,
         "family": 580,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hydration",
             "1": "Keen Eye",
             "2": "Big Pecks"
@@ -5227,7 +5771,8 @@ var pokedex = [
         "name": "Vanillite",
         "gender": 0.5,
         "family": 582,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Ice Body"
         }
@@ -5236,7 +5781,8 @@ var pokedex = [
         "name": "Vanillish",
         "gender": 0.5,
         "family": 582,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Ice Body"
         }
@@ -5245,7 +5791,8 @@ var pokedex = [
         "name": "Vanilluxe",
         "gender": 0.5,
         "family": 582,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Ice Body"
         }
@@ -5254,7 +5801,8 @@ var pokedex = [
         "name": "Deerling",
         "gender": 0.5,
         "family": 585,
-        "abilities": {
+        "abilities":
+        {
             "0": "Serene Grace",
             "1": "Chlorophyll",
             "2": "Sap Sipper"
@@ -5264,7 +5812,8 @@ var pokedex = [
         "name": "Sawsbuck",
         "gender": 0.5,
         "family": 585,
-        "abilities": {
+        "abilities":
+        {
             "0": "Serene Grace",
             "1": "Chlorophyll",
             "2": "Sap Sipper"
@@ -5274,7 +5823,8 @@ var pokedex = [
         "name": "Emolga",
         "gender": 0.5,
         "family": 587,
-        "abilities": {
+        "abilities":
+        {
             "0": "Motor Drive",
             "1": "Static"
         }
@@ -5283,7 +5833,8 @@ var pokedex = [
         "name": "Karrablast",
         "gender": 0.5,
         "family": 588,
-        "abilities": {
+        "abilities":
+        {
             "0": "No Guard",
             "1": "Swarm",
             "2": "Shed Skin"
@@ -5293,7 +5844,8 @@ var pokedex = [
         "name": "Escavalier",
         "gender": 0.5,
         "family": 588,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Swarm",
             "2": "Shell Armor"
@@ -5303,7 +5855,8 @@ var pokedex = [
         "name": "Foongus",
         "gender": 0.5,
         "family": 590,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Effect Spore"
         }
@@ -5312,7 +5865,8 @@ var pokedex = [
         "name": "Amoonguss",
         "gender": 0.5,
         "family": 590,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Effect Spore"
         }
@@ -5321,7 +5875,8 @@ var pokedex = [
         "name": "Frillish",
         "gender": 0.5,
         "family": 592,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Water Absorb",
             "2": "Cursed Body"
@@ -5331,7 +5886,8 @@ var pokedex = [
         "name": "Jellicent",
         "gender": 0.5,
         "family": 592,
-        "abilities": {
+        "abilities":
+        {
             "0": "Damp",
             "1": "Water Absorb",
             "2": "Cursed Body"
@@ -5341,7 +5897,8 @@ var pokedex = [
         "name": "Alomomola",
         "gender": 0.5,
         "family": 594,
-        "abilities": {
+        "abilities":
+        {
             "0": "Regenerator",
             "1": "Healer",
             "2": "Hydration"
@@ -5351,7 +5908,8 @@ var pokedex = [
         "name": "Joltik",
         "gender": 0.5,
         "family": 595,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swarm",
             "1": "Compound Eyes",
             "2": "Unnerve"
@@ -5361,7 +5919,8 @@ var pokedex = [
         "name": "Galvantula",
         "gender": 0.5,
         "family": 595,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swarm",
             "1": "Compound Eyes",
             "2": "Unnerve"
@@ -5371,7 +5930,8 @@ var pokedex = [
         "name": "Ferroseed",
         "gender": 0.5,
         "family": 597,
-        "abilities": {
+        "abilities":
+        {
             "0": "Iron Barbs",
             "1": "Iron Barbs"
         }
@@ -5380,7 +5940,8 @@ var pokedex = [
         "name": "Ferrothorn",
         "gender": 0.5,
         "family": 597,
-        "abilities": {
+        "abilities":
+        {
             "0": "Anticipation",
             "1": "Iron Barbs"
         }
@@ -5389,7 +5950,8 @@ var pokedex = [
         "name": "Klink",
         "gender": 'x',
         "family": 599,
-        "abilities": {
+        "abilities":
+        {
             "0": "Minus",
             "1": "Plus",
             "2": "Clear Body"
@@ -5399,7 +5961,8 @@ var pokedex = [
         "name": "Klang",
         "gender": 'x',
         "family": 599,
-        "abilities": {
+        "abilities":
+        {
             "0": "Minus",
             "1": "Plus",
             "2": "Clear Body"
@@ -5409,7 +5972,8 @@ var pokedex = [
         "name": "Klinklang",
         "gender": 'x',
         "family": 599,
-        "abilities": {
+        "abilities":
+        {
             "0": "Minus",
             "1": "Plus",
             "2": "Clear Body"
@@ -5419,7 +5983,8 @@ var pokedex = [
         "name": "Tynamo",
         "gender": 0.5,
         "family": 602,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -5427,7 +5992,8 @@ var pokedex = [
         "name": "Eelektrik",
         "gender": 0.5,
         "family": 602,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -5435,7 +6001,8 @@ var pokedex = [
         "name": "Eelektross",
         "gender": 0.5,
         "family": 602,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -5443,7 +6010,8 @@ var pokedex = [
         "name": "Elgyem",
         "gender": 0.5,
         "family": 605,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Telepathy",
             "2": "Synchronize"
@@ -5453,7 +6021,8 @@ var pokedex = [
         "name": "Beheeyem",
         "gender": 0.5,
         "family": 605,
-        "abilities": {
+        "abilities":
+        {
             "0": "Analytic",
             "1": "Telepathy",
             "2": "Synchronize"
@@ -5463,7 +6032,8 @@ var pokedex = [
         "name": "Litwick",
         "gender": 0.5,
         "family": 607,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Flash Fire",
             "2": "Flame Body"
@@ -5473,7 +6043,8 @@ var pokedex = [
         "name": "Lampent",
         "gender": 0.5,
         "family": 607,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Flash Fire",
             "2": "Flame Body"
@@ -5483,7 +6054,8 @@ var pokedex = [
         "name": "Chandelure",
         "gender": 0.5,
         "family": 607,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Flash Fire",
             "2": "Flame Body"
@@ -5493,7 +6065,8 @@ var pokedex = [
         "name": "Axew",
         "gender": 0.5,
         "family": 610,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Rivalry",
             "2": "Mold Breaker"
@@ -5503,7 +6076,8 @@ var pokedex = [
         "name": "Fraxure",
         "gender": 0.5,
         "family": 610,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Rivalry",
             "2": "Mold Breaker"
@@ -5513,7 +6087,8 @@ var pokedex = [
         "name": "Haxorus",
         "gender": 0.5,
         "family": 610,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unnerve",
             "1": "Rivalry",
             "2": "Mold Breaker"
@@ -5523,7 +6098,8 @@ var pokedex = [
         "name": "Cubchoo",
         "gender": 0.5,
         "family": 613,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rattled",
             "1": "Snow Cloak"
         }
@@ -5532,7 +6108,8 @@ var pokedex = [
         "name": "Beartic",
         "gender": 0.5,
         "family": 613,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swift Swim",
             "1": "Snow Cloak"
         }
@@ -5541,7 +6118,8 @@ var pokedex = [
         "name": "Cryogonal",
         "gender": 'x',
         "family": 615,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -5549,7 +6127,8 @@ var pokedex = [
         "name": "Shelmet",
         "gender": 0.5,
         "family": 616,
-        "abilities": {
+        "abilities":
+        {
             "0": "Overcoat",
             "1": "Hydration",
             "2": "Shell Armor"
@@ -5559,7 +6138,8 @@ var pokedex = [
         "name": "Accelgor",
         "gender": 0.5,
         "family": 616,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unburden",
             "1": "Hydration",
             "2": "Sticky Hold"
@@ -5569,7 +6149,8 @@ var pokedex = [
         "name": "Stunfisk",
         "gender": 0.5,
         "family": 618,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sand Veil",
             "1": "Static",
             "2": "Limber"
@@ -5579,7 +6160,8 @@ var pokedex = [
         "name": "Meinfoo",
         "gender": 0.5,
         "family": 619,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Inner Focus",
             "2": "Regenerator"
@@ -5589,7 +6171,8 @@ var pokedex = [
         "name": "Meinshao",
         "gender": 0.5,
         "family": 619,
-        "abilities": {
+        "abilities":
+        {
             "0": "Reckless",
             "1": "Inner Focus",
             "2": "Regenerator"
@@ -5599,7 +6182,8 @@ var pokedex = [
         "name": "Druddigon",
         "gender": 0.5,
         "family": 621,
-        "abilities": {
+        "abilities":
+        {
             "0": "Mold Breaker",
             "1": "Rough Skin",
             "2": "Sheer Force"
@@ -5609,7 +6193,8 @@ var pokedex = [
         "name": "Golett",
         "gender": 'x',
         "family": 622,
-        "abilities": {
+        "abilities":
+        {
             "0": "No Guard",
             "1": "Iron Fist",
             "2": "Klutz"
@@ -5619,7 +6204,8 @@ var pokedex = [
         "name": "Golurk",
         "gender": 'x',
         "family": 622,
-        "abilities": {
+        "abilities":
+        {
             "0": "No Guard",
             "1": "Iron Fist",
             "2": "Klutz"
@@ -5629,7 +6215,8 @@ var pokedex = [
         "name": "Pawniard",
         "gender": 0.5,
         "family": 624,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pressure",
             "1": "Defiant",
             "2": "Inner Focus"
@@ -5639,7 +6226,8 @@ var pokedex = [
         "name": "Bisharp",
         "gender": 0.5,
         "family": 624,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pressure",
             "1": "Defiant",
             "2": "Inner Focus"
@@ -5649,7 +6237,8 @@ var pokedex = [
         "name": "Bouffalant",
         "gender": 0.5,
         "family": 626,
-        "abilities": {
+        "abilities":
+        {
             "0": "Soundproof",
             "1": "Reckless",
             "2": "Sap Sipper"
@@ -5659,7 +6248,8 @@ var pokedex = [
         "name": "Rufflet",
         "gender": 0.0,
         "family": 627,
-        "abilities": {
+        "abilities":
+        {
             "0": "Hustle",
             "1": "Keen Eye",
             "2": "Sheer Force"
@@ -5669,7 +6259,8 @@ var pokedex = [
         "name": "Braviary",
         "gender": 0.0,
         "family": 627,
-        "abilities": {
+        "abilities":
+        {
             "0": "Defiant",
             "1": "Keen Eye",
             "2": "Sheer Force"
@@ -5679,7 +6270,8 @@ var pokedex = [
         "name": "Vullaby",
         "gender": 1.0,
         "family": 629,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Big Pecks",
             "2": "Overcoat"
@@ -5689,7 +6281,8 @@ var pokedex = [
         "name": "Mandibuzz",
         "gender": 1.0,
         "family": 629,
-        "abilities": {
+        "abilities":
+        {
             "0": "Weak Armor",
             "1": "Big Pecks",
             "2": "Overcoat"
@@ -5699,7 +6292,8 @@ var pokedex = [
         "name": "Heatmor",
         "gender": 0.5,
         "family": 631,
-        "abilities": {
+        "abilities":
+        {
             "0": "White Smoke",
             "1": "Gluttony",
             "2": "Flash Fire"
@@ -5709,7 +6303,8 @@ var pokedex = [
         "name": "Durant",
         "gender": 0.5,
         "family": 632,
-        "abilities": {
+        "abilities":
+        {
             "0": "Truant",
             "1": "Swarm",
             "2": "Hustle"
@@ -5719,7 +6314,8 @@ var pokedex = [
         "name": "Deino",
         "gender": 0.5,
         "family": 633,
-        "abilities": {
+        "abilities":
+        {
             "1": "Hustle"
         }
     },
@@ -5727,7 +6323,8 @@ var pokedex = [
         "name": "Zweilous",
         "gender": 0.5,
         "family": 633,
-        "abilities": {
+        "abilities":
+        {
             "1": "Hustle"
         }
     },
@@ -5735,7 +6332,8 @@ var pokedex = [
         "name": "Hydreigon",
         "gender": 0.5,
         "family": 633,
-        "abilities": {
+        "abilities":
+        {
             "1": "Levitate"
         }
     },
@@ -5743,7 +6341,8 @@ var pokedex = [
         "name": "Larvesta",
         "gender": 0.5,
         "family": 636,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swarm",
             "1": "Flame Body"
         }
@@ -5752,16 +6351,18 @@ var pokedex = [
         "name": "Volcarona",
         "gender": 0.5,
         "family": 636,
-        "abilities": {
+        "abilities":
+        {
             "0": "Swarm",
             "1": "Flame Body"
         }
-    }, , , , , , , , , , , , ,
+    },,,,,,,,,,,,,
     {
         "name": "Chespin",
         "gender": 0.125,
         "family": 650,
-        "abilities": {
+        "abilities":
+        {
             "0": "Bulletproof",
             "1": "Overgrow"
         }
@@ -5770,7 +6371,8 @@ var pokedex = [
         "name": "Quilladin",
         "gender": 0.125,
         "family": 650,
-        "abilities": {
+        "abilities":
+        {
             "0": "Bulletproof",
             "1": "Overgrow"
         }
@@ -5779,7 +6381,8 @@ var pokedex = [
         "name": "Chesnaught",
         "gender": 0.125,
         "family": 650,
-        "abilities": {
+        "abilities":
+        {
             "0": "Bulletproof",
             "1": "Overgrow"
         }
@@ -5788,7 +6391,8 @@ var pokedex = [
         "name": "Fennekin",
         "gender": 0.125,
         "family": 653,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magician",
             "1": "Blaze"
         }
@@ -5797,7 +6401,8 @@ var pokedex = [
         "name": "Braixen",
         "gender": 0.125,
         "family": 653,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magician",
             "1": "Blaze"
         }
@@ -5806,7 +6411,8 @@ var pokedex = [
         "name": "Delphox",
         "gender": 0.125,
         "family": 653,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magician",
             "1": "Blaze"
         }
@@ -5815,7 +6421,8 @@ var pokedex = [
         "name": "Froakie",
         "gender": 0.125,
         "family": 656,
-        "abilities": {
+        "abilities":
+        {
             "0": "Protean",
             "1": "Torrent"
         }
@@ -5824,7 +6431,8 @@ var pokedex = [
         "name": "Frogadier",
         "gender": 0.125,
         "family": 656,
-        "abilities": {
+        "abilities":
+        {
             "0": "Protean",
             "1": "Torrent"
         }
@@ -5833,7 +6441,8 @@ var pokedex = [
         "name": "Greninja",
         "gender": 0.125,
         "family": 656,
-        "abilities": {
+        "abilities":
+        {
             "0": "Protean",
             "1": "Torrent"
         }
@@ -5842,7 +6451,8 @@ var pokedex = [
         "name": "Bunnelby",
         "gender": 0.5,
         "family": 659,
-        "abilities": {
+        "abilities":
+        {
             "0": "Huge Power",
             "1": "Pickup",
             "2": "Cheek Pouch"
@@ -5852,7 +6462,8 @@ var pokedex = [
         "name": "Diggersby",
         "gender": 0.5,
         "family": 659,
-        "abilities": {
+        "abilities":
+        {
             "0": "Huge Power",
             "1": "Pickup",
             "2": "Cheek Pouch"
@@ -5862,7 +6473,8 @@ var pokedex = [
         "name": "Fletchling",
         "gender": 0.5,
         "family": 661,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gale Wings",
             "1": "Big Pecks"
         }
@@ -5871,7 +6483,8 @@ var pokedex = [
         "name": "Fletchinder",
         "gender": 0.5,
         "family": 661,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gale Wings",
             "1": "Flame Body"
         }
@@ -5880,7 +6493,8 @@ var pokedex = [
         "name": "Talonflame",
         "gender": 0.5,
         "family": 661,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gale Wings",
             "1": "Flame Body"
         }
@@ -5889,7 +6503,8 @@ var pokedex = [
         "name": "Scatterbug",
         "gender": 0.5,
         "family": 664,
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Shield Dust",
             "2": "Compound Eyes"
@@ -5899,7 +6514,8 @@ var pokedex = [
         "name": "Spewpa",
         "gender": 0.5,
         "family": 664,
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Shed Skin",
             "2": "Shed Skin"
@@ -5909,7 +6525,8 @@ var pokedex = [
         "name": "Vivillon",
         "gender": 0.5,
         "family": 664,
-        "abilities": {
+        "abilities":
+        {
             "0": "Friend Guard",
             "1": "Shield Dust",
             "2": "Compound Eyes"
@@ -5919,7 +6536,8 @@ var pokedex = [
         "name": "Litleo",
         "gender": 0.75,
         "family": 667,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Rivalry",
             "2": "Unnerve"
@@ -5929,7 +6547,8 @@ var pokedex = [
         "name": "Pyroar",
         "gender": 0.75,
         "family": 667,
-        "abilities": {
+        "abilities":
+        {
             "0": "Moxie",
             "1": "Rivalry",
             "2": "Unnerve"
@@ -5939,7 +6558,8 @@ var pokedex = [
         "name": "Flab&eacute;b&eacute;",
         "gender": 1.0,
         "family": 669,
-        "abilities": {
+        "abilities":
+        {
             "0": "Symbiosis",
             "1": "Flower Veil"
         }
@@ -5948,7 +6568,8 @@ var pokedex = [
         "name": "Floette",
         "gender": 1.0,
         "family": 669,
-        "abilities": {
+        "abilities":
+        {
             "0": "Symbiosis",
             "1": "Flower Veil"
         }
@@ -5957,7 +6578,8 @@ var pokedex = [
         "name": "Florges",
         "gender": 1.0,
         "family": 669,
-        "abilities": {
+        "abilities":
+        {
             "0": "Symbiosis",
             "1": "Flower Veil"
         }
@@ -5966,7 +6588,8 @@ var pokedex = [
         "name": "Skiddo",
         "gender": 0.5,
         "family": 672,
-        "abilities": {
+        "abilities":
+        {
             "0": "Grass Pelt",
             "1": "Sap Sipper"
         }
@@ -5975,7 +6598,8 @@ var pokedex = [
         "name": "Gogoat",
         "gender": 0.5,
         "family": 672,
-        "abilities": {
+        "abilities":
+        {
             "0": "Grass Pelt",
             "1": "Sap Sipper"
         }
@@ -5984,7 +6608,8 @@ var pokedex = [
         "name": "Pancham",
         "gender": 0.5,
         "family": 674,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Iron Fist",
             "2": "Mold Breaker"
@@ -5994,7 +6619,8 @@ var pokedex = [
         "name": "Pangoro",
         "gender": 0.5,
         "family": 674,
-        "abilities": {
+        "abilities":
+        {
             "0": "Scrappy",
             "1": "Iron Fist",
             "2": "Mold Breaker"
@@ -6004,7 +6630,8 @@ var pokedex = [
         "name": "Furfrou",
         "gender": 0.5,
         "family": 676,
-        "abilities": {
+        "abilities":
+        {
             "1": "Fur Coat"
         }
     },
@@ -6012,7 +6639,8 @@ var pokedex = [
         "name": "Espurr",
         "gender": 0.5,
         "family": 677,
-        "abilities": {
+        "abilities":
+        {
             "0": "Own Tempo",
             "1": "Keen Eye",
             "2": "Infiltrator"
@@ -6022,7 +6650,8 @@ var pokedex = [
         "name": "Meowstic",
         "gender": 0.5,
         "family": 677,
-        "abilities": {
+        "abilities":
+        {
             "0": "Prankster/Competitive",
             "1": "Keen Eye",
             "2": "Infiltrator"
@@ -6032,7 +6661,8 @@ var pokedex = [
         "name": "Honedge",
         "gender": 0.5,
         "family": 679,
-        "abilities": {
+        "abilities":
+        {
             "1": "No Guard"
         }
     },
@@ -6040,7 +6670,8 @@ var pokedex = [
         "name": "Doublade",
         "gender": 0.5,
         "family": 679,
-        "abilities": {
+        "abilities":
+        {
             "1": "No Guard"
         }
     },
@@ -6048,7 +6679,8 @@ var pokedex = [
         "name": "Aegislash",
         "gender": 0.5,
         "family": 679,
-        "abilities": {
+        "abilities":
+        {
             "1": "Stance Change"
         }
     },
@@ -6056,7 +6688,8 @@ var pokedex = [
         "name": "Spritzee",
         "gender": 0.5,
         "family": 682,
-        "abilities": {
+        "abilities":
+        {
             "0": "Aroma Veil",
             "1": "Healer"
         }
@@ -6065,7 +6698,8 @@ var pokedex = [
         "name": "Aromatisse",
         "gender": 0.5,
         "family": 682,
-        "abilities": {
+        "abilities":
+        {
             "0": "Aroma Veil",
             "1": "Healer"
         }
@@ -6074,7 +6708,8 @@ var pokedex = [
         "name": "Swirlix",
         "gender": 0.5,
         "family": 684,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unburden",
             "1": "Sweet Veil"
         }
@@ -6083,7 +6718,8 @@ var pokedex = [
         "name": "Slurpuff",
         "gender": 0.5,
         "family": 684,
-        "abilities": {
+        "abilities":
+        {
             "0": "Unburden",
             "1": "Sweet Veil"
         }
@@ -6092,7 +6728,8 @@ var pokedex = [
         "name": "Inkay",
         "gender": 0.5,
         "family": 686,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Contrary",
             "2": "Suction Cups"
@@ -6102,7 +6739,8 @@ var pokedex = [
         "name": "Malamar",
         "gender": 0.5,
         "family": 686,
-        "abilities": {
+        "abilities":
+        {
             "0": "Infiltrator",
             "1": "Contrary",
             "2": "Suction Cups"
@@ -6112,7 +6750,8 @@ var pokedex = [
         "name": "Binacle",
         "gender": 0.5,
         "family": 688,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pickpocket",
             "1": "Tough Claws",
             "2": "Sniper"
@@ -6122,7 +6761,8 @@ var pokedex = [
         "name": "Barbaracle",
         "gender": 0.5,
         "family": 688,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pickpocket",
             "1": "Tough Claws",
             "2": "Sniper"
@@ -6132,7 +6772,8 @@ var pokedex = [
         "name": "Skrelp",
         "gender": 0.5,
         "family": 690,
-        "abilities": {
+        "abilities":
+        {
             "0": "Adaptability",
             "1": "Poison Point",
             "2": "Poison Touch"
@@ -6142,7 +6783,8 @@ var pokedex = [
         "name": "Dragalge",
         "gender": 0.5,
         "family": 690,
-        "abilities": {
+        "abilities":
+        {
             "0": "Adaptability",
             "1": "Poison Point",
             "2": "Poison Touch"
@@ -6152,7 +6794,8 @@ var pokedex = [
         "name": "Clauncher",
         "gender": 0.5,
         "family": 692,
-        "abilities": {
+        "abilities":
+        {
             "1": "Mega Launcher"
         }
     },
@@ -6160,7 +6803,8 @@ var pokedex = [
         "name": "Clawitzer",
         "gender": 0.5,
         "family": 692,
-        "abilities": {
+        "abilities":
+        {
             "1": "Mega Launcher"
         }
     },
@@ -6168,7 +6812,8 @@ var pokedex = [
         "name": "Helioptile",
         "gender": 0.5,
         "family": 694,
-        "abilities": {
+        "abilities":
+        {
             "0": "Solar Power",
             "1": "Dry Skin",
             "2": "Sand Veil"
@@ -6178,7 +6823,8 @@ var pokedex = [
         "name": "Heliolisk",
         "gender": 0.5,
         "family": 694,
-        "abilities": {
+        "abilities":
+        {
             "0": "Solar Power",
             "1": "Dry Skin",
             "2": "Sand Veil"
@@ -6188,7 +6834,8 @@ var pokedex = [
         "name": "Tyrunt",
         "gender": 0.125,
         "family": 696,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sturdy",
             "1": "Strong Jaw"
         }
@@ -6197,7 +6844,8 @@ var pokedex = [
         "name": "Tyrantrum",
         "gender": 0.125,
         "family": 696,
-        "abilities": {
+        "abilities":
+        {
             "0": "Rock Head",
             "1": "Strong Jaw"
         }
@@ -6206,7 +6854,8 @@ var pokedex = [
         "name": "Amaura",
         "gender": 0.125,
         "family": 698,
-        "abilities": {
+        "abilities":
+        {
             "0": "Snow Warning",
             "1": "Refrigerate"
         }
@@ -6215,7 +6864,8 @@ var pokedex = [
         "name": "Aurorus",
         "gender": 0.125,
         "family": 698,
-        "abilities": {
+        "abilities":
+        {
             "0": "Snow Warning",
             "1": "Refrigerate"
         }
@@ -6224,7 +6874,8 @@ var pokedex = [
         "name": "Sylveon",
         "gender": 0.125,
         "family": 133,
-        "abilities": {
+        "abilities":
+        {
             "0": "Pixilate",
             "1": "Cute Charm",
             "2": "Cute Charm"
@@ -6234,7 +6885,8 @@ var pokedex = [
         "name": "Hawlucha",
         "gender": 0.5,
         "family": 701,
-        "abilities": {
+        "abilities":
+        {
             "0": "Mold Breaker",
             "1": "Limber",
             "2": "Unburden"
@@ -6244,7 +6896,8 @@ var pokedex = [
         "name": "Dedenne",
         "gender": 0.5,
         "family": 702,
-        "abilities": {
+        "abilities":
+        {
             "0": "Plus",
             "1": "Cheek Pouch",
             "2": "Pickup"
@@ -6254,7 +6907,8 @@ var pokedex = [
         "name": "Carbink",
         "gender": 'x',
         "family": 703,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sturdy",
             "1": "Clear Body"
         }
@@ -6263,7 +6917,8 @@ var pokedex = [
         "name": "Goomy",
         "gender": 0.5,
         "family": 704,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gooey",
             "1": "Sap Sipper",
             "2": "Hydration"
@@ -6273,7 +6928,8 @@ var pokedex = [
         "name": "Sliggoo",
         "gender": 0.5,
         "family": 704,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gooey",
             "1": "Sap Sipper",
             "2": "Hydration"
@@ -6283,7 +6939,8 @@ var pokedex = [
         "name": "Goodra",
         "gender": 0.5,
         "family": 704,
-        "abilities": {
+        "abilities":
+        {
             "0": "Gooey",
             "1": "Sap Sipper",
             "2": "Hydration"
@@ -6293,7 +6950,8 @@ var pokedex = [
         "name": "Klefki",
         "gender": 0.5,
         "family": 707,
-        "abilities": {
+        "abilities":
+        {
             "0": "Magician",
             "1": "Prankster"
         }
@@ -6302,7 +6960,8 @@ var pokedex = [
         "name": "Phantump",
         "gender": 0.5,
         "family": 708,
-        "abilities": {
+        "abilities":
+        {
             "0": "Harvest",
             "1": "Natural Cure",
             "2": "Frisk"
@@ -6312,7 +6971,8 @@ var pokedex = [
         "name": "Trevenant",
         "gender": 0.5,
         "family": 708,
-        "abilities": {
+        "abilities":
+        {
             "0": "Harvest",
             "1": "Natural Cure",
             "2": "Frisk"
@@ -6322,7 +6982,8 @@ var pokedex = [
         "name": "Pumpkaboo",
         "gender": 0.5,
         "family": 710,
-        "abilities": {
+        "abilities":
+        {
             "0": "Insomnia",
             "1": "Pickup",
             "2": "Frisk"
@@ -6332,7 +6993,8 @@ var pokedex = [
         "name": "Gourgeist",
         "gender": 0.5,
         "family": 710,
-        "abilities": {
+        "abilities":
+        {
             "0": "Insomnia",
             "1": "Pickup",
             "2": "Frisk"
@@ -6342,7 +7004,8 @@ var pokedex = [
         "name": "Bergmite",
         "gender": 0.5,
         "family": 712,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sturdy",
             "1": "Own Tempo",
             "2": "Ice Body"
@@ -6352,7 +7015,8 @@ var pokedex = [
         "name": "Avalugg",
         "gender": 0.5,
         "family": 712,
-        "abilities": {
+        "abilities":
+        {
             "0": "Sturdy",
             "1": "Own Tempo",
             "2": "Ice Body"
@@ -6362,7 +7026,8 @@ var pokedex = [
         "name": "Noibat",
         "gender": 0.5,
         "family": 714,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Frisk",
             "2": "Infiltrator"
@@ -6372,7 +7037,8 @@ var pokedex = [
         "name": "Noivern",
         "gender": 0.5,
         "family": 714,
-        "abilities": {
+        "abilities":
+        {
             "0": "Telepathy",
             "1": "Frisk",
             "2": "Infiltrator"
