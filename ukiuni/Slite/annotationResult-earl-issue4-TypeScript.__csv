@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+ukiuni/Slite,4,ddd620b8ebcaa0a031bcb6bd7693c173b67dd8b6,TypeScript,Detectable,"Undefined variable name discovered.",25.0
