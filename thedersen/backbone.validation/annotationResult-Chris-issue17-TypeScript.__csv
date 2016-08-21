@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+thedersen/backbone.validation,17,b6e4a0f9ac73074776b8343b7cb5388e1883f03c,TypeScript,Undetectable,"reference errors - typeScript can't check if view has a non-null model",151.0
