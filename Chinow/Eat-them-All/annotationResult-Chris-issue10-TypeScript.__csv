@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+Chinow/Eat-them-All,10,e42505981a0d0072b56dff81e7931dc0409a7cfb,TypeScript,Undetectable,"EIS - this is just adding a border property and then checking for it elsewhere.  technically I could have added a check for the border property in the type, but since they're adding it in this change, it would not have been expected previously.",151.0
