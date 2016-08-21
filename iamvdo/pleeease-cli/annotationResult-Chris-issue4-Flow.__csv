@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+iamvdo/pleeease-cli,4,11378f604174fb4d4166ac385a248f42b8451459,Flow,Detectable,"declare map as a nullable object and flow complains that inline can't be found on a possible nullable map.  ",457.0

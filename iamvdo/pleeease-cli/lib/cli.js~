@@ -205,6 +205,10 @@ interface d {
 	map:?Object
 }
 
+interface e {
+	inline:?object
+}
+
 
 /**
  *
