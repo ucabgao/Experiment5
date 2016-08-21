@@ -1,3 +1,4 @@
+/* @flow */
 /*
  *
  * Diff Parser (diff-parser.js)
