@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+camsys/onebusaway-nyc-atstop,7,555af784a68589ec1a8e0a0ca8c6a5b882741009,TypeScript,Undetectable,"EIS.  Incorrect messaging of GPS state and error handling.",42.0
