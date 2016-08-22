@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+babel/babel-loader,82,e22df892883f22ab0db64f5571571c29e09192ea,Flow,Undetectable,"EIS.  Logic error in the handling of a namespace, here global options.  The fix is a standard JS idiom.",4.0
