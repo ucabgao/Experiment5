@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+titarenko/worque,4,898fc942dd81f01a853dd79dde60c7a06850fac7,TypeScript,Undetectable,"Short of a perfect global analysis, there's no way to know the values "this" will take on and determing if this.config is defined or not.  Clearly they meant for the "this" object to be Client and that's what the fix does.  Looks like I'm not the only one that gets "this" wrong frequently.",4.0
