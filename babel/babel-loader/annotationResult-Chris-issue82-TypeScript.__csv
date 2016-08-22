@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+babel/babel-loader,82,e22df892883f22ab0db64f5571571c29e09192ea,TypeScript,Detectable,"If we let typescript know that globalOptions could be null and enforce null checking and say assign won't accept null than it catches the error.",262.0
