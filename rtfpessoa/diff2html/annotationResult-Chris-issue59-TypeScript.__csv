@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+rtfpessoa/diff2html,59,6abfbdb6a82dcc29deb5eec6672857343809459e,TypeScript,Undetectable,"EIS - replaces linefeed and newline with just newline before splitting.  Also added a test.  But there is no type error here.",5.0
