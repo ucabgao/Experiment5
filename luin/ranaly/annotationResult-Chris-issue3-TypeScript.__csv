@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+luin/ranaly,3,47b4716ad22d64aed7ed75b75598ffb237eb9068,TypeScript,Undetectable,"EIS and code cleanup - the call to sub was using default values and now passes in config parameters.  But both calls are valid to the createClient api.",5.0
