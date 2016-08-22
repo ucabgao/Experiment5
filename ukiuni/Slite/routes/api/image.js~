@@ -1,6 +1,4 @@
-// @flow
 var express = require('express');
-
 var router = express.Router();
 var AccessKey = global.db.AccessKey;
 var Content = global.db.Content;
