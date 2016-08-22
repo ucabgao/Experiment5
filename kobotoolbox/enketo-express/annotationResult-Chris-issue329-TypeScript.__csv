@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+kobotoolbox/enketo-express,329,fb13728d64157382aafad64fb6124baf94751f47,TypeScript,Undetectable,"EIS - this simply catches a corner case where utils.cleanurl doesn't like the empty string.  No type error here since the issue is really the content of the string.",104.0
