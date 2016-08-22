@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+gevgeny/highcharts-flags-grouping,1,b56ffbac7319c91f13181f31432e424e1b050ca8,Flow,Detectable,"flow finds this easily after a simple annotation or two",77.0
