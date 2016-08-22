@@ -53,7 +53,7 @@ Collection.prototype.insert = function insert(doc:a, callback) {
   this.insert_raw_json(doc.key, doc.to_json_document, callback);
 }
 
-declare var this.insert_raw_json(Object, any);
+declare this.insert_raw_json(Object, any);
 
 Collection.prototype.insert_raw_json = function insert_raw_json(key, json_obj:String, callback) {
   this.client.insert_raw_json(this.name, key, json_obj, callback);

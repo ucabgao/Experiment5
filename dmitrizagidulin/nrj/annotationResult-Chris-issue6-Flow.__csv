@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+dmitrizagidulin/nrj,6,ef568d50878cdacbe98c4705eb90a046ce51fe91,Flow,Unknown,"I can annotate the functions, but I don't know how to tell flow that this.insert_raw_json resolves to Collection.prototype.insert_raw_json and without that, flow doesn't know to resolve the call and find the type error.",604.0
