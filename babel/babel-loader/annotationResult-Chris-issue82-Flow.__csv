@@ -1,0 +1,2 @@
+Project,Issue,Commit,TypeChecker,Detectable,Comment,AnnotationTime
+babel/babel-loader,82,e22df892883f22ab0db64f5571571c29e09192ea,Flow,Detectable,"indicate that globalOptions can be null and assign won't take null for any of it's arguments and it's caught by flow",497.0

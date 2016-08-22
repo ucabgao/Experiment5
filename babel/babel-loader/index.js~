@@ -24,7 +24,7 @@ var transpile = function(source, options) {
   };
 };
 
-declare function assign(a: Object, b:Object, c: Object, d: Object): any;
+declare function assign(a: Object, b:Object, c: Object, d: Object);
 
 module.exports = function(source, inputSourceMap) {
   var result = {};
