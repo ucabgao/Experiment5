@@ -1,3 +1,4 @@
+/* @flow */
 var fs = require( "fs" ),
 	querystring = require( "querystring" ),
 	Promise = require( "es6-promise" ).Promise,
